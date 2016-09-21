@@ -14,7 +14,8 @@ categories:
 ---
 Using the Rhino compiler&#8230; sorry no benchmark numbers, but just as a placeholder. To pick a nit, wanted to do first[m[1]] += parseInt(m[3]) but that yeilded a NaN since first[m[1]] was undefined&#8230; You would think that JavaScript would make undefined == 0.
 
-<pre>fd = java.io.BufferedReader(java.io.FileReader('p.test'))
+```java
+fd = java.io.BufferedReader(java.io.FileReader('p.test'))
 
 mre = /^__MULTI_TOKEN__\s+(\S+)\s+(.*)\t?\s*(\d+)\s*$/;
 sre = /^__SINGLE_TOKEN__\s+(\S+)\s*\t?\s*(\d+)\s*$/;
@@ -41,7 +42,8 @@ ofd = java.io.PrintWriter(java.io.FileWriter('first.txt'));
 for (key in first) {
     ofd.println(key + "\t" + first[key]);
 }
-ofd.close()</pre>
+ofd.close()
+```
 
 <pre>This is all based on the <a href="http://www.skitoy.com/p/performance-of-python-php-and-perl/160">PHP/Perl/Python</a> performance code.
 </pre>

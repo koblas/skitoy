@@ -19,7 +19,8 @@ My latest project was a making a Go version of the [python s3cmd][1], there is n
 
 This is is a variation of the original code that was written for the sync command. As you can see it&#8217;s not complicated but if you wanted to use goroutines or other ways to improve performance you&#8217;re going to start splicing in a uglyness.
 
-<pre class="lang:go decode:true" title="Sync pseudo code">// Retrieve a list of files from the source
+```go
+// Retrieve a list of files from the source
 src_files = getFiles(src)
 
 // Retrieve a list of files from the destination
@@ -39,13 +40,14 @@ for _, file := range dst_files {
        // destination file exists, remove since not in source
     }
 }
-</pre>
+```
 
 ### Version 2 &#8211; using queues
 
 This version did exist, what you quickly see is that you&#8217;re creating a work queue with information. The idea was that it was a good way to start measuring the work to be done. How many bytes to transfer, show progress and percent completion since you&#8217;re not blocked on doing work in parallel to fetching data.
 
-<pre class="lang:default decode:true" title="Version 2 of sync">type Action {
+```go
+type Action {
    src   string   // source file name
    dst   string   // destination file name
    action int     // action (COPY, DELETE, CHECKSUM)
@@ -79,7 +81,7 @@ for _, file := range dst_files {
 for _, action := range queue {
    // do work, shared out with accounting.
 }
-</pre>
+```
 
 ### GoLang Native Sync
 
@@ -87,7 +89,8 @@ What&#8217;s great about evolving programs is that you originally start out with
 
 So a more natural go program is going to look like (_note the actual code is more nuanced)._
 
-<pre class="lang:go decode:true " title="GoLang sync with channels">type Action {
+```go
+type Action {
    src   string   // source file name
    dst   string   // destination file name
    action int     // action (COPY, DELETE, CHECKSUM)
@@ -98,7 +101,7 @@ chanCopy := make(chan Action, 1000)
 chanRemove := make(chan Action, 1000)
 
 // Create a few workers
-for i := 0; i &lt; 4; i++ {
+for i := 0; i < 4; i++ {
    go workerCopy(chanCopy)
 }
 go workerRemove(chanRemove)
@@ -116,19 +119,18 @@ for _, file := range src_files {
     if in_slice(dst_file, dst_files) {
        // check to see if it's the same (size/checksum) copy if needed
     } else {
-       chanCopy &lt;- Action{ src: file, dst: dst_path, action: COPY }
+       chanCopy <- Action{ src: file, dst: dst_path, action: COPY }
     }
 }
 
 for _, file := range dst_files {
     if !in_slice(file, src_files) {
-       chanRemove &lt;- Action{ dst: file, action: REMOVE }
+       chanRemove <- Action{ dst: file, action: REMOVE }
     }
-}</pre>
+}
+```
 
 What&#8217;s really great is that now instead of creating a queue with work, we move the queue to a channel. We only have to start a set of workers to work on doing the copies. This is also now more natural go code.
-
-&nbsp;
 
  [1]: https://github.com/s3tools/s3cmd
  [2]: https://github.com/koblas/s3-cli

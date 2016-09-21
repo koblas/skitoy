@@ -29,7 +29,8 @@ First encountered this at Excite with Excite Mail, since we were using OpenWave 
 
   * End up with a chained dkey (signature\_0, signature\_1, etc.) 
 
-<pre>CREATE TABLE IF NOT EXISTS setting (
+```
+CREATE TABLE IF NOT EXISTS setting (
     account_id      int unsigned NOT NULL,
 
     dkey            varchar(20) NOT NULL,
@@ -39,7 +40,7 @@ First encountered this at Excite with Excite Mail, since we were using OpenWave 
     PRIMARY KEY     (account_id, dkey),
     FOREIGN KEY     (account_id) REFERENCES account(account_id) ON DELETE CASCADE
 ) ENGINE=InnoDB;
-</pre>
+```
 
 **Small and Big records**
 
@@ -53,7 +54,8 @@ Ok, so when you don&#8217;t want to deal with chaining of records you can create
 
   * Lots of extra model level helpers to determine where data should go 
 
-<pre>CREATE TABLE IF NOT EXISTS user_data (
+```
+CREATE TABLE IF NOT EXISTS user_data (
     user_id         varchar(16) NOT NULL,
 
     dkey            varchar(20) NOT NULL,
@@ -80,7 +82,7 @@ CREATE TABLE IF NOT EXISTS user_data_big (
     INDEX           (user_id, dtype),
     FOREIGN KEY     (user_id) REFERENCES user(user_id) ON DELETE CASCADE
 ) ENGINE=InnoDB;
-</pre>
+```
 
 **Blob of doom**
 
@@ -93,7 +95,8 @@ What about the idea that you don&#8217;t want your SQL store to have a clue, so 
 
   * it&#8217;s a blob, you can&#8217;t really access it easily outside of your program 
 
-<pre>CREATE TABLE IF NOT EXISTS user_blob (
+```
+CREATE TABLE IF NOT EXISTS user_blob (
     user_id         varchar(16) NOT NULL,
 
     data            blob,
@@ -103,6 +106,6 @@ What about the idea that you don&#8217;t want your SQL store to have a clue, so 
     INDEX           (user_id),
     FOREIGN KEY     (user_id) REFERENCES user(user_id) ON DELETE CASCADE
 ) ENGINE=InnoDB;
-</pre>
+```
 
 Any other ideas? Cool suggestions, the magic solution I&#8217;ve forgotten?

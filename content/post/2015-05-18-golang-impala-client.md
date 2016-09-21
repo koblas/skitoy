@@ -21,9 +21,8 @@ The big thing is that since this behind the scenes uses the ImpalaServer Thrift 
 
 Here is the code to make calls &#8211; which is much simpler than everything else. It&#8217;s been good to look at some API patterns to make it this simple.
 
-&nbsp;
-
-<pre class="lang:default decode:true ">package main
+```go
+package main
 
 import (
     "log"
@@ -61,8 +60,7 @@ func main() {
     }
 
     log.Printf("Fetch %d rows(s) in %.2fs", total, time.Duration(time.Since(startTime)).Seconds())
-}</pre>
-
-&nbsp;
+}
+```
 
  [1]: https://github.com/koblas/impalathing

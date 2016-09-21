@@ -21,7 +21,8 @@ Had a 7GB text file that I needed to run some parsing on (to prepare for a DB im
 
 Performance Numbers (on 5 million lines worth of the file)
 
-<pre>$ time ./split.pl  p.test           # Perl 5.8.8
+```
+  $ time ./split.pl  p.test           # Perl 5.8.8
 
   real    0m38.577s
   user    0m33.554s
@@ -36,21 +37,22 @@ Performance Numbers (on 5 million lines worth of the file)
   real    1m10.887s
   user    0m51.251s
   sys     0m18.677s
-</pre>
+```
 
 So, it appears that Perl is the right choice for this job.. Though python is a good second choice, but PHP 50% slower (most likely due to not having complied regular expressions).&nbsp;&nbsp; I also might note that I&#8217;m not fond of the python if/else probably with a chained expression match, where I want to &#8220;side effect&#8221; out the results of the match &#8212; is there better syntax? </p> 
 
 Here&#8217;s the code for you&#8217;re viewing pleasure and possible commentary.
 
-**Perl**
+### perl
 
-<pre>use strict;
+```perl
+use strict;
 
 my %first;
 
-open(FULL, "&gt;full.txt");
+open(FULL, ">full.txt");
 
-while (&lt;&gt;) {
+while (<>) {
 # __SINGLE_TOKEN__ adrianenamorado                 1
 # __MULTI_TOKEN__ a aaron yalow        1
     chop;
@@ -66,16 +68,17 @@ while (&lt;&gt;) {
 
 close(FULL);
 
-open(FIRST, "&gt;first.txt");
+open(FIRST, ">first.txt");
 while (my($k, $c) = each %first) {
     print FIRST $k,"\t",$c,"\n";
 }
 close(FIRST);
-</pre>
+```
 
-**Python**
+## python 
 
-<pre>import sys, os, re
+```python
+import sys, os, re
 
 first = dict()
 
@@ -91,7 +94,7 @@ for line in ifd :
     m = mre.match(line)
     if m :
         first[m.group(1)] = m.group(3)
-        print &gt;&gt; ofd, m.group(1), " ", m.group(2), "\t", m.group(3)
+        print >> ofd, m.group(1), " ", m.group(2), "\t", m.group(3)
     else :
         m = sre.match(line)
         if m :
@@ -103,13 +106,14 @@ ofd.close();
 
 ofd = open("first.txt", 'w')
 for (k, c) in first.iteritems() :
-    print &gt;&gt; ofd, k, "\t", c
+    print >> ofd, k, "\t", c
 ofd.close()
-</pre>
+```
 
-**PHP**
+### php
 
-<pre>$first = array();
+```php
+$first = array();
 
 $fd = fopen("full.txt", 'w');
 $in = fopen($argv[1], 'r');
@@ -129,8 +133,8 @@ while ($line = fgets($in)) {
 fclose($fd);
 
 $fd = fopen("first.txt", 'w');
-foreach ($first as $k =&gt; $c) {
+foreach ($first as $k => $c) {
     fprintf($fd, "%s\t%d\n", $k, $c);
 }
 fclose($fd);
-</pre>
+```

@@ -15,11 +15,11 @@ tags:
   - spin bikes
 
 ---
-Thoughts..
+Thoughts...
 
-[Kettler Ergoracer][1] $1600 or [Lemond Revmaster][2] $1000 (found on craigslist for $600).  Can&#8217;t forget &#8230; [Thoughts..
-
-[Kettler Ergoracer][1] $1600 or [Lemond Revmaster][2] $1000 (found on craigslist for $600).  Can&#8217;t forget &#8230;][3] 
+* [Kettler Ergoracer][1] - $1600 
+* [Lemond Revmaster][2] - $1000 - craigslist $600
+* [Daum Ergo 8i][3] 
 
 **Update:** Bought the Revmaster from craiglists (used) for $500, has been very useful during the winter months, use it from time to time this spring when I&#8217;ve only had a short ~30 minute window to get a ride in&#8230; Easy &#8220;quality&#8221;.
 

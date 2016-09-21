@@ -27,7 +27,8 @@ The core of the blog post was this:
 
 Which is totally amazing for a performance improvement stand point, but in digging further the original code is:
 
-<pre lang="python">from time import time
+```python
+from time import time
 from random import Random
 from threading import Thread
 rand = Random().randint # alias
@@ -51,19 +52,23 @@ for i in xrange(THREADS):
     t.start()
 while True in [t.isAlive() for t in threads]:
     pass
-print "Time: %s s" % (time() - start)</pre>
+print "Time: %s s" % (time() - start)
+```
 
 The first observation is that (unlike the ruby version) the python version has the overhead of a busy wait on the threads, so with than tiny fix (reduced runtime by 1 second)
 
-<pre lang="python">for t in threads :
+```python
+for t in threads :
     if t.isAlive() :
-        t.join()</pre>
+        t.join()
+```
 
 **Time: 17.6256890297 s**
 
 Doing a quick decomposition of this, we really have a program that&#8217;s doing the following
 
-<pre lang="python">from time import time
+```python
+from time import time
 from random import Random
 rand = Random().randint # alias
 
@@ -76,13 +81,15 @@ for t in xrange(THREADS) :
       a = [rand(0,SIZE) for x in xrange(SIZE)]
       a.sort()
 
-print "Time: %s s" % (time() - start)</pre>
+print "Time: %s s" % (time() - start)
+```
 
 **Time: 14.3786399364 s**
 
 Not getting into numbers, but this executes in almost the same time as the threaded version&#8230; Hmm, so is the ruby version really all about &#8220;Threading Performance&#8221;? Can&#8217;t be, has to be either in the random or the loop&#8230; Lets look further.
 
-<pre lang="python">from time import time
+```python
+from time import time
 from random import Random
 rand = Random().randint # alias
 
@@ -95,7 +102,8 @@ for t in xrange(THREADS) :
       for x in xrange(SIZE) :
           rand(0,SIZE) 
 
-print "Time: %s s" % (time() - start)</pre>
+print "Time: %s s" % (time() - start)
+```
 
 **Time: 10.9540541172 s**
 

@@ -20,13 +20,12 @@ Thus you need to invent an app that requires async, traditional http chat with l
 
 However if you want to check out the code take a look at this:
 
-http://github.com/koblas/django-on-tornado
+<http://github.com/koblas/django-on-tornado>
 
 The key part that&#8217;s interesting is this ability to add asyn requests to a django handler:
 
-&nbsp;
-
-<pre class="lang:python decode:true  ">from django_tornado.decorator import asynchronous
+```python
+from django_tornado.decorator import asynchronous
 
 @asynchronous
 def recv(request, handler):
@@ -50,5 +49,4 @@ def on_new_messages(messages) :
     handler.finish({ 'messages': messages, 'rss' : channel.size() })
 
     channel.query(handler.async_callback(on_new_messages), since)</pre>
-
-&nbsp;
+```

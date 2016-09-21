@@ -18,10 +18,11 @@ Why?
 
 If you do anything that&#8217;s isn&#8217;t linear programming you see that ioloop() is really main and you have boilerplate to set up everything for your call to the ioloop().  So, now main isn&#8217;t really important we&#8217;re boiler plating main() into a bunch of work for ioloop()&#8230;  But, alas the languages don&#8217;t support this, sometimes you can do things like
 
-<pre>@gen.engine
+```python
+@gen.engine
 def fizzle(self):
     result = yield gen.Task(some_function, args)
-</pre>
+```
 
 Why should I do all that &#8211; if the language assumed all IO operations needed to yield to ioloop() the syntax would support that model. You wouldn&#8217;t need to worry about what was sync and async, you wouldn&#8217;t need to wrap and decorate.  It would just be good.
 

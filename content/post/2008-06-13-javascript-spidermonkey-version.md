@@ -14,7 +14,8 @@ categories:
 ---
 Way to carried away with this&#8230; here&#8217;s the SpiderMonkey version (as opposed to the rhino) one. Biggest complaint is the File object is a bit of a pain to use&#8230;
 
-<pre>fd = File('p.test');
+```python
+fd = File('p.test');
 fd.open("read",'text');
 
 mre = /^__MULTI_TOKEN__\s+(\S+)\s+(.*)\t?\s*(\d+)\s*$/;
@@ -43,7 +44,7 @@ for (key in first) {
     ofd.writeln(key + "\t" + first[key]);
 }
 ofd.close()
-</pre>
+```
 
 This is all based on the [PHP/Perl/Python][1] performance code.
 

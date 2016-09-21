@@ -25,5 +25,3 @@ Is this because one organization is focused on Net Promoter Scores, is it lack o
 At Northstar we know you have a choice, we know that we want you back next year, we know we want you to bring your friends, or encourage them to take lessons (or anything else).  We want you to not be just satisfied but delighted.  AT&T on the other hand is just there to make sure you&#8217;re satisfied, which means that when I ask if I can have the shipping expedited you can only say &#8220;the system won&#8217;t let me do that&#8221;.
 
 What does this mean to me, or to you the reader?  It&#8217;s easy to make the customer happy, it&#8217;s easy to delight a customer through interactions, make sure your employees are empowered to make it happen.
-
-&nbsp;

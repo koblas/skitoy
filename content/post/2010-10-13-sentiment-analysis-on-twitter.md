@@ -23,4 +23,4 @@ What&#8217;s interesting is that this posting reminded me of a Facebook &#8220;p
 
 Kristin has of course indicated that this is &#8220;unhappy&#8221;, and her followers have concurred.  In this case I would consider it agreement with the original sentiment, rather than disagreement&#8230;
 
-<span style="font-family: 'Helvetica Neue', Helvetica, Arial, default; color: #333333; font-size: 13px; line-height: 17px;">?</span><img title="Sentiment.jpg" src="http://www.skitoy.com/wp-content/uploads/2010/10/Sentiment.jpg" border="0" alt="Screen capture" width="600" height="326" />
+<img title="Sentiment.jpg" src="/uploads/2010/10/Sentiment.jpg" border="0" alt="Screen capture" width="600" height="326" />

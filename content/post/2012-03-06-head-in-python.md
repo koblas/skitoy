@@ -22,8 +22,9 @@ Was going to post this to stackoverflow, but the question was deleted before I p
 
 Turned out it was a fun exercise in writing a short program.
 
-<pre lang="python">def head(f_in, f_out, count=20):
+```python
+def head(f_in, f_out, count=20):
     all([not f_out.write(l2) for l2 in [line for line in f_in][:count]])
 
 head(open('/etc/passwd'), open('/tmp/p', 'w'), count=2)
-</pre>
+```

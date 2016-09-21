@@ -22,7 +22,8 @@ I&#8217;m sure there&#8217;s a more general title for this kind of object, but t
 
 In all cases, here&#8217;s the code sample.  I&#8217;m sure it&#8217;ll be useful on stackoverflow someday.
 
-<pre lang="python">#
+```python
+#
 #  Decorator that takes a list of members that are cached
 #
 def second_cache(members=None) :
@@ -87,4 +88,4 @@ print "Dirty:", t1.frog
 t1.bar = 7
 print "Dirty:", t1.frog
 print "Clean:", t1.frog
-</pre>
+```

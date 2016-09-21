@@ -20,7 +20,8 @@ My [GoLang AngularJS and ES6 Todo App][1] over at GitHub &#8211; it&#8217;s the
 
 Some quick to points, general directory structure:
 
-<pre class="">go-angular-es6/
+```bash
+go-angular-es6/
     - main.go    # Primary entry point
     - app/       # The GoLang application 
     - client/    # ES6 code libraries and html
@@ -35,7 +36,7 @@ Some quick to points, general directory structure:
          - services    #  Angular Services
     - conf/      # abstracted configuration
     - static/    # (not in GitHub) the output from building the client dir
-</pre>
+```
 
 One general note is that I haven&#8217;t found an idiomatic directory structure for GoLang application development.  IMHO &#8220;app&#8221; should be the handlers and have a model/conf directory.  Still a work in progress.
 
@@ -59,14 +60,14 @@ This is where preference starts showing up.  How to structure a good AngularJS 
 
 What I think is important is the ability to say in your main.es6 file:
 
-<pre class="">import './controllers/todo'
-</pre>
+```javascript
+import './controllers/todo'
+```
 
-<p class="">
-  Then to have todo contain:
-</p>
+Then to have todo contain:
 
-<pre class="">app.config(($stateProvider) =&gt; {
+```javascript
+app.config(($stateProvider) => {
     $stateProvider
         .state('app.todo', {
             url: '/todo',
@@ -81,22 +82,15 @@ What I think is important is the ability to say in your main.es6 file:
 
 app.controller('TodoController', class TodoController {
    // ... more code here ...
-})</pre>
+})
+```
 
-<p class="">
-   This way you&#8217;re having the routing next to the controller, rather than having a massive route.es6 file which documents the whole application.
-</p>
+This way you&#8217;re having the routing next to the controller, rather than having a massive route.es6 file which documents the whole application.
 
-<p class="">
-  <em>Note:</em>  You&#8217;ll see that I also make use of browserify to load HTML into the controllers directly.  This makes it really easy to compress the whole application into a solid Single Page Application.
-</p>
+*Note:*  You&#8217;ll see that I also make use of browserify to load HTML into the controllers directly.  This makes it really easy to compress the whole application into a solid Single Page Application.
 
 ### Conclusion
 
-<p class="">
-  I think ES6 is a good framework for building out AngularJS applications. The general problem is application structure, which is always a combination of personal preferences and habits.  That said, the Grunt flow with Babel and ES6 is easy to setup and make the code <em>much</em> cleaner.
-</p>
-
-<p class="">
+I think ES6 is a good framework for building out AngularJS applications. The general problem is application structure, which is always a combination of personal preferences and habits.  That said, the Grunt flow with Babel and ES6 is easy to setup and make the code <em>much</em> cleaner.
 
  [1]: https://github.com/koblas/go-angular-es6

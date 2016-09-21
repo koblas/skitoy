@@ -21,4 +21,4 @@ Just to share with the world some of the pain we&#8217;re seeing.&nbsp; Here&#82
 
 As you can see, we&#8217;re on a trend down&#8230;&nbsp; This is absolutely insane!&nbsp; We&#8217;ve got 60,000 pages on our site, at a rate of 400 per day we&#8217;re looking at "forever" to be indexed.&nbsp; It doesn&#8217;t help of course that we&#8217;re not index at all.
 
- [1]: http://www.skitoy.com/wp-content/uploads/2007/11/chart.png
+ [1]: /uploads/2007/11/chart.png

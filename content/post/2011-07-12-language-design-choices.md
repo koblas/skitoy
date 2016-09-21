@@ -25,23 +25,23 @@ One of the interesting things about languages is why they were created and then 
 
 I got into a discussion about how Ruby sucks, but realized later that this fundamentally was an origin problem.
 
-**Author Centered &#8211;**
+### Author Centered &#8211;
 
 I keep on making lots of comparisons between Ruby and Perl, maybe it all started because they both have &#8220;unless&#8221; as a keyword.  But, in thinking about it deeper most of the idea is that Perl has a single parent Larry and Ruby is Matz, the majority of the design of the language came from their world view.  The challenge is that most people have a strong understanding of a specific problem set, but they miss other details due to lack of understanding.  In perl, the OO and Variable hiding (my vs. local) I think demonstrates this, while in Ruby &#8220;returning from lambda&#8221; and extending base classes show it in other ways.
 
-_Ruby Detail:  _If you extend Hash with a &#8220;fizzle&#8221; method, the challenge is that in a large project you import 57 gems one of which implements a &#8220;fizzle&#8221; method and the programmer before you used it&#8230;  You now have to figure out which gem extended your Hash class and what does the fizzle method do&#8230;  Pretty much impossible.
+_Ruby Detail_:  If you extend Hash with a &#8220;fizzle&#8221; method, the challenge is that in a large project you import 57 gems one of which implements a &#8220;fizzle&#8221; method and the programmer before you used it&#8230;  You now have to figure out which gem extended your Hash class and what does the fizzle method do&#8230;  Pretty much impossible.
 
-**Contribution Centered &#8211;**
+### Contribution Centered &#8211;
 
 Just have to find a way to slip PHP in here.  It&#8217;s a kitchen sink, some of the language has OO style, some has procedural, sometimes the names change based on the phase of the  moon (look at the string functions).  It&#8217;s very clearly an open project where contributions are the primary driver, rather than strong design.
 
-**Committee Centered &#8211;**
+### Committee Centered &#8211;
 
 Python, Java, JavaScript, C++ all of these have a strong committee  driving the design of the language, some are more old school some are more new school (C++ vs. Python).  But, what&#8217;s interesting is that proposals for the language end up being consistent with the existing style (vs. PHP) and tend to have lots of world views taken into account.  There feels like a correctness to the idea that False/0/empty string/empty array are all &#8220;false&#8221;.
 
 In the grand scheme of things they are all tools, they all get a job done, it&#8217;s just working through the nuances of the langues takes time.  What&#8217;s interesting is that if you spend time to really work with these you will learn something new about all of the others that you will work with now and into the future, but sometimes it&#8217;s helpful to have a framework to put the underlying design into.
 
-**A Few Final Thoughts &#8211;**
+### A Few Final Thoughts &#8211;
 
   * Python &#8211; whitespace is great, but it makes adding/removing nesting hard.
   * Perl &#8211; You still rock for crunching a file quickly.

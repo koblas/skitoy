@@ -22,20 +22,20 @@ The Grid is:
 
 Giving these key points:
 
-  * 0,0 &#8211; frustration (low benefit, high cost)
-  * 0,1 &#8211; contentment (high benefit, high cost)
-  * 1,0 &#8211; concession (low cost, low benefit)
-  * 1,1 &#8211; delight (low cost, high benefit)
-  * 0.5, 0.5 &#8211; satisfaction
+* 0,0 &#8211; frustration (low benefit, high cost)
+* 0,1 &#8211; contentment (high benefit, high cost)
+* 1,0 &#8211; concession (low cost, low benefit)
+* 1,1 &#8211; delight (low cost, high benefit)
+* 0.5, 0.5 &#8211; satisfaction
 
 Of course there were 6 elements:
 
-  * Time
-  * Money
-  * Physical Effort
-  * Brain Cycles
-  * Social Deviance
-  * Non-Routine [we like routine]
+* Time
+* Money
+* Physical Effort
+* Brain Cycles
+* Social Deviance
+* Non-Routine [we like routine]
 
 Thinking about this and my Xside ideas&#8230;&#xA0; maybe life in general.
 

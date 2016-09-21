@@ -20,19 +20,19 @@ One of the big challenges is getting backbonejs and requirejs working together w
 
 The assumed directory layout is something like:
 
-<pre>static/
+```bash
+static/
        app/
            config.js
            main.js
        vendor/
            ...third party stuff like backbone, jquery, etc.etc.
-</pre>
-
-<pre lang="html"></pre>
+```
 
 Cutting to the chase here&#8217;s the configuration file I use
 
-<pre lang="javascript">// This is your: static/app/config.js file
+```javascript
+// This is your: static/app/config.js file
 //
 require.config({
     deps: ["main"],
@@ -62,11 +62,11 @@ require.config({
         }
     }
 });
-[/javascript]
+```
 
 With that line in your HTML file and a configuration that is similar to what I've show you should be up and running, you can now create your main.js file that has the following simple format that you'll be extending shortly.
 
-[javascript][/javascript]
+```javascript
 // This is your: static/app/main.js file
 //   - this is loaded as the deps: ["main"] in  your configuration
 require([
@@ -78,4 +78,4 @@ require([
 
 function ($, _, Backbone) {
 });
-</pre>
+```

@@ -18,21 +18,17 @@ Ok, I admit it&#8230; I&#8217;m a C++ programmer&#8230; I don&#8217;t have an is
 
 But, Walter Bright had an [interesting comment][3] in this rant thread..
 
-> Frankly, I don&#8217;t want to write loops that way. I want to write them like
-  
-> this:
-> 
-> `[Friend posted][1] a comment on a [rant by linus][2]
-
-Ok, I admit it&#8230; I&#8217;m a C++ programmer&#8230; I don&#8217;t have an issue with STL, it&#8217;s pretty good&#8230; Why on earth would I want to re-implement a linked list? Sure, it&#8217;s got it&#8217;s pain, but so does every other _explitive deleted_ language.
-
-But, Walter Bright had an [interesting comment][3] in this rant thread..
-
-> Frankly, I don&#8217;t want to write loops that way. I want to write them like
-  
-> this:
-> 
->` 
+> Frankly, I don’t want to write loops that way. I want to write them like this:
+>
+> ```
+>  void foo(int[] array)
+>  {
+>    foreach (value; array)
+>    {
+>       ... do something ...
+>    }
+> }
+> ```
 
 So, it&#8217;s time for a new language&#8230; How about D which is still a C, C++ lineage [no GC] but provides some of the functionality of &#8220;modern&#8221; type-smart languages (aka Java)
 

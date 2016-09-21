@@ -24,11 +24,6 @@ Now back to developing systems onto of basic environments.
 
 Things left to learn &#8211;
 
-  * How to get private keys onto the machine so git integration is smooth
-  * How to checkout private repos with chef onto the boxes
-  * The big challenge is how to &#8220;auto&#8221; configure an environments with AWS Elastic IPs or other tidbits.
-
-<div>
-</div>
-
-&nbsp;
+* How to get private keys onto the machine so git integration is smooth
+* How to checkout private repos with chef onto the boxes
+* The big challenge is how to &#8220;auto&#8221; configure an environments with AWS Elastic IPs or other tidbits.

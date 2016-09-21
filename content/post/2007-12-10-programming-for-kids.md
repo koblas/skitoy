@@ -29,11 +29,11 @@ When it comes to computers&#8230;&nbsp; by the time you&#8217;ve already had a r
 
 Some of my random ideas:
 
-  * Break out the Apple ][+ from it&#8217;s storage and just let them play.&nbsp; The hard part is there is no community of other kids doing the same exploration. 
-  * Lego Mindstorms &#8212; it&#8217;s a cool platform.&nbsp; But, I have to wonder if the visual programming (data flow model) is just too abstract.&nbsp; I didn&#8217;t have any problem with Muse software&#8217;s RobotWars as a kid.
-  * LOGO or BASIC &#8212; is there any good kid friendly versions of these left around?&nbsp; Visual basic is way too much for a seven year old.&nbsp; LOGO has the rapid discovery that&#8217;s interesting&#8230;
-  * [KPL][1], just discovered this from there website it feels like a&nbsp; modern approach to LOGO/BASIC.
-  * Of course there&#8217;s always the HTML/AJAX thought&#8230;&nbsp; It&#8217;s available it&#8217;s something that&#8217;s easy to show off.
+* Break out the Apple ][+ from it&#8217;s storage and just let them play.&nbsp; The hard part is there is no community of other kids doing the same exploration. 
+* Lego Mindstorms &#8212; it&#8217;s a cool platform.&nbsp; But, I have to wonder if the visual programming (data flow model) is just too abstract.&nbsp; I didn&#8217;t have any problem with Muse software&#8217;s RobotWars as a kid.
+* LOGO or BASIC &#8212; is there any good kid friendly versions of these left around?&nbsp; Visual basic is way too much for a seven year old.&nbsp; LOGO has the rapid discovery that&#8217;s interesting&#8230;
+* [KPL][1], just discovered this from there website it feels like a&nbsp; modern approach to LOGO/BASIC.
+* Of course there&#8217;s always the HTML/AJAX thought&#8230;&nbsp; It&#8217;s available it&#8217;s something that&#8217;s easy to show off.
 
 Other ideas, or experiences&#8230;
 

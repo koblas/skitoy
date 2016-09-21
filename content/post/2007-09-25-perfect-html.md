@@ -14,9 +14,9 @@ categories:
 ---
 Why do I find so many libraries dedicated to making HTML with code?
 
-`Why do I find so many libraries dedicated to making HTML with code?
-
-` 
+```
+$html->input( .... )
+```
 
 Is HTML syntax so hard?
 

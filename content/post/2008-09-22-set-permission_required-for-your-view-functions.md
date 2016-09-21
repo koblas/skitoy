@@ -19,7 +19,8 @@ tags:
 ---
 Working with django 1.0 and google app engine&#8230; Wanted to set every view on my admin page to have admin permission.
 
-<pre lang="python">def _perm_admin(rootfunc)  :
+```python
+def _perm_admin(rootfunc)  :
     import sys
     module = sys.modules.get(rootfunc.__module__)
     for key, value in module.__dict__.items() :
@@ -27,4 +28,4 @@ Working with django 1.0 and google app engine&#8230; Wanted to set every view on
             module.__dict__[key] = permission_required('admin')(value)
 
 _perm_admin(main)
-</pre>
+```

@@ -31,17 +31,20 @@ Currently using Twisted as the framework de jour, but it&#8217;s json-rpc librar
 
 Biggest problem, I want to have this nice simple return statement in my json handler:
 
-> return { &#8216;data&#8217; : object }
+```python
+return { 'data': object }
+```
 
 Looks nice, but wait!&nbsp; simplejson doesn&#8217;t know what to do with an object.&nbsp; The only &#8220;fix&#8221; is to subclass simplejson to extend the handlers.&nbsp; Of course since I&#8217;m sitting eight layers down in the stack from where simplejson is instantiated you can&#8217;t really do that.&nbsp; So, what&#8217;s the fix?
 
 **The Fix:** tear apart the Twisted JSON-RPC handler make it use both simplejson and cjson (why not) and add 4 lines of code to cjson encode_object:
 
-<pre>if ((result = PyObject_CallMethod(object, "__getstate__", NULL)) != NULL) {
-            PyObject *r = encode_object(result);
-            Py_XDECREF(result);
-            return r;
-        }
-</pre>
+```c
+if ((result = PyObject_CallMethod(object, "__getstate__", NULL)) != NULL) {
+    PyObject *r = encode_object(result);
+    Py_XDECREF(result);
+    return r;
+}
+```
 
 Ah, now we&#8217;ve duck typed the pickle \_\_getstate\_\_ method to give us a back a dictionary&#8230;&nbsp; The problem of course is that you can&#8217;t register &#8220;unknown&#8221; type handlers for any of the json serializes out there.

@@ -26,7 +26,8 @@ Nothing fancy, just gets the job done.
 
 Also available as a GitHub gist &#8211; <https://gist.github.com/1358253>
 
-<pre lang="python">from tornado import ioloop
+```python
+from tornado import ioloop
 from tornado import iostream
 import socket
 
@@ -87,7 +88,7 @@ class SMTPClient(object):
         if self.state == self.IDLE:
             if self.msgs:
                 self.state = self.MAIL
-                self.stream.write('MAIL FROM: &lt; %s>\r\n' % self.msgs[0].sender)
+                self.stream.write('MAIL FROM: < %s>\r\n' % self.msgs[0].sender)
             else:
                 self.state = self.QUIT
                 self.stream.write('QUIT\r\n')
@@ -107,26 +108,26 @@ class SMTPClient(object):
             return
 
         if self.state == self.CONNECTED:
-            if not 200 &lt; = code &lt; 300:
+            if not 200 <= code < 300:
                 return self.error("Unexpected status %d from CONNECT: %s" % (code, data.strip()))
             self.state = self.EHLO
             self.stream.write('EHLO localhost\r\n')
         elif self.state == self.EHLO:
-            if not 200 &lt;= code &lt; 300:
+            if not 200 <= code < 300:
                 return self.error("Unexpected status %d from EHLO: %s" % (code, data.strip()))
             self.state = self.IDLE
             self.work_or_quit()
         elif self.state == self.MAIL:
-            if not 200 &lt;= code &lt; 300:
+            if not 200 <= code < 300:
                 return self.error("Unexpected status %d from MAIL: %s" % (code, data.strip()))
             if self.msgs[0].rcpt:
-                self.stream.write('RCPT TO: &lt;%s>\r\n' % self.msgs[0].rcpt.pop(0))
+                self.stream.write('RCPT TO: <%s>\r\n' % self.msgs[0].rcpt.pop(0))
             self.state = self.RCPT
         elif self.state == self.RCPT:
-            if not 200 &lt; = code &lt; 300:
+            if not 200 <= code < 300:
                 return self.error("Unexpected status %d from RCPT: %s" % (code, data.strip()))
             if self.msgs[0].rcpt:
-                self.stream.write('RCPT TO: &lt;%s>;\r\n' % self.msgs[0].rcpt.pop(0))
+                self.stream.write('RCPT TO: <%s>;\r\n' % self.msgs[0].rcpt.pop(0))
             else:
                 self.stream.write('DATA\r\n')
                 self.state = self.DATA
@@ -139,7 +140,7 @@ class SMTPClient(object):
             self.stream.write('.\r\n')
             self.state = self.DATA_DONE
         elif self.state == self.DATA_DONE:
-            if not 200 &lt; = code &lt; 300:
+            if not 200 <= code < 300:
                 return self.error("Unexpected status %d from DATA END: %s" % (code, data.strip()))
             if self.msgs[0].callback:
                 self.msgs[0].callback(True)
@@ -149,7 +150,7 @@ class SMTPClient(object):
             self.state = self.IDLE
             self.work_or_quit()
         elif self.state == self.QUIT:
-            if not 200 &lt; = code &lt; 300:
+            if not 200 <= code < 300:
                 return self.error("Unexpected status %d from QUIT: %s" % (code, data.strip()))
             self.close()
 
@@ -175,4 +176,4 @@ Just a test
     """
     client.send('foo@example.com', ['recipient@example.com'], body)
     ioloop.IOLoop.instance().start()
-</pre>
+```

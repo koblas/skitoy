@@ -20,6 +20,6 @@ Waterfall bad, right?  Well, to an extent it is &#8212; the good part about wat
 
 Scrum is good, semi-self organized teams working on short lists of tasks.  Continual measurement of progress, yadda yadda yadda.  But, then once you&#8217;ve released what happens&#8230;   You have a two week sprint, a bunch of things a product person, if you&#8217;re lucky an engineer, has added to the sprint queue&#8230;  Rinse and repeat &#8212; but somebody has forgotten the biggest piece.
 
-**What&#8217;s the Goal?**
+### What&#8217;s the Goal?
 
 Waterfall &#8211; simple goal is a PRD &#8230; Scrum to a point is a PRD (yes, lean ideals, it changes).  What you need to remember to create in a series of sprints is a goal for the team &#8212; why are they doing this work, to what end&#8230; If it is just the features of the week, you need to take a step back and figure out if you&#8217;re in a conifer forest or a deciduous forest, since you&#8217;re not seeing anything except trees.

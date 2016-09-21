@@ -14,9 +14,9 @@ categories:
 ---
 Things I&#8217;ve been thinking about this morning&#8230;
 
-  * Fitness 
-      * PowerTap cranks 
-      * Stationary trainers 
-  * Ski Instruction 
-      * What does it take to be L1 certified ? 
-      * When can I go up for instructor training &#8230; last three days of November?
+* Fitness 
+  * PowerTap cranks 
+  * Stationary trainers 
+* Ski Instruction 
+  * What does it take to be L1 certified ? 
+  * When can I go up for instructor training &#8230; last three days of November?

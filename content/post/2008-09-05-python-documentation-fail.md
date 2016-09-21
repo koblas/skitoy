@@ -20,12 +20,12 @@ One of many rants against python documentation.  Fundamentally, things like thi
 
 $ pydoc list
 
-<pre>....</pre>
-
-<pre> |  index(...)
- |      L.index(value, [start, [stop]]) -&gt; integer -- return first index of value</pre>
-
-<pre>....</pre>
+```
+...
+| index(...)
+| L.index(value, [start, [stop]]) -&gt; integer -- return first index of value</pre>
+...
+```
 
 Ok, that&#8217;s good&#8230; But what about the &#8220;not found&#8221; case, is it documented, nope!  We have three choices, can you pick the right one?
 

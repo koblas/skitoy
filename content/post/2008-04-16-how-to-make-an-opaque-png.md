@@ -16,6 +16,7 @@ tags:
 ---
 Needed an alpha channel PNG, didn&#8217;t want to fire up any real editor.
 
-<pre class="lang:default decode:true ">echo -n 'ccca' | tr ca '\377\200' &gt; t.rgba
+```bash
+echo -n 'ccca' | tr ca '\377\200' &gt; t.rgba
 convert -size 1x1 -depth 8 t.rgba opaque.png
-</pre>
+```

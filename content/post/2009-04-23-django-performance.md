@@ -18,7 +18,9 @@ I&#8217;ve been working on [I&#8217;ve been working on][1] and still having the 
 
 **Template Variables** : I&#8217;m currently doing strange things like:
 
-<pre> &lt;body id="{% block tmpl_id %}{% endblock %}" class="{% block tmpl_class %}{% endblock %}"&gt;</pre>
+```html
+<body id="{% block tmpl_id %}{% endblock %}" class="{% block tmpl_class %}{% endblock %}">
+```
 
 and then the included template is setting those variables.  Which when you think about it is a bit off..
 
@@ -36,7 +38,9 @@ _That&#8217;s it today&#8230;more ranting later when&#8230;  Check out my [I&#8
 
 **Template Variables** : I&#8217;m currently doing strange things like:
 
-<pre> &lt;body id="{% block tmpl_id %}{% endblock %}" class="{% block tmpl_class %}{% endblock %}"&gt;</pre>
+```html
+<body id="{% block tmpl_id %}{% endblock %}" class="{% block tmpl_class %}{% endblock %}">
+```
 
 and then the included template is setting those variables.  Which when you think about it is a bit off..
 

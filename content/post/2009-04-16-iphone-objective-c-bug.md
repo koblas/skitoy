@@ -14,16 +14,18 @@ categories:
   - General
 
 ---
-****<span class="fullpost">Funny bug from XCode and objective-c &#8230;<br /> </span>
+Funny bug from XCode and objective-c &#8230;
 
-**<span class="fullpost"><br /> warning: initialization from distinct Objective-C type </span>**
+** warning: initialization from distinct Objective-C type **
 
-<span class="fullpost">For the following block of code:</span>**<span class="fullpost"><br /> </span>**
+For the following block of code:
 
-<pre>        // Quiz *qz = [[Quiz alloc] initFromDict: qdata];</pre>
+```
+// Quiz *qz = [[Quiz alloc] initFromDict: qdata];
 
-<pre>        Quiz *quiz = [Quiz alloc];</pre>
+Quiz *quiz = [Quiz alloc];
 
-<pre>        [quiz initFromDict: qdata];</pre>
+[quiz initFromDict: qdata];
+```
 
 From what I&#8217;ve read I ended up with the uncommented code as the operational code, since it implies that something bad will happen&#8230;  Before you ask &#8220;initFromDict&#8221; returns a (Quiz *) object..

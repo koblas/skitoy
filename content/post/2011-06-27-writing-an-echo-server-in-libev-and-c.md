@@ -25,16 +25,17 @@ This is a very basic TCP Echo server using libev in c++. The C++ side is only us
 
 **Update**: Fixed the small file descriptor leak and now available as a Gist &#8211; <https://gist.github.com/3364414>
 
-<pre class="lang:c++ decode:true ">#include &lt;unistd.h&gt;
-#include &lt;fcntl.h&gt;
-#include &lt;string.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;ev++.h&gt;
-#include &lt;netinet/in.h&gt;
-#include &lt;sys/socket.h&gt;
-#include &lt;resolv.h&gt;
-#include &lt;errno.h&gt;
-#include &lt;list&gt;
+```c++
+#include <unistd.h>
+#include <fcntl.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ev++.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <resolv.h>
+#include <errno.h>
+#include <list>
   
 //
 //   Buffer class - allow for output buffering such that it can be written out 
@@ -75,7 +76,7 @@ private:
         int              sfd;
   
         // Buffers that are pending write
-        std::list&lt;Buffer*&gt;     write_queue;
+        std::list<Buffer*>     write_queue;
   
         // Generic callback
         void callback(ev::io &watcher, int revents) {
@@ -106,14 +107,14 @@ private:
   
                 Buffer* buffer = write_queue.front();
                           
-                ssize_t written = write(watcher.fd, buffer-&gt;dpos(), buffer-&gt;nbytes());
-                if (written &lt; 0) {
+                ssize_t written = write(watcher.fd, buffer->dpos(), buffer->nbytes());
+                if (written < 0) {
                         perror("read error");
                         return;
                 }
   
-                buffer-&gt;pos += written;
-                if (buffer-&gt;nbytes() == 0) {
+                buffer->pos += written;
+                if (buffer->nbytes() == 0) {
                         write_queue.pop_front();
                         delete buffer;
                 }
@@ -125,7 +126,7 @@ private:
   
                 ssize_t   nread = recv(watcher.fd, buffer, sizeof(buffer), 0);
   
-                if (nread &lt; 0) {
+                if (nread < 0) {
                         perror("read error");
                         return;
                 }
@@ -156,7 +157,7 @@ public:
                 printf("Got connection\n");
                 total_clients++;
   
-                io.set&lt;EchoInstance, &EchoInstance::callback&gt;(this);
+                io.set<EchoInstance, &EchoInstance::callback>(this);
   
                 io.start(s, ev::READ);
         }
@@ -181,7 +182,7 @@ public:
   
                 int client_sd = accept(watcher.fd, (struct sockaddr *)&client_addr, &client_len);
   
-                if (client_sd &lt; 0) {
+                if (client_sd < 0) {
                         perror("accept error");
                         return;
                 }
@@ -212,10 +213,10 @@ public:
   
                 listen(s, 5);
   
-                io.set&lt;EchoServer, &EchoServer::io_accept&gt;(this);
+                io.set<EchoServer, &EchoServer::io_accept>(this);
                 io.start(s, ev::READ);
   
-                sio.set&lt;&EchoServer::signal_cb&gt;();
+                sio.set<&EchoServer::signal_cb>();
                 sio.start(SIGINT);
         }
           
@@ -231,15 +232,14 @@ int main(int argc, char **argv)
 {
         int         port = 8192;
   
-        if (argc &gt; 1)
-                port = atoi(argv[1]);
+        if (argc > 1)
+            port = atoi(argv[1]);
                   
         ev::default_loop       loop;
-        EchoServer                   echo(port);
+        EchoServer             echo(port);
   
         loop.run(0);
   
         return 0;
-}</pre>
-
-&nbsp;
+}
+```

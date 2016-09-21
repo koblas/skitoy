@@ -22,15 +22,23 @@ To that end why would somebody write big try catch blocks to see if modules exis
 
 e.g.
 
-<pre>  import random(version=1.2, lang=c)</pre>
+```
+import random(version=1.2, lang=c)
+```
 
 or
 
-<pre>  import random(version=1.2, lang=py)   # use the python version by default</pre>
+```
+# use the python version by default
+import random(version=1.2, lang=py)   
+```
 
 or
 
-<pre>import random     #  use the latest version in the "fastest" code (C given preference)</pre>
+```
+#  use the latest version in the "fastest" code (C given preference)
+import random     
+```
 
 where there could be a nice set of &#8220;standard&#8221; key value pairs that could provide addtional hints as to what language and version of a library was to be used.
 
@@ -40,9 +48,9 @@ Notes from the comp.lang.python discussion**
 
 People fell into a few camps:
 
-  * There&#8217;s many &#8220;optimization&#8221; projects, like PyPy or ShedSkin (compile Python to C/C++ code).  In essence JIT the code, though not as passive as a true JIT.
-  * &#8220;most bottlenecks are from IO (disk, network) or interaction&#8221; so worrying about library performance is not worthwhile.
-  * Why worry about it, what we&#8217;ve got is good enough.
+* There&#8217;s many &#8220;optimization&#8221; projects, like PyPy or ShedSkin (compile Python to C/C++ code).  In essence JIT the code, though not as passive as a true JIT.
+* &#8220;most bottlenecks are from IO (disk, network) or interaction&#8221; so worrying about library performance is not worthwhile.
+* Why worry about it, what we&#8217;ve got is good enough.
 
 What amazes me is that time and time again, people don&#8217;t realize who their customers&#8217; are.  Languages like PHP realize their customers are hack VB programmers looking to build web pages.  So, having solid libraries and other things that can be totally abused (used) is a good use of &#8220;higher order design&#8221;.
 

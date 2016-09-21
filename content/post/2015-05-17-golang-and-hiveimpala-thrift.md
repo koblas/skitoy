@@ -21,11 +21,12 @@ As an exercise for the weekend, started looking at golang and the ability to mig
 
 The first thing is that you need to get your &#8220;thrift build&#8221; aka Makefile right
 
-<pre>thrift:
+```bash
+thrift:
     thrift -r -gen go:package_prefix=github.com/koblas/test/services/ interfaces/ImpalaService.thrift
     rm -rf ./services
     mv gen-go services
-</pre>
+```
 
 Turns out that **package_prefix **is a big deal, since the thrift build is going to build a collection (not-just one) interface we need a way to make sure that they&#8217;re all available and name spaced.
 
@@ -33,7 +34,8 @@ Also &#8211; worth noting that [HiveThing][1] is a useful reference &#8211; thou
 
 The example code I ended up writing is here &#8211; hopefully this helps somebody in the future, figure things out just a bit faster.
 
-<pre lang="go">package main
+```go
+package main
 
 import (
     "git.apache.org/thrift.git/lib/go/thrift"
@@ -164,10 +166,6 @@ func main() {
 
     log.Println("All Done")
 }
-</pre>
-
-&nbsp;
-
-&nbsp;
+```
 
  [1]: https://github.com/derekgr/hivething

@@ -32,5 +32,3 @@ As a marketplace we&#8217;re amazed at what happens when quality comes first
   * Disney &#8211; http://bit.ly/GV5Ppa
   * Apple &#8211; the iPhone (nuf said)
   * Ritz-Carlton &#8211; http://bit.ly/GV5LWn
-
-&nbsp;

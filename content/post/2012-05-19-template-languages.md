@@ -24,21 +24,21 @@ I like the Zend Framework in PHP, it really helps abstract you from where the me
 
 The following three lines are three different template systems for the same function:
 
-<pre lang="html"> 
-  <input id="name" name="nm" type="text" value="<?= htmlspecialchars($filter['nm']) ?/>" autocomplete="off" />
-  <input id="name" name="nm" type="text" value="{{ query.get('nm','') }}" autocomplete="off" />
-  <input id="name" name="nm" type="text" value="{{ query.nm }}" autocomplete="off" />
-</pre>
+```
+<input id="name" name="nm" type="text" value="<?= htmlspecialchars($filter['nm']) ?/>" autocomplete="off" />
+<input id="name" name="nm" type="text" value="{{ query.get('nm','') }}" autocomplete="off" />
+<input id="name" name="nm" type="text" value="{{ query.nm }}" autocomplete="off" />
+```
 
 These are all real lines, two of which are in production &#8211; one is demonstration.
 
-Case #1 &#8211; You need to explicityly escape your code, thus meaning you mandate code reviews since bad things happen when people get tired of typing htmlspecialchars().  Which they do, because 30% of your code is &#8220;internal&#8221; safe variables &#8211; and you don&#8217;t need to escape&#8230;  But, of course you do &#8211; since the source data might have come in via an AJAX API that you implemented 6 months later&#8230;
+**Case #1** &#8211; You need to explicityly escape your code, thus meaning you mandate code reviews since bad things happen when people get tired of typing htmlspecialchars().  Which they do, because 30% of your code is &#8220;internal&#8221; safe variables &#8211; and you don&#8217;t need to escape&#8230;  But, of course you do &#8211; since the source data might have come in via an AJAX API that you implemented 6 months later&#8230;
 
-Case #2 &#8211; Good, escaping by default.  But, turns out that now you&#8217;re providing sensible defaults to everything.  But, typically the default is the empty string, failure to provide yields &#8220;None&#8221; or &#8220;null&#8221;.  More typing by rote, good but not great.
+**Case #2** &#8211; Good, escaping by default.  But, turns out that now you&#8217;re providing sensible defaults to everything.  But, typically the default is the empty string, failure to provide yields &#8220;None&#8221; or &#8220;null&#8221;.  More typing by rote, good but not great.
 
-Case #3 &#8211; I like this approach.  Two big value adds &#8211; Defaults are sensible, you don&#8217;t have to worry about the kind of data you&#8217;re dealing with.  Is it an object, is it a dictionary, is it an array ( result.location.3.title ) &#8211; is it a function&#8230;  By the time you get to the template level, you really just want as sensible default and an ERROR kicked into a logfile.  Don&#8217;t throw an error if result.location only has two items.
+**Case #3** &#8211; I like this approach.  Two big value adds &#8211; Defaults are sensible, you don&#8217;t have to worry about the kind of data you&#8217;re dealing with.  Is it an object, is it a dictionary, is it an array ( result.location.3.title ) &#8211; is it a function&#8230;  By the time you get to the template level, you really just want as sensible default and an ERROR kicked into a logfile.  Don&#8217;t throw an error if result.location only has two items.
 
-Case #4 &#8211; Strange languages like HAML, at the end of the day HTML is the Lingua Franca between Engineering and Design&#8230; Why introduce translation.
+**Case #4** &#8211; Strange languages like HAML, at the end of the day HTML is the Lingua Franca between Engineering and Design&#8230; Why introduce translation.
 
 At the end of the day, really think about how you&#8217;re abstracting things.  The goal of a good system  is the ability to get the maximum amount of work done with the minimum amount of syntax.  Since the more we type, the more mistakes happen, the more review is needed&#8230;
 

@@ -12,16 +12,12 @@ categories:
   - General
 
 ---
-  * Identify a hard problem, the solution of which would fill some market niche, and that your great hacker is sufficiently interested in finding a solution to
-  * Make sure your great hacker is kept away from shiny things until the problem is solved
-  * Pray that the hacker can, in fact, produce an effective solution (if this was a certainty, you wouldnâ€™t have needed the hacker in the first place)
-  * Market that solution effectively.
 
-_[  * Identify a hard problem, the solution of which would fill some market niche, and that your great hacker is sufficiently interested in finding a solution to
-  * Make sure your great hacker is kept away from shiny things until the problem is solved
-  * Pray that the hacker can, in fact, produce an effective solution (if this was a certainty, you wouldnâ€™t have needed the hacker in the first place)
-  * Market that solution effectively.
+* Identify a hard problem, the solution of which would fill some market niche, and that your great hacker is sufficiently interested in finding a solution to
+* Make sure your great hacker is kept away from shiny things until the problem is solved
+* Pray that the hacker can, in fact, produce an effective solution (if this was a certainty, you wouldn't have needed the hacker in the first place)
+* Market that solution effectively.
 
-_][1]_
+_[From Hriing Great Hackers][1]_
 
  [1]: http://fishbowl.pastiche.org/2004/07/31/hiring_great_hackers

@@ -12,22 +12,15 @@ categories:
   - General
 
 ---
-<p class="keitai_text">
-  Is it possible to say there is a good day at track? But, it was!
-</p>
+Is it possible to say there is a good day at track? But, it was!
 
 Workout &#8212; 6&#215;800 w/ 400 rest
       
-3:00
-      
-3:00
-      
-3:03
-      
-3:01
-      
-2:58
-      
-3:01
+1. 3:00
+1. 3:00
+1. 3:03
+1. 3:01
+1. 2:58
+1. 3:01
 
 Sweet!

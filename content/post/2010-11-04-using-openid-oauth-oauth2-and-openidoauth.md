@@ -45,214 +45,111 @@ Which means you need to store a token, not only that but some of these wonderful
 
 **OAuth &#8212;** The big challenge is that the token you get is a transient identifier, it will change if you assocate account information with this your doomed.   So, typically what you end up needing to do is take your OAuth token and go back and pull the profile, which of course means that you need yet another round trip behind the scenes to get an authentication to happen.
 
-[code language=&#8221;py&#8221;]
-  
-class FoursquareOAuthClient(CommonOAuthClient):
-      
-api\_root\_url = &#8216;http://foursquare.com&#8217; #for testing &#8216;http://term.ie&#8217;
-      
-api\_root\_port = "80"
+```python
 
-#set api urls
-      
-def request\_token\_url(self):
-          
-return self.api\_root\_url + &#8216;/oauth/request_token&#8217;
-      
-def authorize_url(self):
-          
-return self.api\_root\_url + &#8216;/oauth/authorize&#8217;
-      
-def access\_token\_url(self):
-          
-return self.api\_root\_url + &#8216;/oauth/access_token&#8217;
-
-class FoursquareBackend(OAuthOpenBackend) :
-      
-name = &#8216;foursquare&#8217;
-      
-info = settings.OPENAUTH_DATA.get(name, {})
-
-oauth_class = FoursquareOAuthClient
-
-def get_profile(self, token) :
-          
-raw = self._fetch(token, &#8216;http://api.foursquare.com/v1/user.json&#8217;)
-
-print raw
-
-data = json.loads(raw)
-          
-data = data[&#8216;user&#8217;]
-
-identity = &#8216;foursquare:%s&#8217; % data[&#8216;id&#8217;]
-
-return identity, {
-                          
-&#8216;first_name&#8217; : data.get(&#8216;firstname&#8217;,&#8221;),
-                          
-&#8216;last_name&#8217; : data.get(&#8216;lastname&#8217;,&#8221;),
-                          
-&#8217;email&#8217; : data.get(&#8217;email&#8217;,&#8221;),
-                      
-}, data
-  
-[/code]
-
-**OAuth2 &#8212;** The nice part is that it quick and easy to handshake up a token, but just like OAuth you still need an extra round trip.
-
-[code language=&#8221;py&#8221;]
-  
 class GowallaBackend(OpenBackend) :
-      
-name = &#8216;gowalla&#8217;
-      
-info = settings.OPENAUTH_DATA.get(name, {})
+    name = ‘gowalla’
+    info = settings.OPENAUTH_DATA.get(name, {})
 
-def prompt(self) :
-          
-return &#8216;https://api.gowalla.com/api/oauth/new?%s&#8217; % urllib.urlencode({
-                                  
-&#8216;client_id&#8217; : self.key,
-                                  
-&#8216;redirect\_uri&#8217; : self.return\_to,
-                          
-})
+    def prompt(self) :
+        return ‘https://api.gowalla.com/api/oauth/new?%s’ % urllib.urlencode({
+            ‘client_id’ : self.key,
+            ‘redirect_uri’ : self.return_to,
+        })
 
-def get\_access\_token(self) :
-          
-url = &#8216;https://api.gowalla.com/api/oauth/token&#8217;
-          
-body = {
-                      
-&#8216;client_id&#8217; : self.key,
-                      
-&#8216;client_secret&#8217; : self.secret,
-                      
-&#8216;redirect\_uri&#8217; : self.return\_to,
-                      
-&#8216;code&#8217; : self.request.GET[&#8216;code&#8217;],
-                      
-&#8216;grant\_type&#8217; : &#8216;authorization\_code&#8217;,
-          
-}
+    def get_access_token(self) :
+        url = ‘https://api.gowalla.com/api/oauth/token’
+        body = {
+            ‘client_id’ : self.key,
+            ‘client_secret’ : self.secret,
+            ‘redirect_uri’ : self.return_to,
+            ‘code’ : self.request.GET[‘code’],
+            ‘grant_type’ : ‘authorization_code’,
+        }
 
-data = self._fetch(url, postdata=body, headers={&#8216;Accept&#8217;:&#8217;application/json&#8217;})
+        data = self._fetch(url, postdata=body, headers={‘Accept’:’application/json’})
 
-vals = json.loads(data)
+        vals = json.loads(data)
 
-return OpenToken(vals[&#8216;access_token&#8217;])
+        return OpenToken(vals[‘access_token’])
 
-def get_profile(self, token) :
-          
-from ..libs.gowalla import Gowalla
+    def get_profile(self, token) :
+        from ..libs.gowalla import Gowalla
 
-go = Gowalla(self.key, access_token=token.token)
+        go = Gowalla(self.key, access_token=token.token)
 
-profile = go.user_me()
+        profile = go.user_me()
 
-identity = "gowalla:%s" % profile[&#8216;url&#8217;]
+        identity = "gowalla:%s" % profile[‘url’]
 
-return identity, {
-                          
-&#8216;first\_name&#8217; : profile[&#8216;first\_name&#8217;],
-                          
-&#8216;last\_name&#8217; : profile[&#8216;last\_name&#8217;],
-                          
-&#8217;email&#8217; : None,
-                      
-}, profile
-  
-[/code]
+        return identity, {
+            ‘first_name’ : profile[‘first_name’],
+            ‘last_name’ : profile[‘last_name’],
+            ’email’ : None,
+        }, profile
+
+```
 
 **OAuth+OpenID &#8212;** This is where life gets a bit more painful&#8230;  Typically over getting all of the URI bits worked out, where things go etc.  We won&#8217;t mention strange things like Yahoo doesn&#8217;t return the oauth token when asked unless you&#8217;ve approved yourself for non-public information&#8230;  Gack!
 
-[code language=&#8221;py&#8221;]
-  
+```python
 class GoogleBackend(OpenBackend) :
-      
-name = &#8216;google&#8217;
-      
-info = settings.OPENAUTH_DATA.get(name,{})
+    name = ‘google’
+    info = settings.OPENAUTH_DATA.get(name,{})
 
-def \_get\_client(self) :
-          
-client = consumer.Consumer(self.request.session, util.OpenIDStore())
-          
-client.setAssociationPreference([(&#8216;HMAC-SHA1&#8217;, &#8216;no-encryption&#8217;)])
-          
-return client
+    def _get_client(self) :
+        client = consumer.Consumer(self.request.session, util.OpenIDStore())
+        client.setAssociationPreference([(‘HMAC-SHA1’, ‘no-encryption’)])
+        return client
 
-def prompt(self) :
-          
-client = self.\_get\_client()
+    def prompt(self) :
+        client = self._get_client()
 
-auth_request = client.begin(&#8216;https://www.google.com/accounts/o8/id&#8217;)
+        auth_request = client.begin(‘https://www.google.com/accounts/o8/id’)
 
-auth\_request.addExtensionArg(&#8216;http://openid.net/srv/ax/1.0&#8217;, &#8216;mode&#8217;, &#8216;fetch\_request&#8217;)
-          
-auth_request.addExtensionArg(&#8216;http://openid.net/srv/ax/1.0&#8217;, &#8216;required&#8217;, &#8217;email,firstname,lastname&#8217;)
-          
-auth_request.addExtensionArg(&#8216;http://openid.net/srv/ax/1.0&#8217;, &#8216;type.email&#8217;, &#8216;http://schema.openid.net/contact/email&#8217;)
-          
-auth_request.addExtensionArg(&#8216;http://openid.net/srv/ax/1.0&#8217;, &#8216;type.firstname&#8217;, &#8216;http://axschema.org/namePerson/first&#8217;)
-          
-auth_request.addExtensionArg(&#8216;http://openid.net/srv/ax/1.0&#8217;, &#8216;type.lastname&#8217;, &#8216;http://axschema.org/namePerson/last&#8217;)
+        auth_request.addExtensionArg(‘http://openid.net/srv/ax/1.0’, ‘mode’, ‘fetch_request’)
+        auth_request.addExtensionArg(‘http://openid.net/srv/ax/1.0’, ‘required’, ’email,firstname,lastname’)
+        auth_request.addExtensionArg(‘http://openid.net/srv/ax/1.0’, ‘type.email’, ‘http://schema.openid.net/contact/email’)
+        auth_request.addExtensionArg(‘http://openid.net/srv/ax/1.0’, ‘type.firstname’, ‘http://axschema.org/namePerson/first’)
+        auth_request.addExtensionArg(‘http://openid.net/srv/ax/1.0’, ‘type.lastname’, ‘http://axschema.org/namePerson/last’)
 
-auth_request.addExtensionArg(&#8216;http://specs.openid.net/extensions/oauth/1.0&#8217;, &#8216;consumer&#8217;, self.key)
-          
-auth_request.addExtensionArg(&#8216;http://specs.openid.net/extensions/oauth/1.0&#8217;, &#8216;scope&#8217;, &#8216;http://www.google.com/m8/feeds&#8217;)
+        auth_request.addExtensionArg(‘http://specs.openid.net/extensions/oauth/1.0’, ‘consumer’, self.key)
+        auth_request.addExtensionArg(‘http://specs.openid.net/extensions/oauth/1.0’, ‘scope’, ‘http://www.google.com/m8/feeds’)
 
-parts = list(urlparse.urlparse(self.return_to))
-          
-realm = urlparse.urlunparse(parts[0:2] + [&#8221;] * 4)
+        parts = list(urlparse.urlparse(self.return_to))
+        realm = urlparse.urlunparse(parts[0:2] + [”] * 4)
 
-return auth\_request.redirectURL(realm, self.return\_to)
+        return auth_request.redirectURL(realm, self.return_to)
 
-def get\_access\_token(self) :
-          
-if self.request.GET.get(&#8216;openid.mode&#8217;, None) == &#8216;cancel&#8217; or self.request.GET.get(&#8216;openid.mode&#8217;, None) != &#8216;id_res&#8217; :
-              
-raise OpenBackendDeclineException()
+    def get_access_token(self) :
+        if self.request.GET.get(‘openid.mode’, None) == ‘cancel’ or self.request.GET.get(‘openid.mode’, None) != ‘id_res’ :
+            raise OpenBackendDeclineException()
 
-client = self.\_get\_client()
-          
-auth\_response = client.complete(self.request.GET, self.return\_to)
+        client = self._get_client()
+        auth_response = client.complete(self.request.GET, self.return_to)
 
-if isinstance(auth_response, consumer.FailureResponse) :
-              
-raise OpenBackendDeclineException("%s" % auth_response)
+        if isinstance(auth_response, consumer.FailureResponse) :
+            raise OpenBackendDeclineException("%s" % auth_response)
 
-ax = auth_response.extensionResponse(&#8216;http://openid.net/srv/ax/1.0&#8217;, True)
+        ax = auth_response.extensionResponse(‘http://openid.net/srv/ax/1.0’, True)
 
-self.email = ax.get(&#8216;value.email&#8217;,&#8221;)
-          
-self.first_name = ax.get(&#8216;value.firstname&#8217;,&#8221;)
-          
-self.last_name = ax.get(&#8216;value.lastname&#8217;,&#8221;)
+        self.email = ax.get(‘value.email’,”)
+        self.first_name = ax.get(‘value.firstname’,”)
+        self.last_name = ax.get(‘value.lastname’,”)
 
-self.identity = auth\_response.getSigned(openid.message.OPENID2\_NS, &#8216;identity&#8217;, None)
+        self.identity = auth_response.getSigned(openid.message.OPENID2_NS, ‘identity’, None)
 
-otoken = auth_response.extensionResponse(&#8216;http://specs.openid.net/extensions/oauth/1.0&#8217;, True)
-          
-oclient = GoogleOAuthClient(self.key, self.secret)
+        otoken = auth_response.extensionResponse(‘http://specs.openid.net/extensions/oauth/1.0’, True)
+        oclient = GoogleOAuthClient(self.key, self.secret)
 
-tok = oclient.get\_access\_token(otoken[&#8216;request_token&#8217;])
-          
-return OpenToken(tok[&#8216;oauth\_token&#8217;], tok[&#8216;oauth\_token_secret&#8217;])
+        tok = oclient.get_access_token(otoken[‘request_token’])
+        return OpenToken(tok[‘oauth_token’], tok[‘oauth_token_secret’])
 
-def get_profile(self, token) :
-          
-v = {
-              
-&#8217;email&#8217; : self.email,
-              
-&#8216;first\_name&#8217; : self.first\_name,
-              
-&#8216;last\_name&#8217; : self.last\_name,
-          
-}
-          
-return self.identity, v, v
-  
-[/code]
+    def get_profile(self, token) :
+        v = {
+            ’email’ : self.email,
+            ‘first_name’ : self.first_name,
+            ‘last_name’ : self.last_name,
+        }
+        return self.identity, v, v
+```

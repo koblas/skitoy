@@ -19,6 +19,6 @@ tags:
 ---
 Los Altos has changed it&#8217;s name to Morgan Hill&#8230;
 
-?[<img class="alignnone size-full wp-image-327" title="Screen shot 2010-10-10 at 10.08.24 AM" src="http://www.skitoy.com/wp-content/uploads/2010/10/Screen-shot-2010-10-10-at-10.08.24-AM1.png" alt="" width="930" height="365" srcset="http://www.skitoy.com/wp-content/uploads/2010/10/Screen-shot-2010-10-10-at-10.08.24-AM1.png 930w, http://www.skitoy.com/wp-content/uploads/2010/10/Screen-shot-2010-10-10-at-10.08.24-AM1-300x117.png 300w" sizes="(max-width: 930px) 100vw, 930px" />][1]
+<img title="Screen shot 2010-10-10 at 10.08.24 AM" src="/uploads/2010/10/Screen-shot-2010-10-10-at-10.08.24-AM1.png" alt="" width="930" height="365" />
 
  [1]: http://www.skitoy.com/wp-content/uploads/2010/10/Screen-shot-2010-10-10-at-10.08.24-AM1.png

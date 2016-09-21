@@ -14,29 +14,31 @@ In designing an API it&#8217;s a challenge to understand when to use HTTP error 
 
 Let&#8217;s take an OAuth 2.0 API that looks something like this, with an assumed HTTP Authentication header.
 
-> <pre class="">/api/v1/data.search?query=EXPRESSION&count=INTEGER</pre>
+```
+/api/v1/data.search?query=EXPRESSION&count=INTEGER
+```
 
 Imaging responses look something like:
 
-> <pre class="">{ ok: BOOLEAN, error: STRING, ... }</pre>
+```
+{ ok: BOOLEAN, error: STRING, ... }
+```
 
 Where error is option if the ok boolean is False, otherwise there is a data payload appropriate to the API response.
 
-&nbsp;
-
-**data.search(query=&#8221;car&#8221;, count=15)** 
+#### data.search(query=&#8221;car&#8221;, count=15)
 
 Return ok=true, code=200 and results=[array]
 
-**data.search(count=15)**
+#### data.search(count=15)
 
 Return ok=false, code=400, error=&#8221;query\_not\_found&#8221; – required parameter not present
 
-**data.search(query=&#8221;(car&#8221;, count=15) **
+#### data.search(query=&#8221;(car&#8221;, count=15)
 
 Return ok=false code=200 error=&#8221;query_syntax&#8221; – there is a syntax error in the query
 
-**data.search(query=&#8221;car&#8221;, count=&#8221;xyz&#8221;)**
+#### data.search(query=&#8221;car&#8221;, count=&#8221;xyz&#8221;)
 
 Return ok=false code=200 error=&#8221;malformed_count&#8221; – count isn&#8217;t a number
 
@@ -77,9 +79,3 @@ Given the idea that you want to have errors be programatic errors and ok&#8217;s
 | 404       | Endpoint doesn&#8217;t exist                                                               |
 | 429       | Rate limited                                                                               |
 | 500       | Internal error &#8211; this should be returned even when a backend dies                    |
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;

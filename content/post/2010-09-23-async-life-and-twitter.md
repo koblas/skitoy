@@ -39,7 +39,8 @@ The Twisted one was pretty easy &#8212; there&#8217;s txAMQP which is &#8220;ok&
 
 Finally found what I wanted with was [AMPQ+Tornado+Pika][6] as a unofficial port&#8230;  This worked great, except the documentation is so lacking!  Which really brings us to the point of this posting&#8230;  The quick integration for this project.
 
-<pre class="lang:default decode:true "># Tornado listener
+```python
+# Tornado listener
 from pika.tornado_adapter import TornadoConnection
 import pika
 import json
@@ -73,9 +74,7 @@ def init() :
     callback=handler.startup)
 
     handler.amqp = amqp
-</pre>
-
-&nbsp;
+```
 
 Doing my quick blogpost code review, says that I could have done things much better&#8230;  Moved the ConnectionEstablishment into the Handler class, etc, etc.  But at the time I was more interested in getting things working at now 6:30am&#8230;  The big things I found was that the queue bits needed to be in the callback after the connection was established, otherwise RabbitMQ dropped things on the floor for out of order reasons.
 

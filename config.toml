@@ -1,78 +1,102 @@
 baseurl = "http://nap.io/"
-languageCode = "en-us"
 title = "David Koblas' Writings"
-theme = "hugo-material-docs"
-metadataformat = "yaml"
-canonifyurls = true
-# Enable Google Analytics by entering your tracking id
-googleAnalytics = ""
+relativeURLs = true
+disable_comments = true
+
+## COPIED
+
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "skitoysfun"
+# Enable Google Analytics by entering your tracking code
+#googleAnalytics = ""
+# Define the number of posts per page
+paginate = 10
+footnotereturnlinkcontents = "↩"
+theme = "hugo-icarus-theme"
+
+#[permalinks]
+#    post = "/:year/:month/:day/:slug"
+
 
 [params]
-	# General information
-	author = "David Koblas"
-	description = "A material design theme for documentations."
-	copyright = "Released under the MIT license"
+    # Tell me who you are
+    author = "David Koblas"
+    bio = "Appeal to Greatness not Guilt"
+    site_description = ""
+    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+    #avatar = "css/images/avatar.png"
+    #avatar = "img/koblas.jpg"
+    #logo = "css/images/logo.png"
+    disable_widgets = false
+    disable_profile = true
 
-	# Repository
-	provider = "GitHub"
-	repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
+    # Format dates with Go's time formatting
+    date_format = "2006-01-02"
 
-	version = ""
-	logo = "img/koblas.jpg"
-	#logo = "images/logo.png"
-	favicon = ""
+# Create custom menu entries by defining a label and a link for
+# them. Since you can also link posts, you've the option the
+# place the links before or after them.
+#
+# E.g.: "Home" appears before all linked posts in the menu
+# and "Tags" / "Categories" after them.
+[[params.menu]]
+    before = true
+    label  = "Home"
+    link   = "/"
 
-	permalink = "#"
+[[params.menu]]
+    before = false
+    label  = "About"
+    link   = "https://linkedin.com/in/koblas"
 
-	# Custom assets
-	custom_css = []
-	custom_js  = []
+#[[params.menu]]
+#    before = false
+#    label  = "Categories"
+#    link   = "categories/"
 
-	# Syntax highlighting theme
-	highlight_css  = ""
-
-	[params.palette]
-    	primary = "red"
-    	accent  = "light-green"
-
-    [params.font]
-    	text = "Ubuntu"
-    	code = "Ubuntu Mono"
+# Enter a link for the follow button on the left
+[params.profile]
+    #follow_button = "https://twitter.com/koblas"
+    #location = "Earth"
 
 
 [social]
-	twitter = "koblas"
-	github  = "koblas"
+# Add your social network accounts to the profile section on the left
+# by entering your username. The links to your account will be
+# created automatically.
+    github          = "koblas"
+    gitlab          = ""
+    bitbucket       = ""
+    jsfiddle        = ""
+    codepen         = ""
+    foursquare      = ""
+    dribbble        = ""
+    deviantart      = ""
+    behance         = ""
+    flickr          = ""
+    instagram       = ""
+    youtube         = ""
+    vimeo           = ""
+    vine            = ""
+    medium          = ""
+    wordpress       = ""
+    tumblr          = ""
+    xing            = ""
+    linkedin        = "koblas"
+    slideshare      = ""
+    stackoverflow   = "191450/koblas"
+    reddit          = ""
+    pinterest       = ""
+    googleplus      = ""
+    facebook        = ""
+    facebook_admin  = ""
+    twitter_domain  = ""
+    twitter         = "koblas"
 
-
-[[menu.main]]
-	name   = "Home"
-	url    = "/"
-	weight = 0
-
-#[[menu.main]]
-#	name   = "Getting started"
-#	url    = "getting-started/"
-#	weight = 10
-#
-#[[menu.main]]
-#	name   = "Adding content"
-#	url    = "adding-content/"
-#	weight = 20
-#
-#[[menu.main]]
-#	name   = "Roadmap"
-#	url    = "roadmap/"
-#	weight = 30
-#
-#[[menu.main]]
-#	name   = "License"
-#	url    = "license/"
-#	weight = 40
-
-
-[blackfriday]
-	smartypants	= true
-	fractions = true
-	smartDashes = true
-	plainIDAnchors = true
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    recent_articles = true
+    categories = true
+    #tags = true
+    #tag_cloud = true

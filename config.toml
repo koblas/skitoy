@@ -1,4 +1,4 @@
-baseurl = "http://nap.io/"
+baseurl = "http://www.skitoy.com/"
 title = "David Koblas' Writings"
 relativeURLs = true
 disable_comments = true
@@ -9,7 +9,7 @@ languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "skitoysfun"
 # Enable Google Analytics by entering your tracking code
-#googleAnalytics = ""
+googleAnalytics = "UA-1607138-1"
 # Define the number of posts per page
 paginate = 10
 footnotereturnlinkcontents = "↩"

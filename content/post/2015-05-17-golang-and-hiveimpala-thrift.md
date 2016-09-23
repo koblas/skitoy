@@ -9,10 +9,11 @@ pvc_views:
 dsq_thread_id:
   - 3772318812
 categories:
-  - General
-tags:
   - Development
+tags:
   - golang
+  - hive
+  - impala
 
 ---
 This started out as a quick project to see about taking a component of our service and migrating it from Python to Go. We&#8217;ve been talking about migrating services from the semi-monolithic version to more loosely coupled &#8211; the general idea is to move to Thrift oriented services. We have a core component of our system that uses Impala as a key backend, it&#8217;s a very stable service that could be logically broken out.

@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 2197861203
 categories:
-  - General
+  - Development
+tags:
+  - ranting
 
 ---
 Why do I find so many libraries dedicated to making HTML with code?
@@ -20,4 +22,4 @@ $html->input( .... )
 
 Is HTML syntax so hard?
 
-Why do I care, I&#8217;ve been working on a Macro post-processor for PHP (think taglibs) and have found that the builtin DOM functionality is _too_ strict and every other library is trying let programmers ignore html.
+Why do I care, I've been working on a Macro post-processor for PHP (think taglibs) and have found that the builtin DOM functionality is _too_ strict and every other library is trying let programmers ignore html.

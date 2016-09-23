@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 2834650727
 categories:
-  - General
+  - Thoughts
+tags:
+  - nps
 
 ---
 Quick observation:

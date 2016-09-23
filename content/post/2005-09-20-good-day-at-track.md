@@ -9,13 +9,15 @@ pvc_views:
 dsq_thread_id:
   - 196012518
 categories:
-  - General
+  - Fitness
+tags:
+  - running
 
 ---
 Is it possible to say there is a good day at track? But, it was!
 
-Workout &#8212; 6&#215;800 w/ 400 rest
-      
+Workout --- 6x800 w/ 400 rest
+
 1. 3:00
 1. 3:00
 1. 3:03

@@ -1,5 +1,5 @@
 ---
-title: XSide Thoughts…
+title: XSide Thoughts...
 author: koblas
 layout: post
 date: 2007-10-24T16:08:59+00:00
@@ -9,16 +9,18 @@ pvc_views:
 dsq_thread_id:
   - 184764117
 categories:
-  - General
+  - Development
+tags:
+  - sql
 
 ---
-My brain is driving me crazy with building a CMS&#8230;&nbsp; No, no &#8230; not another CMS you say..&nbsp; The thought isn&#8217;t to build another CMS that&#8217;s just like all the other CMS&#8217; &#8212; I think DocuWiki is currently a contender if I wanted to do that&#8230;&nbsp; But, here&#8217;s the requirements&nbsp; as I think of them.
+My brain is driving me crazy with building a CMS... No, no ... not another CMS you say... The thought isn't to build another CMS that's just like all the other CMS' --- I think DocuWiki is currently a contender if I wanted to do that... But, here's the requirements as I think of them.
 
-* Easy to build pages &#8212; either WYSIWYG or Wiki (Creole markup) based.
+* Easy to build pages --- either WYSIWYG or Wiki (Creole markup) based.
 * You can easily favorite pages
 * Page heirarcy [breadcrumbs, and property inheritance] 
   * ACLs
-  * Watch lists &#8212; when a page is changed, notify me&#8230;
+  * Watch lists --- when a page is changed, notify me...
 * Different page types [ templates ? ]
 * The two concepts that I would like to "figure out" 
   * DUCK Typed pages --
@@ -26,7 +28,7 @@ My brain is driving me crazy with building a CMS&#8230;&nbsp; No, no &#8230; not
   * Publish / Subscribe --
     A Page on edit will publish a set of notifications about attributes on the page, which observers can then take action on.
 
-Some data structures&#8230; just for the record
+Some data structures... just for the record
 
 ```
 CREATE TABLE IF NOT EXISTS page_tags (
@@ -66,13 +68,13 @@ CREATE TABLE IF NOT EXISTS document_meta (
 
 ```
 
-If I have that right&#8230;
+If I have that right...
 
-Forgot to document the page <-> doc table.&nbsp; But the idea is that a page would be composed of multiple documents&#8230;&nbsp; [think attributes]&nbsp;
+Forgot to document the page <-> doc table. But the idea is that a page would be composed of multiple documents... [think attributes]
 
 doc.type might be something like:
 
-* text/html &#8212; Need to have plain old HTML
-* image/gif&nbsp; &#8212; Images, duh!
-* text/wiki-creole &#8212; Oh, something that might invoke a formatter
-* application/xside-acl&nbsp; &#8212; ACLs,&nbsp; or other objects need to be attached somehow
+* text/html --- Need to have plain old HTML
+* image/gif --- Images, duh!
+* text/wiki-creole --- Oh, something that might invoke a formatter
+* application/xside-acl --- ACLs, or other objects need to be attached somehow

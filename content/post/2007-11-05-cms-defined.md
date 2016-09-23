@@ -9,14 +9,14 @@ pvc_views:
 dsq_thread_id:
   - 3772416638
 categories:
-  - General
+  - Thoughts
 
 ---
 * Content
-  1. Documents &#8212; HTML, Wiki, Images, Excel, etc. 
+  1. Documents --- HTML, Wiki, Images, Excel, etc. 
   2. External Documents (aka bookmarks) 
-  3. Lists of stuff &#8212; ToDo, Tables, etc. 
-* Managment &#8212; Collection of Content organized in some way
+  3. Lists of stuff --- ToDo, Tables, etc. 
+* Managment --- Collection of Content organized in some way
   * 10 documents --
     no management necessary 
   * 100 documents --
@@ -28,6 +28,6 @@ categories:
   2. Heirarch 
   3. Categorized & Tagged, publisher created organization
   4. Search 
-  5. Related documents &#8212; collection, human and machine generated 
+  5. Related documents --- collection, human and machine generated 
 * System        
   The software to make it happen

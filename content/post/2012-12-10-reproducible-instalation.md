@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 967686587
 categories:
-  - General
+  - Development
+tags:
+  - chef
 
 ---
 The learning curve on chef is a lot steeper than I wish.

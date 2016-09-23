@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 198326174
 categories:
-  - General
+  - Cranky
 
 ---
 The web is rich with libraries and applications.&#160; You wouldn&#8217;t think twice about using a linked list library &#8212; ok, I know people who do&#8230;&#160; But, in the realm of high performance computing, use off the shelf solutions!

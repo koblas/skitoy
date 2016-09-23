@@ -9,7 +9,10 @@ pvc_views:
 dsq_thread_id:
   - 3916432193
 categories:
-  - General
+  - Development
+tags:
+  - golang
+  - angular
 
 ---
 This post really documents the checkpoint in my experiments with GoLang and Frontend development.  As some people might know that I&#8217;ve been playing around with application structure, languages and approaches for a while.

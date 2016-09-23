@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 3772394671
 categories:
-  - General
+  - Fitness
 
 ---
 Death Ride tomorow! 5 Passes here I come!

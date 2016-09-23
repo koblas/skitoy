@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 1074798209
 categories:
-  - General
+  - Development
+tags:
+  - fizzbuzz
 
 ---
 In the begininning there was main() and that was good.  But under the surface that has changed, it&#8217;s still main() but what really happens is dynamic linking, exit handling resources&#8230;  We&#8217;re even throwing garbage collection in for good luck.  But, it&#8217;s still main().

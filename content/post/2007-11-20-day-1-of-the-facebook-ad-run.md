@@ -9,7 +9,11 @@ pvc_views:
 dsq_thread_id:
   - 2233480998
 categories:
-  - General
+  - Work
+tags:
+  - facebook
+  - google
+  - wink
 
 ---
 GoogleBot is still lame .. ok, maybe Google employees are totally insensitive to advertising.&#160; Stats from the last 24 hours:

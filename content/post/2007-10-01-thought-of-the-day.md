@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 2031613463
 categories:
-  - General
+  - Thoughts
+tags:
+  - quote
 
 ---
 appeal to greatness not guilt

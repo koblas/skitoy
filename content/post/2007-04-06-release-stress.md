@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 171685186
 categories:
-  - Contributors
+  - Thoughts
 
 ---
 It would be nice if releases caused stress release&#8230; alas, they cause stress.

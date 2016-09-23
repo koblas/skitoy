@@ -9,10 +9,12 @@ pvc_views:
 dsq_thread_id:
   - 171677252
 categories:
-  - General
+  - Development
+tags:
+  - performance
 
 ---
-Using the Rhino compiler&#8230; sorry no benchmark numbers, but just as a placeholder. To pick a nit, wanted to do first[m[1]] += parseInt(m[3]) but that yeilded a NaN since first[m[1]] was undefined&#8230; You would think that JavaScript would make undefined == 0.
+Using the Rhino compiler&#8230; sorry no benchmark numbers, but just as a placeholder. To pick a nit, wanted to do ```first[m[1]] += parseInt(m[3])``` but that yeilded a NaN since ```first[m[1]]``` was undefined... You would think that JavaScript would make undefined == 0.
 
 ```java
 fd = java.io.BufferedReader(java.io.FileReader('p.test'))
@@ -45,5 +47,4 @@ for (key in first) {
 ofd.close()
 ```
 
-<pre>This is all based on the <a href="http://www.skitoy.com/p/performance-of-python-php-and-perl/160">PHP/Perl/Python</a> performance code.
-</pre>
+This is all based on the <a href="http://www.skitoy.com/p/performance-of-python-php-and-perl/160">PHP/Perl/Python</a> performance code.

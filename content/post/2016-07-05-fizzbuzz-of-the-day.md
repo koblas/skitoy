@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 4963290442
 categories:
-  - General
+  - Development
+tags:
+  - fizzbuzz
 
 ---
 Like many pieces of code, there is always a story behind it.

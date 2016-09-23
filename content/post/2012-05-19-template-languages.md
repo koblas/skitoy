@@ -13,7 +13,9 @@ pvc_views:
 dsq_thread_id:
   - 696476516
 categories:
-  - General
+  - Development
+tags:
+  - html
 
 ---
 Somehow I keep on building websites, re-building or otherwise&#8230;  Sometimes I think it just practice &#8211; just like playing a piano &#8211; most of the time it doesn&#8217;t have any true purpose, but it allows me to try different techniques and approaches.  When I think of big systems, NoSQL datastores (for example) it&#8217;s really hard to just play, it takes weeks to build the base system&#8230;   Then if you want to rebuild the IO subsystem it&#8217;s pretty involved, though I&#8217;ve  been know to do this&#8230;

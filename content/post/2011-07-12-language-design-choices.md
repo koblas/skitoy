@@ -13,9 +13,11 @@ pvc_views:
 dsq_thread_id:
   - 356233888
 categories:
-  - General
+  - Develoment
 tags:
   - python
+  - java
+  - languages
   - ruby
 
 ---

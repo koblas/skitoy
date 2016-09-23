@@ -12,6 +12,6 @@ categories:
   - General
 
 ---
-Is your primary goal in life to watch your Facebook feed?&#xA0; Check the status messages and see if somebody decided that they wanted a little privacy and changed from "Single" => "None" &#8212; of course that shows up as "Your Friend is no longer Single".&#xA0; 
+Is your primary goal in life to watch your Facebook feed? Check the status messages and see if somebody decided that they wanted a little privacy and changed from "Single" => "None" --- of course that shows up as "Your Friend is no longer Single". 
 
-You&#8217;re a gossip monger, take two steps out of life and go read TMZ&#8230;&#xA0;&#xA0;&#xA0;
+You're a gossip monger, take two steps out of life and go read TMZ...

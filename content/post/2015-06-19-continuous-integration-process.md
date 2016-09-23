@@ -9,9 +9,8 @@ pvc_views:
 dsq_thread_id:
   - 3862351097
 categories:
-  - General
-tags:
   - Development
+tags:
   - project management
 
 ---

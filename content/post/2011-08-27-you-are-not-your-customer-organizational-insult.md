@@ -13,7 +13,7 @@ pvc_views:
 dsq_thread_id:
   - 397410301
 categories:
-  - General
+  - Work
 
 ---
 One of the motos that has gotten embedded in corporate culture is &#8220;You are not your customer&#8221; as an engineer I see this all the time.  A designer builds something, engineering looks at it and says &#8220;but&#8230;&#8221;.  A manager responds with the flip, &#8220;The designer is the professional, you&#8217;re not the customer&#8221;.

@@ -13,7 +13,7 @@ pvc_views:
 dsq_thread_id:
   - 871309321
 categories:
-  - General
+  - Thoughts
 
 ---
 Thinking about the Oakland A win last night got me thinking about MLB.  The A have had a great season ending, while the Giants have fumbled around at the end.  But, wait they had to suspend Melky for drug use&#8230;  Could their be a correlation?

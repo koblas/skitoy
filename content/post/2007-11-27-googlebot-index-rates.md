@@ -9,10 +9,11 @@ pvc_views:
 dsq_thread_id:
   - 193965837
 categories:
-  - General
+  - Work
 tags:
   - google
   - wink
+  - facebook
 
 ---
 Just to share with the world some of the pain we&#8217;re seeing.&nbsp; Here&#8217;s the current graph of the rate of pages crawled per day by GoogleBot.

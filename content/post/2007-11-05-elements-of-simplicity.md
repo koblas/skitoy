@@ -9,24 +9,24 @@ pvc_views:
 dsq_thread_id:
   - 3772416280
 categories:
-  - General
+  - Thoughts
 
 ---
-Just book marking [Elements of Simplicity][1] have to think about this for a few minutes..&#xA0; Funny how the trailing slide is a 2&#215;2 matrix turn 45&#8242; to make it a "diamond".
+Just book marking [Elements of Simplicity][1] have to think about this for a few minutes.. Funny how the trailing slide is a 2x2 matrix turn 45' to make it a "diamond".
 
 The Grid is:
 
-> Cost &#8211; [lower &#8230; higher]
+> Cost --- [lower ... higher]
 > 
-> Benefit [ lower &#8230; higher]
+> Benefit --- [ lower ... higher]
 
 Giving these key points:
 
-* 0,0 &#8211; frustration (low benefit, high cost)
-* 0,1 &#8211; contentment (high benefit, high cost)
-* 1,0 &#8211; concession (low cost, low benefit)
-* 1,1 &#8211; delight (low cost, high benefit)
-* 0.5, 0.5 &#8211; satisfaction
+* 0,0 --- frustration (low benefit, high cost)
+* 0,1 --- contentment (high benefit, high cost)
+* 1,0 --- concession (low cost, low benefit)
+* 1,1 --- delight (low cost, high benefit)
+* 0.5, 0.5 --- satisfaction
 
 Of course there were 6 elements:
 

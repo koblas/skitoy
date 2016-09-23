@@ -7,7 +7,9 @@ url: /p/from-angular-to-react/628
 pvc_views:
   - 98
 categories:
-  - General
+  - Development
+tags:
+  - react
 
 ---
 If you ever looked at my github &#8211; public or private you can see that I have settled on a personal template for Angular applications. While I&#8217;m sure that there are things that are against some blog post of conventions, it works and gets lots of jobs done. After digging into the performance of our SPA at Tubular I found that we were spending 1.5 seconds rendering the results of an XHR (Ajax) requests to fetch some data.

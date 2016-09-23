@@ -13,7 +13,10 @@ pvc_views:
 dsq_thread_id:
   - 731802869
 categories:
-  - General
+  - Development
+tags:
+  - javascript
+  - backbone
 
 ---
 One of the big challenges is getting backbonejs and requirejs working together without jumping through lots of hoops.  After reading quite a few blog posts, stackoverflow answers I finally came up with a simple canonical solution to the problem.

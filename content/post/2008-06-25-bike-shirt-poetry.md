@@ -9,18 +9,23 @@ pvc_views:
 dsq_thread_id:
   - 160531917
 categories:
-  - humor
+  - Thoughts
 tags:
+  - quotes
   - bicycle poetry
 
 ---
-I bike&#8230; I bike more than average&#8230;&nbsp; While a [Poseur Jersey][1] would be fun, I was thinking on my ride to work today that a shirt/jersey that said (primarily on my ride to work):
+I bike&#8230; I bike more than average... While a [Poseur Jersey][1] would be fun, I was thinking on my ride to work today that a shirt/jersey that said (primarily on my ride to work):
 
-&nbsp;&nbsp;&nbsp;&nbsp; The more I bike  
-&nbsp;&nbsp;&nbsp;&nbsp; The less gas I use  
-&nbsp;&nbsp;&nbsp;&nbsp; The more there is  
-&nbsp;&nbsp;&nbsp;&nbsp; The cheaper it is  
-&nbsp;&nbsp;&nbsp;&nbsp; The happier you are
+> The more I bike
+>
+> The less gas I use
+>
+> The more there is
+>
+> The cheaper it is
+>
+> The happier you are
 
 Maybe then a few cars would be a bit more considerate.
 

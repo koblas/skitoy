@@ -13,7 +13,7 @@ pvc_views:
 dsq_thread_id:
   - 361454521
 categories:
-  - General
+  - Work
 
 ---
 We were working on some customer issues the other day and it another customer was having problems, you know double whammy.  What was interesting is that a more senior person started talking about the customer about &#8220;they&#8217;re such a problem&#8221; and then talking about strange things they did in the past.  As we dug into their problem, yes they were using an API in a very strange way (20 seconds of runtime to yield 6 results), but what was more interesting is that the more junior people started talking about how this customer was bad/wrong &#8211; taking on the way leadership has framed them.

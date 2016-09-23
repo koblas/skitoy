@@ -13,7 +13,9 @@ pvc_views:
 dsq_thread_id:
   - 624980731
 categories:
-  - General
+  - Cranky
+tags:
+  - wallmark
 
 ---
 Two instances of things got to me last week, in two different venues.
@@ -27,8 +29,8 @@ I could have titled this post **Boutique or Bulk**.
   * As a consumer I want the highest quality experience.
   * As a capitalistic society we focus on price.
 
-As a marketplace we&#8217;re amazed at what happens when quality comes first
+As a marketplace we're amazed at what happens when quality comes first
 
-  * Disney &#8211; http://bit.ly/GV5Ppa
-  * Apple &#8211; the iPhone (nuf said)
-  * Ritz-Carlton &#8211; http://bit.ly/GV5LWn
+  * Disney ---  http://bit.ly/GV5Ppa
+  * Apple ---  the iPhone (nuf said)
+  * Ritz-Carlton ---  http://bit.ly/GV5LWn

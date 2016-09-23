@@ -13,7 +13,7 @@ aktt_tweeted:
 dsq_thread_id:
   - 468562558
 categories:
-  - General
+  - Development
 tags:
   - python
   - smtp

@@ -13,7 +13,9 @@ pvc_views:
 dsq_thread_id:
   - 406508876
 categories:
-  - General
+  - Development
+tags:
+  - data
 
 ---
 Recently read this great little article about doing [map reduce over music][1].  What was interesting is that the author put up a test dataset for people to use, but of course had to caveat it with &#8220;don&#8217;t abuse&#8221;.   What&#8217;s interesting is that there is a host of interesting datasets out there:

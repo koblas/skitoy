@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 810711085
 categories:
-  - General
+  - Work
+tags:
+  - yahoo
 
 ---
 When I started working at Yahoo! in a reactionary bit of vision &#8212; not really that bad of a vision &#8212; was to re-skin Yahoo Mail.&#xA0; As we all know, information leaks at big companies.&#xA0; So when we had a fairly clear idea of when Google was going to announce Gmail we of course had to align our release in the general timeframe to insure that Yahoo! got coverage along with Google..

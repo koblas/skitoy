@@ -1,5 +1,5 @@
 ---
-title: decisions…
+title: Decisions…
 author: site admin
 layout: post
 date: 2007-05-09T16:01:55+00:00
@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 3772394553
 categories:
-  - Contributors
+  - Thoughts
 
 ---
-have faith in your own decision making &#8211; you can&#8217;t make the right decision 100% of the time, but your goal is to make the right decision over 50% of the time.
+have faith in your own decision making --- you can't make the right decision 100% of the time, but your goal is to make the right decision over 50% of the time.

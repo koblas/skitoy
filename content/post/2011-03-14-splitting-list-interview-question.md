@@ -13,8 +13,9 @@ aktt_tweeted:
 dsq_thread_id:
   - 253905483
 categories:
-  - General
+  - Development
 tags:
+  - interview
   - python
 
 ---

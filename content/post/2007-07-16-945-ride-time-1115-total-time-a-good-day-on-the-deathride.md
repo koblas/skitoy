@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 3772394762
 categories:
-  - Contributors
+  - Fitness
+tags:
+  - deathride
 
 ---
 9:45 ride time, 11:15 total time&#8230; a good day on the deathride.

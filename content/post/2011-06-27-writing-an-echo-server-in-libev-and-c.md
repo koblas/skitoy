@@ -13,9 +13,11 @@ aktt_tweeted:
 dsq_thread_id:
   - 343898152
 categories:
-  - General
+  - Development
 tags:
   - libev
+  - c++
+  - echo
   - programming
 
 ---

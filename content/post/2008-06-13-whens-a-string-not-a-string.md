@@ -7,7 +7,10 @@ url: /p/whens-a-string-not-a-string/162
 pvc_views:
   - 2470
 categories:
-  - General
+  - Development
+tags:
+  - python
+  - orm
 
 ---
 <p dir="ltr" style="margin-right: 0px">

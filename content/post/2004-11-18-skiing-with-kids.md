@@ -1,5 +1,5 @@
 ---
-title: SkiingWithKids
+title: Skiing With Kids
 author: koblas
 layout: post
 date: 2004-11-19T03:25:33+00:00
@@ -9,7 +9,11 @@ pvc_views:
 dsq_thread_id:
   - 872986670
 categories:
-  - Wiki Content
+  - Draft
+tags:
+  - skiing
 
 ---
-details here. Introduction &#8211; PMTS http://www.pmts.org simple fitness program &#8211; http://www.pmts.org/ind_fit.htm
+*This appears to be a blog post that was never witten*
+
+details here. Introduction ...  PMTS http://www.pmts.org simple fitness program &#8211; http://www.pmts.org/ind_fit.htm

@@ -13,7 +13,7 @@ pvc_views:
 dsq_thread_id:
   - 912343074
 categories:
-  - General
+  - Thoughts
 
 ---
 Was reminded this morning.

@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 789920059
 categories:
-  - General
+  - Thoughts
+tags:
+  - quotes
 
 ---
 Once again an article pointing out that creativity is not about monetary reward, but about passion.

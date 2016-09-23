@@ -9,15 +9,21 @@ pvc_views:
 dsq_thread_id:
   - 185831824
 categories:
-  - General
+  - Thoughts
+tags:
+  - quotes
 
 ---
 Saw this in a set of comments on hacker news&#8230;&nbsp; totally rocking quote!
 
-> Showed the whale,  
-> Jumped the shark,  
-> Epic fail,  
-> Nothing but carp.  
-> Its all fish to me. 🙂
+> Showed the whale,
+>
+> Jumped the shark,
+>
+> Epic fail,
+>
+> Nothing but carp.
+>
+> Its all fish to me.
 
-Now to get it all on a threadless shirt with some Web 2.0 graphics 😉&nbsp; Maybe the twitter logo to bring it all home.
+Now to get it all on a threadless shirt with some Web 2.0 graphics. Maybe the twitter logo to bring it all home.

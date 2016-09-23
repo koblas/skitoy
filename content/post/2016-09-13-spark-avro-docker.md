@@ -8,7 +8,10 @@ pvc_views:
   - 46
 categories:
   - Development
-  - Spark
+tags:
+  - spark
+  - avro
+  - docker
 
 ---
 These are really cliff notes for the next person, but quite useful.

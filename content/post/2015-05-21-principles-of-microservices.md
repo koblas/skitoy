@@ -9,9 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 3783572513
 categories:
-  - General
+  - Development
 tags:
-  - Software
+  - architecture
 
 ---
 Some principles that should be followed when designing micro services.

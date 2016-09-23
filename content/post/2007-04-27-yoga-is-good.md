@@ -9,11 +9,11 @@ pvc_views:
 dsq_thread_id:
   - 1420760906
 categories:
-  - Contributors
+  - Thoughts
 
 ---
 stress in the morning
-  
+
 yoga
-  
+
 much better now

@@ -7,7 +7,10 @@ url: /p/api-design/622
 pvc_views:
   - 176
 categories:
-  - General
+  - Development
+tags:
+  - http
+  - api
 
 ---
 In designing an API it&#8217;s a challenge to understand when to use HTTP error responses and HTTP OK (200) responses. As with many organizations it&#8217;s something that can be subject to lots of passionate debate. Let&#8217;s look at a bunch of different scenarios.

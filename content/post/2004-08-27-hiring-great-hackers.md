@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 201597348
 categories:
-  - General
+  - Work
+tags:
+  - hiring
 
 ---
 

@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 3772393855
 categories:
-  - Contributors
+  - Thoughts
 
 ---
 the elite move on and eventually the masses follow

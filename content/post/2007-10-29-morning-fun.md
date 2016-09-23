@@ -10,13 +10,16 @@ dsq_thread_id:
   - 160531844
 categories:
   - General
+tags:
+  - fitness
+  - skiing
 
 ---
-Things I&#8217;ve been thinking about this morning&#8230;
+Things I've been thinking about this morning...
 
 * Fitness 
   * PowerTap cranks 
   * Stationary trainers 
 * Ski Instruction 
   * What does it take to be L1 certified ? 
-  * When can I go up for instructor training &#8230; last three days of November?
+  * When can I go up for instructor training --- last three days of November?

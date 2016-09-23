@@ -9,14 +9,14 @@ pvc_views:
 dsq_thread_id:
   - 166571021
 categories:
-  - General
+  - Development
 tags:
   - cms
   - xside
 
 ---
-Hmm&#8230;.&nbsp; Maybe I should just clone [RadianCMS][1]&#8230;&nbsp; It&#8217;s not the best idea, but it&#8217;s probably a good start.
+Hmm.... Maybe I should just clone [RadianCMS][1]... It's not the best idea, but it's probably a good start.
 
-I&#8217;ve already cloned a wiki, just need the CMS bits&#8230;
+I've already cloned a wiki, just need the CMS bits...
 
  [1]: http://radiantcms.org/

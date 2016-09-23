@@ -13,7 +13,7 @@ pvc_views:
 dsq_thread_id:
   - 285193832
 categories:
-  - General
+  - Thoughts
 tags:
   - acm
   - education

@@ -9,9 +9,12 @@ pvc_views:
 dsq_thread_id:
   - 2441074969
 categories:
-  - General
+  - Thoughts
+tags:
+  - quotes
 
 ---
-The world expects too much in one year and not enough in ten.
 
 Who said this?
+
+> The world expects too much in one year and not enough in ten.

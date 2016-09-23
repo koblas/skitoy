@@ -9,13 +9,15 @@ pvc_views:
 dsq_thread_id:
   - 260358420
 categories:
-  - General
+  - Development
+tags:
+  - python
 
 ---
-Ok, I&#8217;m not a python programmer&#8230;
+Ok, I'm not a python programmer...
 
 [Becoming a better programmer][1]
 
-but it&#8217;s worth pondering the points even if they&#8217;re a little python biased.
+but it's worth pondering the points even if they're a little python biased.
 
  [1]: http://antipattern.wordpress.com/2007/10/12/three-steps-to-becoming-a-better-programmer/

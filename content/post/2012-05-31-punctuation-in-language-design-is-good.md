@@ -13,7 +13,10 @@ pvc_views:
 dsq_thread_id:
   - 709998323
 categories:
-  - General
+  - Development
+tags:
+  - languages
+  - coffescript
 
 ---
 It&#8217;s all about CoffeeScript (and quietly about Ruby).

@@ -13,7 +13,9 @@ pvc_views:
 dsq_thread_id:
   - 341319516
 categories:
-  - General
+  - Work
+tags:
+  - scrum
 
 ---
 Waterfall bad, right?  Well, to an extent it is &#8212; the good part about waterfall is that you start with a objective and build a team around an objective.  The challenge is that the interm points and progress measurements get caught up in gantt charts, absolute assignments, critical paths, etc.etc.  Of course waterfall is all about time and deadlines, so when things fall behind it&#8217;s all about finger pointing and fall guys.

@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 186361180
 categories:
-  - General
+  - Development
+tags:
+  - draft
 
 ---
 I&#8217;m not really going to rant against relational databases, but this is more thinking about why technologies like CouchDB and SimpleDB are useful.

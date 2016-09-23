@@ -13,7 +13,7 @@ pvc_views:
 dsq_thread_id:
   - 258767671
 categories:
-  - General
+  - Thoughts
 
 ---
 Modern technology is great&#8230;  Except that more and more things are connected to the network with auto update.

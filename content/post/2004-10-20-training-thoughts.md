@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 216913739
 categories:
-  - General
+  - Fitness
 
 ---
 Training, now this is a whole long subject unto itself&#8230; The simple key points for adventure racing or anything comes down to three points:

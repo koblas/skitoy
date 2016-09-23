@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 188955853
 categories:
-  - General
+  - Fitness
+tags:
+  - skiing
 
 ---
 A few years ago I spent a winter taking EMT classes to become an EMT&#8230;&nbsp; One idea at the time was to hang out being ski patrol, but the hours that ski patrol works is not &#8220;family friendly&#8221;.&nbsp; Getting out to the mountain way early to help setup and then late to help take down, it might have been fun, but not something that fits life at the moment.

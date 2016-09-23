@@ -9,7 +9,10 @@ pvc_views:
 dsq_thread_id:
   - 211124003
 categories:
-  - General
+  - Development
+tags:
+  - python
+  - performance
 
 ---
 Way to carried away with this&#8230; here&#8217;s the SpiderMonkey version (as opposed to the rhino) one. Biggest complaint is the File object is a bit of a pain to use&#8230;

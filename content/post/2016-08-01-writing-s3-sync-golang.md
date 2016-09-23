@@ -8,7 +8,9 @@ pvc_views:
   - 259
 categories:
   - Development
-  - GoLang
+tags:
+  - golang
+  - S3
 
 ---
 One of the great challenges in software engineering is that you don&#8217;t know what the problem is until you&#8217;ve worked through it one. Sometimes this is the idea that you need to top down design a program which is a great start, but what&#8217;s interesting is when it comes to the language itself and what it makes easy and hard.

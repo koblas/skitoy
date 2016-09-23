@@ -9,13 +9,13 @@ pvc_views:
 dsq_thread_id:
   - 3772386581
 categories:
-  - General
+  - Thoughts
 
 ---
-Top five ways you know you&#8217;re getting older:
+Top five ways you know you're getting older:
 
 * Only _large_ mammals live longer than you
 * Your taking a collage class and some people are half your age
 * You could have arrived at 12 Ophiuchi at the traveling at the speed of light
 * You can reminisce about the game Pong
-* You read a post that says &#8220;8th grade starts today&#8221; and you just can&#8217;t relate
+* You read a post that says "8th grade starts today" and you just can't relate

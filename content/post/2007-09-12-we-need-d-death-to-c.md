@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 160530532
 categories:
-  - General
+  - Development
+tags:
+  - languages
 
 ---
 [Friend posted][1] a comment on a [rant by linus][2]

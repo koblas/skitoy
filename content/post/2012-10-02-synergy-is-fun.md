@@ -13,7 +13,7 @@ pvc_views:
 dsq_thread_id:
   - 868492145
 categories:
-  - General
+  - Ideas
 
 ---
 One could say I&#8217;ve got too many projects with too much free time, but another way to look at things is that constant exploration can put a smile on your face.  I&#8217;ve been working on a few projects:

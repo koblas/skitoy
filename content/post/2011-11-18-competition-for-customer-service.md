@@ -13,7 +13,7 @@ pvc_views:
 dsq_thread_id:
   - 476702546
 categories:
-  - General
+  - Thoughts
 
 ---
 Sitting on hold with AT&T and what I&#8217;ve really noticed is besides being on the phone with them for an hour is how customer service is handled.  They&#8217;ve done everything &#8220;right&#8221; however what&#8217;s interesting is to think about how the dialog has gone as it compares to all of my training via Vail/Northstar Ski School.

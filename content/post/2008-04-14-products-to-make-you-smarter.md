@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 195168375
 categories:
-  - General
+  - Thoughts
 
 ---
 I&#8217;m getting really frustrated at looking at site after site after site that really doesn&#8217;t solve your problem.&nbsp; I want products that make me smarter or reduce the amount of work I have to do!

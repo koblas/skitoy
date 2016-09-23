@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 160531883
 categories:
-  - General
+  - Development
+tags:
+  - python
 
 ---
 I admit it, I&#8217;ve been working on my middleware python server.&nbsp;&nbsp; Here&#8217;s the basic design of the app at this point:

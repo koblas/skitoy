@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 177636127
 categories:
-  - General
+  - Fitness
 
 ---
 Life is hard, don&#8217;t use your kids as an excuse.

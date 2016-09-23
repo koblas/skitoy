@@ -11,9 +11,9 @@ pvc_views:
 dsq_thread_id:
   - 160531952
 categories:
-  - General
+  - Development
 tags:
-  - authenticaiton
+  - authentication
   - DNS
   - OpenID
 

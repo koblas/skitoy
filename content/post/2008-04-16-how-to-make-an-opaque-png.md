@@ -9,9 +9,10 @@ pvc_views:
 dsq_thread_id:
   - 160531881
 categories:
-  - General
+  - Development
 tags:
   - notes
+  - images
 
 ---
 Needed an alpha channel PNG, didn&#8217;t want to fire up any real editor.

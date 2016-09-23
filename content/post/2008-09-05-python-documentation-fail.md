@@ -11,9 +11,10 @@ pvc_views:
 dsq_thread_id:
   - 160531930
 categories:
-  - General
+  - Development
 tags:
   - python
+  - rant
 
 ---
 One of many rants against python documentation.  Fundamentally, things like this only re-enforce why it didn&#8217;t receive the rapid acceptance of PHP.

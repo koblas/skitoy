@@ -9,9 +9,8 @@ pvc_views:
 dsq_thread_id:
   - 221930570
 categories:
-  - ideas
+  - Ideas
 tags:
-  - ideas
   - mtv
   - music
 

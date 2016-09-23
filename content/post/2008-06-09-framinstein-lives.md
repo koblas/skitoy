@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 160531898
 categories:
-  - General
+  - Ideas
 
 ---
 Not quite interactive, but half of what I want in a digital picture frame is now available&#8230;

@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 244847934
 categories:
-  - General
+  - Ideas
 
 ---
 Just one of those moments&#8230; I&#8217;ve got a domain name that I need to figure out what to build on&#8230;&nbsp; [ICBM.NET][1] ideas so far:

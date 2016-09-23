@@ -9,7 +9,9 @@ aktt_tweeted:
 pvc_views:
   - 2560
 categories:
-  - General
+  - Work
+tags:
+  - performance reviews
 
 ---
 RThe WSJ just did an article about the pointlessness of [performance reviews][1] it&#8217;s interesting to see that the posting I wronge a long time ago about [Performance Reviews.][2] Shared many of the same points:

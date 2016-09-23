@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 249140754
 categories:
-  - General
+  - Fitness
+tags:
+  - running
 
 ---
 Can&#8217;t be just the high price of gas!&nbsp; It&#8217;s Wednesday and there very little traffic and a pleasant 70 degress outside!&nbsp; Track was a blast yesterday and not only did I run well (quite a few 75second 400&#8217;s) but I&#8217;m not sore today and &#8230;

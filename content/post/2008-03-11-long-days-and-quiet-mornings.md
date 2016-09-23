@@ -7,7 +7,7 @@ url: /p/long-days-and-quiet-mornings/136
 pvc_views:
   - 1661
 categories:
-  - General
+  - Thoughts
 
 ---
 Really just a blog post to test my RSS feed&#8230; but it&#8217;s a simple thought.

@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 163814042
 categories:
-  - General
+  - Development
+tags:
+  - python
 
 ---
 [originally posted to comp.lang.python &#8212; but worth repeating]

@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 163814913
 categories:
-  - General
+  - Development
+tags:
+  - greylist
 
 ---
 I think I&#8217;ve now spent more time in my life than I ever want to think about fighting spam&#8230;&nbsp; I guess that has to do with spending the 20 years having some involvement in SMTP mail systems.&nbsp; Of course the stint writing the core infrastructure for MailFrontier&#8217;s anti-spam engine didn&#8217;t hurt my knowledge base.

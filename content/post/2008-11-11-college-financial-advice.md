@@ -9,7 +9,7 @@ aktt_tweeted:
 pvc_views:
   - 2526
 categories:
-  - General
+  - Thoughts
 tags:
   - college
   - finance

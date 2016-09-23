@@ -7,7 +7,7 @@ url: /p/microsoft-research-road-show/151
 pvc_views:
   - 1696
 categories:
-  - General
+  - Ideas
 
 ---
 I like research!&nbsp; Reminds me of my days at NASA&#8230;&nbsp; Ok, it doesn&#8217;t help that I keep on seeing project that are planetary exploration (Google Earth, WorldWideTelescope) and have flashbacks to LOD determination and hierarchical rendering.&nbsp;&nbsp; Plus, today&#8217;s computers can run circles around the Stellar computers of the time.

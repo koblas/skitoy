@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 1425256829
 categories:
-  - General
+  - Thoughts
 
 ---
 Found this on a old blog that I&#8217;m decommissioning &#8212; insight from an old WSJ article.

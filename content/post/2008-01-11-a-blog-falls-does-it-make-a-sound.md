@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 160531865
 categories:
-  - General
+  - Thoughts
 
 ---
 Pondering&#8230;

@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 202258406
 categories:
-  - General
+  - Skiing
 
 ---
 Skiing and Surfing are probably some of the only sports that look forward to extreme weather&#8230;

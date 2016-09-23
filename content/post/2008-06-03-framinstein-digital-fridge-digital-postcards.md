@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 249137886
 categories:
-  - General
+  - Ideas
 
 ---
 Photo frame, or world interface.&nbsp; Caught this article about a [Digital picture frame doubles as a secondary display][1] and got to thinking about an old project.

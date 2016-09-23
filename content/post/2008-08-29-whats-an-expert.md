@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 186317760
 categories:
-  - General
+  - Fitness
 tags:
   - expert
   - skiing

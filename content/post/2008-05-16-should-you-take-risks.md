@@ -7,7 +7,9 @@ url: /p/should-you-take-risks/149
 pvc_views:
   - 1721
 categories:
-  - General
+  - Thoughts
+tags:
+  - quotes
 
 ---
 It&#8217;s an old reminder&#8230;&nbsp; said many ways:

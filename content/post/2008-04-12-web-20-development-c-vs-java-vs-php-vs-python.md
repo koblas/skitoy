@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 160530545
 categories:
-  - General
+  - Development
+tags:
+  - comparison
 
 ---
 Ok, it the last month I&#8217;ve used every one of these languages and most of them for the same project.&nbsp; Some highlights:

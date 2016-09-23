@@ -9,7 +9,12 @@ pvc_views:
 dsq_thread_id:
   - 160531921
 categories:
-  - General
+  - Development
+tags:
+  - performance
+  - python
+  - java
+  - ruby
 
 ---
 Not sure why I&#8217;m spending the time on this problem, but it looked interesting.  For starters read a [Hacker&#8217;s News][1] article that mentioned Python vs. Ruby performance, which in turned liked to a [polish blog post][2].

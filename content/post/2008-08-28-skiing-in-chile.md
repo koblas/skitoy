@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 249141145
 categories:
-  - General
+  - Skiing
+tags:
+  - portillo
 
 ---
 Ok, spent a week in Chile skiing at Portillo &#8212; totally cool!&nbsp; But, like anything I&#8217;m both totally psyched and totally frustrated&#8230;&nbsp; Here&#8217;s some video from the last day&#8230;&nbsp; My left hand turns suck (ok, it&#8217;s relative&#8230;) 

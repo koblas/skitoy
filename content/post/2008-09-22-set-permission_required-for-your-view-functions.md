@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 194445046
 categories:
-  - General
+  - Development
 tags:
   - django
   - python

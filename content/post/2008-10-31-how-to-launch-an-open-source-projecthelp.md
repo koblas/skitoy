@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 202175088
 categories:
-  - General
+  - Thoughts
 
 ---
 We all can cite many open source and even some &#8220;closed&#8221; source projects that we use and interact with daily.  How did they start?  Most of them started out of the passions of a single individual, but how did that spread?  How did people find out about the projects, how did others start building on these projects?

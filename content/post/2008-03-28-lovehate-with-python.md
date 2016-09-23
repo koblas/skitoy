@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 183898167
 categories:
-  - General
+  - Development
+tags:
+  - rant
 
 ---
 **Hate &#8212;** some of the modules, gadzooks people get a clue:

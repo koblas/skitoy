@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 160531890
 categories:
-  - General
+  - Work
+tags:
+  - rant
 
 ---
 Over on Dzone this article [Font-end vs. back-end developers][1] caught my attention.&nbsp; Alas, I feel compelled to write a longer rant.&nbsp; First off let&#8217;s touch on Mads points, but let me point out a bias first.

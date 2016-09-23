@@ -11,7 +11,9 @@ pvc_views:
 dsq_thread_id:
   - 184527232
 categories:
-  - General
+  - Work
+tags:
+  - gentoo
 
 ---
 I got a new laptop.. Yeah!

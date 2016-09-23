@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 160530560
 categories:
-  - General
+  - Cranky
 
 ---
 Long story made short, was curious about the open source Digg clone&#8230; Downloaded Plugg.

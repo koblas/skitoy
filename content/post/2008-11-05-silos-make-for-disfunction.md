@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 230725680
 categories:
-  - General
+  - Work
 tags:
   - agile
   - project management

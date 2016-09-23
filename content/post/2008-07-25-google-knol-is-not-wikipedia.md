@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 168626066
 categories:
-  - General
+  - Ideas
 
 ---
 After giving a few days for the hype to cool down &#8212; not the hype around Dark Knight &#8212; but around [Google Knol][1].&nbsp; I think I understand the business and the opportunity and the shortcomings.

@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 249143626
 categories:
-  - General
+  - Skiing
+tags:
+  - rant
 
 ---
 It&#8217;s really hard to find ski gear in the middle of summer&#8230;

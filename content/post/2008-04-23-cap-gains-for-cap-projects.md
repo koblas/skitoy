@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 195169022
 categories:
-  - General
+  - Fitness
 
 ---
 Had an interesting conversation the other day with another rider while heading up to the top of Page Mill &#8212; of course the whole point was to pass the time while riding the last mile and a half.&nbsp; The basic premise of the conversation went something like this:

@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 166521816
 categories:
-  - General
+  - Ideas
 
 ---
 I admit it, I&#8217;m a software engineer.&nbsp; I do have occasional aspirations to be other things, graphic designer, product manager, or yesterday hardware engineer.&nbsp; In the course of the day had to different but slightly similar hardware product ideas:

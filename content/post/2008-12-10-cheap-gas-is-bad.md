@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 533512537
 categories:
-  - General
+  - Thoughts
 
 ---
 Was chatting with the not very chatty taxi driver the other day and he was complaining about how traffic was much worse than it used to be. He had noticed that when gas was expensive people didn&#8217;t drive as much &#8212; Like duh!

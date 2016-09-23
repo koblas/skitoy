@@ -9,7 +9,9 @@ pvc_views:
 dsq_thread_id:
   - 501414702
 categories:
-  - General
+  - Development
+tags:
+  - nlp
 
 ---
 The good part about writing everything in a simple language, it that it makes iterative programming easy&#8230;&nbsp; Time to fix and other such fun issues would be a pain in the but if I was doing all of my Clustering 101 development work in C++, though it might reduce the run time down.

@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 192025779
 categories:
-  - General
+  - Development
 
 ---
 Just to etch some thoughts into the ether&#8230; 

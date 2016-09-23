@@ -9,7 +9,7 @@ pvc_views:
 dsq_thread_id:
   - 249138784
 categories:
-  - General
+  - Thoughts
 
 ---
 I recently got yet another notification that somebody was following a feed of mine&#8230; every now and then you go, who is this person, why are they interested in my stream of ramblings.&nbsp;&nbsp; So, I looked and found this wonderful statement on their linked in page:

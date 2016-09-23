@@ -13,7 +13,7 @@ pvc_views:
 dsq_thread_id:
   - 356233888
 categories:
-  - Develoment
+  - Development
 tags:
   - python
   - java

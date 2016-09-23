@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 161231205
 categories:
-  - General
+  - Thoughts
 
 ---
 If you&#8217;ve hung around me long enough you&#8217;ve probably heard me say, grow the pie&#8230;  Of course probably you&#8217;ve wondered what in the world I&#8217;m talking about.  The basic premise is that if you have a business don&#8217;t keep on slicing the market smaller and smaller.  The real goal of a business is to grow the marketplace.

@@ -11,11 +11,11 @@ pvc_views:
 dsq_thread_id:
   - 293256368
 categories:
-  - General
+  - Thoughts
 
 ---
-Random thought&#8230; Silicon Valley had a downturn in 1987, 2001 and 2009. 
+Random thought --- Silicon Valley had a downturn in 1987, 2001 and 2009. 
 
-This yeilds a 14, 8 year cycle. Pretty close to Moore&#8217;s law (the rate of downturn increases every ten years).
+This yeilds a 14, 8 year cycle. Pretty close to Moore's law (the rate of downturn increases every ten years).
 
-I know, it stupid&#8230; told you it was random.
+I know, it stupid... told you it was random.

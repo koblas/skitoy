@@ -13,7 +13,7 @@ aktt_notify_twitter:
 dsq_thread_id:
   - 160932671
 categories:
-  - General
+  - Development
 tags:
   - amqp
   - python

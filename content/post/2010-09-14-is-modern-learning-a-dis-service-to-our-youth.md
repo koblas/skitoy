@@ -12,6 +12,8 @@ dsq_thread_id:
   - 160532048
 categories:
   - General
+tags:
+  - skiing
 
 ---
 Quick background &#8212; one of my day jobs is being a ski instructor in the winter and in the process of getting my certifications have learned a bit about the teaching model and ways people learn.  Thus ended up having this interesting realization the other day while chatting with my brother.

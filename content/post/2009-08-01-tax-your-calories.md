@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 888078604
 categories:
-  - General
+  - Ideas
 tags:
   - healthcare
   - tax

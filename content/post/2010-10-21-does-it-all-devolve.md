@@ -11,7 +11,10 @@ pvc_views:
 dsq_thread_id:
   - 160530640
 categories:
-  - General
+  - Work
+tags:
+  - project
+
 
 ---
 Had coffee with a friend recently and we drifted past the conversation of system designs. The crux is that we&#8217;ve both worked in organizations that are very bound to very large code bases&#8230; But, in many cases &#8212; products that have 100M+ users &#8212; they are monolithic piles of dung. Compile times that are non trivial, codebases that take minutes to startup, huge memory footprints. Systems that only survive because the DB is just a margin bigger than their usage.

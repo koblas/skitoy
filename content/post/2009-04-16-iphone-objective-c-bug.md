@@ -11,7 +11,9 @@ pvc_views:
 dsq_thread_id:
   - 160531979
 categories:
-  - General
+  - Development
+tags:
+  - xcode
 
 ---
 Funny bug from XCode and objective-c &#8230;

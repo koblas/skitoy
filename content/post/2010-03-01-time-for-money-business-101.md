@@ -11,7 +11,9 @@ pvc_views:
 dsq_thread_id:
   - 446215347
 categories:
-  - General
+  - Work
+tags:
+  - consulting
 
 ---
 I just read a post talking about the &#8220;[Does your startup pass The Sleep Test][1]&#8220;, in principal the idea is sound it&#8217;s a little simplistic.

@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 160531966
 categories:
-  - General
+  - Ideas
 
 ---
 Very short story&#8230; Working on building a website that is designed to assist students with studying for classes or subjects. Hence the idea for [ZapQuiz][1].

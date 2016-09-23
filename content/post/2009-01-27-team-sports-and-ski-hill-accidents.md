@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 239824994
 categories:
-  - General
+  - Skiing
 tags:
   - accidents
   - risk

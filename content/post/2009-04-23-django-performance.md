@@ -11,7 +11,9 @@ pvc_views:
 dsq_thread_id:
   - 166941338
 categories:
-  - General
+  - Development
+tags:
+  - django
 
 ---
 I&#8217;ve been working on [I&#8217;ve been working on][1] and still having the love hate with python and django.  Areas that I would like see improved:

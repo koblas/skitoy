@@ -10,7 +10,7 @@ pvc_views:
   - 4315
 dsq_thread_id:
   - 160532031
-categories:
+Thoughts:
   - General
 
 ---

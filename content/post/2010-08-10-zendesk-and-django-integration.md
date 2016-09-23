@@ -11,7 +11,10 @@ aktt_tweeted:
 dsq_thread_id:
   - 169673377
 categories:
-  - General
+  - Development
+tags:
+  - python
+  - zendesk
 
 ---
 Part of this post is the gratuitous, gosh that was easy to integrate!  Of course part is a small point that I would like developers to think about.

@@ -11,9 +11,13 @@ pvc_views:
 dsq_thread_id:
   - 160531997
 categories:
-  - General
+  - Development
 tags:
-  - java python php ruby
+  - performance
+  - java 
+  - python 
+  - php 
+  - ruby
 
 ---
 One of those moments where an interview question turns into a research project, or is it really a bake off?  The simple problem is demonstrate an algorithm to intersect two lists of numbers, fundamentally it&#8217;s a question about using modern interpreted languages and their associative array bits to make a simple intersection routine.  However many languages support many different ways to do things.  I&#8217;ve put together a test of Python vs. Java vs. Ruby vs. Perl vs. PHP and got a few interesting benchmarks.

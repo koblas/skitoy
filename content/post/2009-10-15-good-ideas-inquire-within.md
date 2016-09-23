@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 160532035
 categories:
-  - General
+  - Ideas
 
 ---
 I&#8217;ve had lots of idea of things to build, as somebody once said ideas are a dime a dozen, it&#8217;s doing it that&#8217;s the hard work.  Between talking to companies over the years, or just random things I&#8217;ve stumbled across there has to be a good idea to put more energy into.

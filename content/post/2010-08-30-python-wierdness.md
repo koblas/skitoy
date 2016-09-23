@@ -11,7 +11,7 @@ aktt_tweeted:
 dsq_thread_id:
   - 160532044
 categories:
-  - General
+  - Development
 tags:
   - python
 

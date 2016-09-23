@@ -11,7 +11,10 @@ pvc_views:
 dsq_thread_id:
   - 161231241
 categories:
-  - General
+  - Development
+tags:
+  - greplin
+  - python
 
 ---
 Just finished the &#8220;greplin challenge&#8221; ( http://challenge.greplin.com/ ).  Sure it was a good distraction, but it has gotten me thinking about idea #79 for a weekend project.  Build a system that hosts Programming Challenge questions for companies, has a basic interface for validation of inputs/outputs and submits results.

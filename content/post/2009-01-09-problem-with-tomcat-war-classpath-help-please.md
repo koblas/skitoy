@@ -11,13 +11,13 @@ pvc_views:
 dsq_thread_id:
   - 160531964
 categories:
-  - General
+  - Development
 tags:
   - java
   - tomcat
 
 ---
-I&#8217;ve got a very simple problem&#8230; I&#8217;m trying to get a WAR file running under tomcat that references an external JAR file.
+I've got a very simple problem... I'm trying to get a WAR file running under tomcat that references an external JAR file.
 
 I thought it would be as simple as having a manifest file with a class-path. That doesn&#8217;t work, clearly I either need to set a web.xml context-param or enable tomcat to look at the manifest for the class path.
 

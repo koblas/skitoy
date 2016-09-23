@@ -11,10 +11,10 @@ pvc_views:
 dsq_thread_id:
   - 161231176
 categories:
-  - General
+  - Development
 tags:
   - nlp
-  - Twitter
+  - twitter
 
 ---
 Continue to poke away at looking at twitter data and what it means.  One of the things I think about, because everybody else is doing it, is the idea of sentiment analysis.

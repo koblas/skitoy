@@ -11,7 +11,9 @@ pvc_views:
 dsq_thread_id:
   - 161231162
 categories:
-  - General
+  - Development
+tags:
+  - python
 
 ---
 Code review time&#8230; In a conversation about URL shorteners and &#8220;Coke Rewards&#8221; realized that there was a case where I needed to be able to generate safe character strings that had high reliability for input back by human beings. The typical Base62 systems where there is ambiguity between (O, o and 0) make things hard (along with all of those upper vs. lower case cases).

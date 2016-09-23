@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 423305730
 categories:
-  - General
+  - Development
 tags:
   - authentication
   - facebook connect
@@ -34,7 +34,7 @@ Fundamentally username+password and email+password are just variants of themse
 
 The new kid on the block is the Facebook Connent, Google Connect, OAuth/OpenID systems.  The happy part is that as sites start implementing these systems we can stop having to type our passwords into site after site after site &#8212; do you really make unique passwords?!?.   The challenge is that as a service you still want to have connection with your user.  Things I&#8217;ve noticed:
 
-  * Google gives you email address \_easily\_ (thanks guys)
+  * Google gives you email address _easily_ (thanks guys)
   * Facebook gives you a handle to email address and prompts for permission (so, so)
   * LinkedIn you&#8217;re just a pain in this front, I want a relationship with your user, not just some handle to use your funked up messaging platform.
   * Twitter/Yahoo &#8211; data exchange is a pain.

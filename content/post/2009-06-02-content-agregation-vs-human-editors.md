@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 160532020
 categories:
-  - General
+  - Development
 tags:
   - agregation
   - feeds

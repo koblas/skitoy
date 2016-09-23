@@ -11,7 +11,10 @@ aktt_tweeted:
 dsq_thread_id:
   - 160711093
 categories:
-  - General
+  - Development
+tags:
+  - python
+  - django
 
 ---
 Just finished up a quick one day project&#8230;  Was curious about Torando and since I&#8217;ve been playing with Django wondered about mixing the two&#8230;   Of course at one level there isn&#8217;t much reason to put django and tornado together since django has a &#8220;fine&#8221; webserver built in and Torando is all about async.

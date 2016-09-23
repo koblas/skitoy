@@ -13,9 +13,10 @@ pvc_views:
 dsq_thread_id:
   - 167177421
 categories:
-  - General
+  - Development
 tags:
   - oauth
+  - python
   - OpenID
 
 ---

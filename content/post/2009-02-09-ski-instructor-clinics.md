@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 192312435
 categories:
-  - General
+  - Skiing
 
 ---
 Most of the time when you go out for a training class in the business world you typically have sessions that last 50 minutes then have a 10 minute &#8220;bio&#8221; break &#8212; Maybe they do one and half hour sessions with breaks. I&#8217;m doing a Children&#8217;s Specialist certification class for the next few weeks and I realized just how &#8220;odd&#8221; ski instructors are. Which after being a ski instructor isn&#8217;t that &#8220;odd&#8221;, but funny in comparison.

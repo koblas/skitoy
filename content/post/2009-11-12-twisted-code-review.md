@@ -11,7 +11,7 @@ pvc_views:
 dsq_thread_id:
   - 160532041
 categories:
-  - General
+  - Development
 tags:
   - python
   - thrift

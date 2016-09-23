@@ -13,7 +13,7 @@ pvc_views:
 dsq_thread_id:
   - 160840068
 categories:
-  - General
+  - Ideas
 tags:
   - facebook
   - google

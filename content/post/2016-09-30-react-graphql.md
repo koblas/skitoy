@@ -3,7 +3,7 @@ title: React and GraphQL, plus GoLang
 author: koblas
 layout: post
 date: 2016-08-31T19:53:24+00:00
-url: /p/from-angular-to-react/628
+url: /p/react-to-graphql/629
 pvc_views:
   - 98
 categories:

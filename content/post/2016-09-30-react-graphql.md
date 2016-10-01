@@ -2,7 +2,7 @@
 title: React and GraphQL, plus GoLang
 author: koblas
 layout: post
-date: 2016-08-31T19:53:24+00:00
+date: 2016-09-30T21:53:24+00:00
 url: /p/react-to-graphql/629
 pvc_views:
   - 98

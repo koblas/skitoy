@@ -31,3 +31,16 @@ Example .env file --
 That's it, now when I `cd` into that directory I've got my environment setup. I don't have to remember which go version I'm using and what packageset I'm using.
 
 Script based configuration at it's finest.
+
+### Update -
+
+How to do autoenv for python virtual environments. What I noticed is that it's slow to do a `cd` when you're dealing with virtualenv, after a little thinking here's how to get the performance back.
+
+    # Set Python virtual environment
+    env=epsilon
+
+    #
+    cur=`basename "$VIRTUAL_ENV"`
+    if [ -z "$cur" -o "$cur" != $env ]; then
+        workon $env
+    fi

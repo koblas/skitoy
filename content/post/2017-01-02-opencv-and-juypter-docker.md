@@ -1,5 +1,5 @@
 ---
-title: OpenCV and Juypter Docker
+title: OpenCV and Jupyter Docker
 author: koblas
 layout: post
 date: 2017-01-02T13:16:37+00:00
@@ -10,7 +10,7 @@ categories:
 
 ---
 
-# Using OpenCV and Juypter with a Docker
+# Using OpenCV and Jupyter with a Docker
 
 Working on getting some OCR work done in OpenCV and trying to wrap my head around how the library works and
 the functions it provides. Since I'm doing all of the work in Python realizes that while it's possible to
@@ -29,9 +29,9 @@ For example my ptyhon code had the following block to display a set of images (O
 		plt.show()
 
 Relizing that a lot of what I was doing was iterative development were I wanted to see intermediate results, 
-decided that it would make more sense to move to Juypter Notbook development so I created the following docker:
+decided that it would make more sense to move to Jupyter Notbook development so I created the following docker:
 
-# Moving to Juypter
+# Moving to Jupyter
 
 Create a `Dockerfile`
 

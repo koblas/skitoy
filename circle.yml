@@ -2,6 +2,11 @@ general:
     artifacts:
         - "public/"
 
+checkout:
+    post:
+        - git submodule sync --recursive
+        - git submodule update --init --recursive
+
 dependencies:
     override:
         - go get -v github.com/spf13/hugo

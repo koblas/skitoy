@@ -5,12 +5,10 @@ layout: post
 date: 2017-01-19T12:59:22+00:00
 url: /p/onesnow-and-seo/630
 categories:
-  - seo
   - technical
+  - seo
 
 ---
-
-# OneSnow and SEO
 
 I've been working on an react-native application which has been a very interesting and fun learning project. While there are
 always the challenges of getting a product built and ready, it's been a very interesting learning process about app stores

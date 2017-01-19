@@ -5,8 +5,8 @@ layout: post
 date: 2017-01-02T13:16:37+00:00
 url: /p/opencv-and-juypter-docker/630
 categories:
-  - opencv
   - development
+  - opencv
 
 ---
 

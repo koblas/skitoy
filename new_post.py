@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 
-import os
-import time
-import readline
+import os, time
+#import readline
 
 BASE_DIR = 'content/post/'
 
@@ -17,6 +16,8 @@ with open(os.path.join(BASE_DIR, files[-1]), 'rb') as fd:
 if post_id == 0:
     print("Unable to find post_id")
     exit(1)
+
+post_id = int(post_id) + 1
 
 title = None
 while not title:
@@ -41,8 +42,13 @@ categories:
 tnow = time.gmtime()
 tstr = time.strftime('%Y-%m-%dT%H:%M:%S+00:00', tnow)
 output = os.path.join(BASE_DIR, '%s-%s.md' % (time.strftime('%Y-%m-%d', tnow), slug))
+vars = { 'title': title, 'slug': slug, 'post_id': post_id, 'date': tstr }
 
-with open(output, 'wb') as fd:
-    fd.write(template % { 'title': title, 'slug': slug, 'post_id': post_id, 'date': tstr })
+if True:
+    with open(output, 'wb') as fd:
+        fd.write(template % vars)
 
-print "OUTPUT = ", output
+    print "OUTPUT = ", output
+else:
+    for k, v in vars.items():
+        print "%s = %s" % (k, v)

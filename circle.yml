@@ -1,7 +1,7 @@
 
 dependencies:
     override:
-        - go get hugo
+        - go get -v github.com/spf13/hugo
 
 test:
     override:

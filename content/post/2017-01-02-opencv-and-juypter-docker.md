@@ -1,5 +1,5 @@
 ---
-title: OpenCV and Jupyter Docker
+title: Using OpenCV and Jupyter Docker
 author: koblas
 layout: post
 date: 2017-01-02T13:16:37+00:00
@@ -9,8 +9,6 @@ categories:
   - opencv
 
 ---
-
-# Using OpenCV and Jupyter with a Docker
 
 Working on getting some OCR work done in OpenCV and trying to wrap my head around how the library works and
 the functions it provides. Since I'm doing all of the work in Python realizes that while it's possible to

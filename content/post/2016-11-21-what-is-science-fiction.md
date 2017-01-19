@@ -9,8 +9,6 @@ categories:
 
 ---
 
-# What is science fiction
-
 Was listening to KQED and the program City Arts & Lectures, they had Bjarke Ingels talking about architecture. The program is always interesting and causes thinking and thought.
 
 One quote stood out to me as a fan of science fiction. There are times when it's hard to explain to people why SF is interesting, but this is a great view. While this isn't taken from the program directly, it matches what he said on the air.

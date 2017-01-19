@@ -1,5 +1,5 @@
 ---
-title: Using autoenv
+title: Autoenv for Greatness
 author: koblas
 layout: post
 date: 2016-11-19T23:23:55+00:00
@@ -8,8 +8,6 @@ categories:
   - development
 
 ---
-
-# Autoenv for greatness
 
 This is really just a short post saying I discovered a really handy MacOS/Linux tool I hadn't seen before. [Autoenv](https://github.com/kennethreitz/autoenv) is a very handy tool for managing environments.
 

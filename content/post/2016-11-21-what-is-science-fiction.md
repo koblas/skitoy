@@ -3,7 +3,7 @@ title: What is science fiction
 author: koblas
 layout: post
 date: 2016-11-21T14:25:44+00:00
-url: /p/what-is-science-fiction/630
+url: /p/what-is-science-fiction/632
 categories:
   - thoughts
 

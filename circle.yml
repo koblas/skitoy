@@ -1,6 +1,6 @@
-general:
-    artifacts:
-        - "public/"
+#general:
+#    artifacts:
+#        - "public/"
 
 checkout:
     post:

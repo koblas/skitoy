@@ -166,7 +166,7 @@ What this does:
 
 TODO: Update with an IP Tables that survies a reboot.
 
-```
+``` shell
 #!/bin/bash -x
 function base {
   echo "=== Boostrap Starting "
@@ -243,7 +243,7 @@ I'm using JSON in production, but I've also created a YAML version of the CloudF
 
 ### Cloudformation OpenVPN template
 
-```
+``` yaml
 Description: EC2 OpenVPN host
 Mappings:
   AmiMap:

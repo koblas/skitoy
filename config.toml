@@ -1,4 +1,4 @@
-baseurl = "http://www.skitoy.com/"
+baseurl = "https://www.skitoy.com/"
 title = "David Koblas' Writings"
 relativeURLs = true
 disable_comments = true

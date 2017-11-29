@@ -1,7 +1,7 @@
 ---
 title: Love/Hate with python
 author: koblas
-layout: post
+type: post
 date: 2008-03-28T20:12:37+00:00
 url: /p/lovehate-with-python/139
 pvc_views:

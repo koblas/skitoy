@@ -1,7 +1,7 @@
 ---
 title: Revmaster
 author: koblas
-layout: post
+type: post
 date: 2007-11-05T17:10:44+00:00
 url: /p/revmaster/110
 pvc_views:

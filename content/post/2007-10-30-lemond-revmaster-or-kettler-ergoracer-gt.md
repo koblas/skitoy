@@ -1,7 +1,7 @@
 ---
 title: Lemond Revmaster or Kettler Ergoracer GT
 author: koblas
-layout: post
+type: post
 date: 2007-10-30T21:46:01+00:00
 url: /p/lemond-revmaster-or-kettler-ergoracer-gt/105
 pvc_views:

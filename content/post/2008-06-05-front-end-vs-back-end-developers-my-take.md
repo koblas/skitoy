@@ -1,7 +1,7 @@
 ---
 title: Front-end vs. back-end developers (my take)
 author: koblas
-layout: post
+type: post
 date: 2008-06-05T16:34:03+00:00
 url: /p/front-end-vs-back-end-developers-my-take/157
 pvc_views:

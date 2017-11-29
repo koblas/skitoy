@@ -1,7 +1,7 @@
 ---
 title: Duck Typing – say what?
 author: koblas
-layout: post
+type: post
 date: 2007-10-12T21:52:26+00:00
 url: /p/duck-typing-say-what/93
 pvc_views:

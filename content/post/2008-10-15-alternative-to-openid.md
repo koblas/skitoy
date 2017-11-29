@@ -1,7 +1,7 @@
 ---
 title: Alternative to OpenID
 author: koblas
-layout: post
+type: post
 date: 2008-10-15T16:03:32+00:00
 url: /p/alternative-to-openid/189
 aktt_tweeted:

@@ -1,7 +1,7 @@
 ---
 title: Assistance … ZapQuiz pre-alpha
 author: koblas
-layout: post
+type: post
 date: 2009-03-05T20:54:18+00:00
 url: /p/assistance-zapquiz-pre-alpha/221
 aktt_tweeted:

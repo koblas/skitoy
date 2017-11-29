@@ -1,7 +1,7 @@
 ---
 title: Reproducible instalation
 author: koblas
-layout: post
+type: post
 date: 2012-12-10T18:49:38+00:00
 url: /p/reproducible-instalation/502
 pvc_views:

@@ -1,102 +1,165 @@
 baseurl = "https://www.skitoy.com/"
-title = "David Koblas' Writings"
-relativeURLs = true
-disable_comments = true
-
-## COPIED
-
 languageCode = "en-us"
-# Enable comments by entering your Disqus shortname
-disqusShortname = "skitoysfun"
-# Enable Google Analytics by entering your tracking code
+title = "David Koblas' Writings"
+theme = "hugo-future-imperfect"
+preserveTaxonomyNames = true
+paginate = 3
+disqusShortname = "shortname"
 googleAnalytics = "UA-1607138-1"
-# Define the number of posts per page
-paginate = 10
-footnotereturnlinkcontents = "↩"
-theme = "hugo-icarus-theme"
-
-#[permalinks]
-#    post = "/:year/:month/:day/:slug"
-
+pluralizeListTitles = false
 
 [params]
-    # Tell me who you are
-    author = "David Koblas"
-    bio = "Appeal to Greatness not Guilt"
-    site_description = ""
-    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
-    #avatar = "css/images/avatar.png"
-    #avatar = "img/koblas.jpg"
-    #logo = "css/images/logo.png"
-    disable_widgets = false
-    disable_profile = true
+  # Sets the meta tag description
+  description          = "Appeal to Greatness not Guilt"
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle          = "David Koblas' Writings"
+  # Sets where "View More Posts" links
+  viewMorePostLink     = "/blog/"
 
-    # Format dates with Go's time formatting
-    date_format = "2006-01-02"
+# Optional Params
+  # Sets navbarTitle to match the section of the website
+  dynamicTitles        = true
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  rssAppearAtTop       = false
+  rssAppearAtBottom    = true
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  categoriesByCount    = true
+  # Sets Estimated Reading Time to appear in post headers
+  includeReadingTime   = true
+  # Sets the Favicon and Version for the site. Default support is for
+  # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
+  # These are stored in the favicon folder. See the following for more information:
+  # https://github.com/audreyr/favicon-cheat-sheet
+  loadFavicon          = false
+  faviconVersion       = ""
+  # Sets Social Share links to appear on posts
+  socialShare          = true
+  # Load custom CSS or JavaScript files. The variable is an array so that you
+  # can load multiple files if necessary. You can also load the standard theme
+  # files by adding the value, "default".
+  # customCSS            = ["default", "/path/to/file"]
+  # customJS             = ["default", "/path/to/file"]
+  customCSS            = ["default"]
+  customJS             = ["default"]
 
-# Create custom menu entries by defining a label and a link for
-# them. Since you can also link posts, you've the option the
-# place the links before or after them.
-#
-# E.g.: "Home" appears before all linked posts in the menu
-# and "Tags" / "Categories" after them.
-[[params.menu]]
-    before = true
-    label  = "Home"
-    link   = "/"
+# Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
+# due to its ease of use. Feel free to check out both and decide what you would
+# prefer to use. See Staticman.yml for additional settings.
+[params.staticman]
+  # Sets Statiman to be active
+  staticman = false
+  # Sets the location for Staticman to connect to
+  username  = ""
+  repo      = ""
+  branch    = ""
 
-[[params.menu]]
-    before = false
-    label  = "About"
-    link   = "https://linkedin.com/in/koblas"
+  # These are optional params related to the sidebar. They are recommended, but not
+  # required for proper functionality. HTML is supported within the params.
+[params.intro]
+  header    = "Appeal to Greatness not Guilt"
 
-#[[params.menu]]
-#    before = false
-#    label  = "Categories"
-#    link   = "categories/"
+  paragraph = ""
 
-# Enter a link for the follow button on the left
-[params.profile]
-    #follow_button = "https://twitter.com/koblas"
-    #location = "Earth"
+  about     = "Over 20 years of Silicon Valley experience as a software engineer and executive manager. I’ve also spent time as a ski instructor, soccer coach and the other responsiblities of life."
 
+  # This appears at the top of the sidebar above params.intro.header.
+  # A width of less than 100px is recommended from a design perspective.
+  [params.intro.pic]
+    src       = "/img/koblas.jpg"
+    # Sets Image to be a cirlce
+    circle    = true
+    # Sets Image to be Future Imperfect's hexagon
+    imperfect = true
+    width     = ""
+    alt       = "Hugo Future Imperfect"
 
+[params.postAmount]
+# Sets the number of recent posts to show in the sidebar. The default value is 5.
+    sidebar = 5
+
+# Sets the menu items in the navigation bar
+# Identifier prepends a Font Awesome icon to the menu item
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  identifier = "fa fa-home"
+  weight = 1
+
+#[[menu.main]]
+#  name = "About"
+#  url = "/about/"
+#  identifier = "fa fa-id-card-o"
+#  weight = 2
+
+#[[menu.main]]
+#  name = "Blog"
+#  url = "/blog/"
+#  identifier = "fa fa-newspaper-o"
+#  weight = 3
+
+#[[menu.main]]
+#  name = "Itemized"
+#  url = "/itemized/"
+#  identifier = "fa fa-list"
+#  weight = 4
+
+#[[menu.main]]
+#  name = "Categories"
+#  url = "/categories/"
+#  identifier = "fa fa-sitemap"
+#  weight = 5
+
+#[[menu.main]]
+#  name = "Contact"
+#  url = "/contact/"
+#  identifier = "fa fa-envelope-o"
+#  weight = 6
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
 [social]
-# Add your social network accounts to the profile section on the left
-# by entering your username. The links to your account will be
-# created automatically.
-    github          = "koblas"
-    gitlab          = ""
-    bitbucket       = ""
-    jsfiddle        = ""
-    codepen         = ""
-    foursquare      = ""
-    dribbble        = ""
-    deviantart      = ""
-    behance         = ""
-    flickr          = ""
-    instagram       = ""
-    youtube         = ""
-    vimeo           = ""
-    vine            = ""
-    medium          = ""
-    wordpress       = ""
-    tumblr          = ""
-    xing            = ""
-    linkedin        = "koblas"
-    slideshare      = ""
-    stackoverflow   = "191450/koblas"
-    reddit          = ""
-    pinterest       = ""
-    googleplus      = ""
-    facebook        = ""
-    facebook_admin  = ""
-    twitter_domain  = ""
-    twitter         = "koblas"
-
-# Enable and disable widgets for the right sidebar
-[params.widgets]
-    recent_articles = true
-    categories = true
-    #tags = true
-    #tag_cloud = true
+  # Coding Communities
+  github          = "koblas"
+  gitlab          = ""
+  stackoverflow   = "191450" # User Number
+  bitbucket       = ""
+  jsfiddle        = ""
+  codepen         = ""
+  # Visual Art Communities
+  deviantart      = ""
+  flickr          = ""
+  behance         = ""
+  dribbble        = ""
+  # Publishing Communities
+  wordpress       = ""
+  medium          = ""
+  # Professional/Business Oriented Communities
+  linkedin        = "koblas"
+  foursquare      = ""
+  xing            = ""
+  slideshare      = ""
+  # Social Networks
+  facebook        = ""
+  googleplus      = ""
+  reddit          = ""
+  quora           = "David-Koblas"
+  youtube         = ""
+  vimeo           = ""
+  whatsapp        = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat          = ""
+    qq              = "" # User ID Number
+  instagram       = ""
+  tumblr          = ""
+  twitter         = "koblas"
+  skype           = ""
+  snapchat        = ""
+  pinterest       = ""
+  telegram        = ""
+  vine            = ""
+  # Email
+  email           = ""

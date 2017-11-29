@@ -1,7 +1,7 @@
 ---
 title: GoogleBot index rates
 author: koblas
-layout: post
+type: post
 date: 2007-11-27T18:25:28+00:00
 url: /p/googlebot-index-rates/120
 pvc_views:

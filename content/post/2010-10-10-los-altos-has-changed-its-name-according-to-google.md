@@ -1,7 +1,7 @@
 ---
 title: Los Altos has changed it’s name – according to Google
 author: koblas
-layout: post
+type: post
 date: 2010-10-10T17:11:04+00:00
 url: /p/los-altos-has-changed-its-name-according-to-google/324
 aktt_notify_twitter:

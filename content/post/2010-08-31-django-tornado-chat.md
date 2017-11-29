@@ -1,7 +1,7 @@
 ---
 title: Django + Tornado = Chat
 author: koblas
-layout: post
+type: post
 date: 2010-08-31T20:37:47+00:00
 url: /p/django-tornado-chat/305
 pvc_views:

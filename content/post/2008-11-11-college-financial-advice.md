@@ -1,7 +1,7 @@
 ---
 title: College Financial Advice
 author: koblas
-layout: post
+type: post
 date: 2008-11-11T16:47:38+00:00
 url: /p/college-financial-advice/204
 aktt_tweeted:

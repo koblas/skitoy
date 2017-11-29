@@ -1,7 +1,7 @@
 ---
 title: Crafting your education
 author: koblas
-layout: post
+type: post
 date: 2011-04-21T15:13:41+00:00
 url: /p/crafting-your-education/361
 aktt_notify_twitter:

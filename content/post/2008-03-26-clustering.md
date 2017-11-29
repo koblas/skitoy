@@ -1,7 +1,7 @@
 ---
 title: Clustering …
 author: koblas
-layout: post
+type: post
 date: 2008-03-26T15:48:09+00:00
 url: /p/clustering/137
 pvc_views:

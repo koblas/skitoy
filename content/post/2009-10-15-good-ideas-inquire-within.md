@@ -1,7 +1,7 @@
 ---
 title: Good ideas, inquire within
 author: koblas
-layout: post
+type: post
 date: 2009-10-15T18:42:58+00:00
 url: /p/good-ideas-inquire-within/259
 aktt_tweeted:

@@ -1,7 +1,7 @@
 ---
 title: Skiing in Chile
 author: koblas
-layout: post
+type: post
 date: 2008-08-28T20:16:56+00:00
 url: /p/skiing-in-chile/180
 pvc_views:

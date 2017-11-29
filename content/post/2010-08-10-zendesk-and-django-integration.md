@@ -1,7 +1,7 @@
 ---
 title: Zendesk and Django integration
 author: koblas
-layout: post
+type: post
 date: 2010-08-10T16:13:59+00:00
 url: /p/zendesk-and-django-integration/283
 pvc_views:

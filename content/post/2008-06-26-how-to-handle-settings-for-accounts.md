@@ -1,7 +1,7 @@
 ---
 title: How to handle Settings for Accounts.
 author: koblas
-layout: post
+type: post
 date: 2008-06-26T22:19:13+00:00
 url: /p/how-to-handle-settings-for-accounts/166
 pvc_views:

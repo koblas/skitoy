@@ -1,7 +1,7 @@
 ---
 title: Response to 10 reasons why I use PHP
 author: koblas
-layout: post
+type: post
 date: 2007-09-19T16:00:57+00:00
 url: /p/response-to-10-reasons-why-i-use-php/90
 pvc_views:

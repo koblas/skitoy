@@ -1,7 +1,7 @@
 ---
 title: Small changes in UI have big impact
 author: koblas
-layout: post
+type: post
 date: 2009-07-30T22:05:36+00:00
 url: /p/small-changes-in-ui-have-big-impact/255
 aktt_tweeted:

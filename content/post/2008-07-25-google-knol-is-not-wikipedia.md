@@ -1,7 +1,7 @@
 ---
 title: Google Knol is not Wikipedia
 author: koblas
-layout: post
+type: post
 date: 2008-07-25T19:16:44+00:00
 url: /p/google-knol-is-not-wikipedia/171
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: Email is Dead – Long live Email
 author: koblas
-layout: post
+type: post
 date: 2010-10-27T20:08:50+00:00
 url: /p/email-is-dead-long-live-email/342
 aktt_notify_twitter:

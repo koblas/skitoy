@@ -1,7 +1,7 @@
 ---
 title: Sentiment analysis on Twitter
 author: koblas
-layout: post
+type: post
 date: 2010-10-13T21:14:19+00:00
 url: /p/sentiment-analysis-on-twitter/332
 aktt_notify_twitter:

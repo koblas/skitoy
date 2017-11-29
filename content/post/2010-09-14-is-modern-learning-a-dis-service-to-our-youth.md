@@ -1,7 +1,7 @@
 ---
 title: Is modern learning a dis-service to our youth?
 author: koblas
-layout: post
+type: post
 date: 2010-09-14T16:35:21+00:00
 url: /p/is-modern-learning-a-dis-service-to-our-youth/309
 aktt_tweeted:

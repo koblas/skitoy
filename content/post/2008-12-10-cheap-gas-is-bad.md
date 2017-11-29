@@ -1,7 +1,7 @@
 ---
 title: Cheap gas is bad
 author: koblas
-layout: post
+type: post
 date: 2008-12-11T05:20:06+00:00
 url: /p/cheap-gas-is-bad/212
 aktt_tweeted:

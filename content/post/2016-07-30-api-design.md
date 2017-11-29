@@ -1,7 +1,7 @@
 ---
 title: HTTP status for API Responses
 author: koblas
-layout: post
+type: post
 date: 2016-07-31T00:06:16+00:00
 url: /p/api-design/622
 pvc_views:

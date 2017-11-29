@@ -1,7 +1,7 @@
 ---
 title: React Store and Reducers
 author: koblas
-layout: post
+type: post
 date: 2017-03-12T19:42:05+00:00
 url: /p/react-store-and-reducers/637
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Human readable base conversion
 author: koblas
-layout: post
+type: post
 date: 2010-10-04T19:00:02+00:00
 url: /p/human-readable-base-conversion/319
 aktt_notify_twitter:

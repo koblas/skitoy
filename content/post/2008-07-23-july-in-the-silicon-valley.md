@@ -1,7 +1,7 @@
 ---
 title: July in the Silicon Valley
 author: koblas
-layout: post
+type: post
 date: 2008-07-23T16:14:47+00:00
 url: /p/july-in-the-silicon-valley/169
 pvc_views:

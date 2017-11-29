@@ -1,7 +1,7 @@
 ---
 title: 20% time revisited
 author: koblas
-layout: post
+type: post
 date: 2010-10-26T17:43:27+00:00
 url: /p/20-time-revisited/340
 aktt_notify_twitter:

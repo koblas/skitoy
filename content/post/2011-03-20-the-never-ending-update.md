@@ -1,7 +1,7 @@
 ---
 title: The never ending update
 author: koblas
-layout: post
+type: post
 date: 2011-03-20T15:10:57+00:00
 url: /p/the-never-ending-update/358
 aktt_notify_twitter:

@@ -1,7 +1,7 @@
 ---
 title: Scrum without Objective
 author: koblas
-layout: post
+type: post
 date: 2011-06-24T16:40:16+00:00
 url: /p/scrum-without-objective/371
 aktt_notify_twitter:

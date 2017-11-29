@@ -1,7 +1,7 @@
 ---
 title: Microsoft Research Road Show
 author: koblas
-layout: post
+type: post
 date: 2008-05-23T16:06:42+00:00
 url: /p/microsoft-research-road-show/151
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: Delightful Matt
 author: koblas
-layout: post
+type: post
 date: 2008-06-02T15:39:47+00:00
 url: /p/delightful-matt/155
 pvc_views:

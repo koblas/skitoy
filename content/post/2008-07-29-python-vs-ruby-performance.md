@@ -1,7 +1,7 @@
 ---
 title: Python vs. Ruby Performance
 author: koblas
-layout: post
+type: post
 date: 2008-07-29T20:49:37+00:00
 url: /p/python-vs-ruby-performance/172
 pvc_views:

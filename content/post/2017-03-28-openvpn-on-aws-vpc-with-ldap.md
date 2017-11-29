@@ -1,7 +1,7 @@
 ---
 title: OpenVPN on AWS VPC with LDAP
 author: koblas
-layout: post
+type: post
 date: 2017-03-28T10:39:03+00:00
 url: /p/openvpn-on-aws-vpc-with-ldap/640
 categories:

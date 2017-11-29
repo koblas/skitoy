@@ -1,7 +1,7 @@
 ---
 title: Punctuation in Language Design is Good
 author: koblas
-layout: post
+type: post
 date: 2012-05-31T20:44:32+00:00
 url: /p/punctuation-in-language-design-is-good/453
 aktt_notify_twitter:

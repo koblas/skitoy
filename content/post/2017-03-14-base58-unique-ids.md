@@ -1,7 +1,7 @@
 ---
 title: Base58 Unique IDs
 author: koblas
-layout: post
+type: post
 date: 2017-03-14T13:11:41+00:00
 url: /p/base58-unique-ids/638
 categories:

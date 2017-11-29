@@ -1,7 +1,7 @@
 ---
 title: 'Facebook Ad Performance Day #2'
 author: koblas
-layout: post
+type: post
 date: 2007-11-21T15:10:15+00:00
 url: /p/facebook-ad-performance-day-2/119
 pvc_views:

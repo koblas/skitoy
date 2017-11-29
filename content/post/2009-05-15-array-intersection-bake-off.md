@@ -1,7 +1,7 @@
 ---
 title: Array Intersection Bake-off
 author: koblas
-layout: post
+type: post
 date: 2009-05-15T17:18:05+00:00
 url: /p/array-intersection-bake-off/236
 aktt_tweeted:

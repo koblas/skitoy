@@ -1,7 +1,7 @@
 ---
 title: Hiring Great Hackers
 author: koblas
-layout: post
+type: post
 date: 2004-08-27T18:16:23+00:00
 url: /p/hiring-great-hackers/7
 pvc_views:

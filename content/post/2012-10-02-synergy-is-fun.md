@@ -1,7 +1,7 @@
 ---
 title: Synergy is Fun
 author: koblas
-layout: post
+type: post
 date: 2012-10-02T18:37:13+00:00
 url: /p/synergy-is-fun/474
 aktt_notify_twitter:

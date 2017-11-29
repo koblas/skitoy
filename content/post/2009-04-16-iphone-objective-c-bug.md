@@ -1,7 +1,7 @@
 ---
 title: iPhone Objective-C bug?
 author: koblas
-layout: post
+type: post
 date: 2009-04-16T22:11:25+00:00
 url: /p/iphone-objective-c-bug/225
 aktt_tweeted:

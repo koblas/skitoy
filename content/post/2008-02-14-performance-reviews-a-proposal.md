@@ -1,7 +1,7 @@
 ---
 title: Performance Reviews a proposal!
 author: koblas
-layout: post
+type: post
 date: 2008-02-14T19:10:11+00:00
 url: /p/performance-reviews-a-proposal/132
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: Clone Radiant?
 author: koblas
-layout: post
+type: post
 date: 2007-10-25T15:09:19+00:00
 url: /p/clone-radiant/101
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: JavaScript version of the Perl/PHP performance test
 author: koblas
-layout: post
+type: post
 date: 2008-06-13T19:37:24+00:00
 url: /p/javascript-version-of-the-perlphp-performance-test/163
 pvc_views:

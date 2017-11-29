@@ -1,7 +1,7 @@
 ---
 title: SimpleDB aka why Relations are so 90’s
 author: koblas
-layout: post
+type: post
 date: 2007-12-31T18:20:36+00:00
 url: /p/simpledb-aka-why-relations-are-so-90s/126
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: Motivation…
 author: koblas
-layout: post
+type: post
 date: 2008-05-30T15:45:04+00:00
 url: /p/motivation/153
 pvc_views:

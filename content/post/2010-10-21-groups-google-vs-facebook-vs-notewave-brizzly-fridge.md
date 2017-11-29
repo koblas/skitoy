@@ -1,7 +1,7 @@
 ---
 title: Groups – Google vs. Facebook vs. (Notewave, Brizzly, Fridge)
 author: koblas
-layout: post
+type: post
 date: 2010-10-21T20:09:35+00:00
 url: /p/groups-google-vs-facebook-vs-notewave-brizzly-fridge/334
 aktt_notify_twitter:

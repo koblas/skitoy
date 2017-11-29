@@ -1,7 +1,7 @@
 ---
 title: 9:45 ride time, 11:15 total time… a good day on the deathride.
 author: koblas
-layout: post
+type: post
 date: 2007-07-16T15:55:20+00:00
 url: /p/945-ride-time-1115-total-time-a-good-day-on-the-deathride/87
 pvc_views:

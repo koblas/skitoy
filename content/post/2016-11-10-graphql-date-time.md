@@ -1,7 +1,7 @@
 ---
 title: React and GraphQL, plus GoLang
 author: koblas
-layout: post
+type: post
 date: 2016-10-11T16:29:24+00:00
 url: /p/graphql-date-time/630
 categories:

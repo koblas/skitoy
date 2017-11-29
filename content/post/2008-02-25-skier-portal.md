@@ -1,7 +1,7 @@
 ---
 title: Skier portal
 author: koblas
-layout: post
+type: post
 date: 2008-02-25T23:19:14+00:00
 url: /p/skier-portal/133
 pvc_views:

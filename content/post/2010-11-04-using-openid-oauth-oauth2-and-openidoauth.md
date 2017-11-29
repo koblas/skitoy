@@ -1,7 +1,7 @@
 ---
 title: Using OpenID, OAuth, OAuth2 and OpenID+OAuth
 author: koblas
-layout: post
+type: post
 date: 2010-11-04T18:14:16+00:00
 url: /p/using-openid-oauth-oauth2-and-openidoauth/344
 aktt_notify_twitter:

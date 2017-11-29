@@ -1,7 +1,7 @@
 ---
 title: Writing S3 Sync in GoLang
 author: koblas
-layout: post
+type: post
 date: 2016-08-01T18:01:16+00:00
 url: /p/writing-s3-sync-golang/624
 pvc_views:

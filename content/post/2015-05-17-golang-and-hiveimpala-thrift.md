@@ -1,7 +1,7 @@
 ---
 title: Golang and Hive/Impala – Thrift
 author: koblas
-layout: post
+type: post
 date: 2015-05-17T21:57:54+00:00
 url: /p/golang-and-hiveimpala-thrift/518
 pvc_views:

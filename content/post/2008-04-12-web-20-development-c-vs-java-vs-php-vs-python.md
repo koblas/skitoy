@@ -1,7 +1,7 @@
 ---
 title: Web 2.0 development – C++ vs. Java vs. PHP vs. Python
 author: koblas
-layout: post
+type: post
 date: 2008-04-12T17:53:09+00:00
 url: /p/web-20-development-c-vs-java-vs-php-vs-python/141
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: Peanut Butter...
 author: koblas
-layout: post
+type: post
 date: 2008-02-27T23:22:48+00:00
 url: /p/peanut-butter/134
 pvc_views:

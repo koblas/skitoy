@@ -1,7 +1,7 @@
 ---
 title: Before you go half cocked and build a company…
 author: koblas
-layout: post
+type: post
 date: 2008-07-11T16:54:21+00:00
 url: /p/before-you-go-half-cocked-and-build-a-company/167
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: Time for Money (business 101)
 author: koblas
-layout: post
+type: post
 date: 2010-03-01T17:28:46+00:00
 url: /p/time-for-money-business-101/269
 aktt_tweeted:

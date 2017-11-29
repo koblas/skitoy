@@ -1,7 +1,7 @@
 ---
 title: head in python
 author: koblas
-layout: post
+type: post
 date: 2012-03-06T15:45:42+00:00
 url: /p/head-in-python/436
 aktt_notify_twitter:

@@ -1,7 +1,7 @@
 ---
 title: Principles of Microservices
 author: koblas
-layout: post
+type: post
 date: 2015-05-21T21:18:53+00:00
 url: /p/principles-of-microservices/577
 pvc_views:

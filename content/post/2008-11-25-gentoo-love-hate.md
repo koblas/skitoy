@@ -1,7 +1,7 @@
 ---
 title: Gentoo love / hate
 author: koblas
-layout: post
+type: post
 date: 2008-11-25T15:35:07+00:00
 url: /p/gentoo-love-hate/210
 aktt_tweeted:

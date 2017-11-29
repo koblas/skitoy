@@ -1,7 +1,7 @@
 ---
 title: Async life and twitter
 author: koblas
-layout: post
+type: post
 date: 2010-09-23T15:54:33+00:00
 url: /p/async-life-and-twitter/311
 pvc_views:

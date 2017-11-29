@@ -1,7 +1,7 @@
 ---
 title: Quality vs. Quantity
 author: koblas
-layout: post
+type: post
 date: 2012-03-26T18:59:01+00:00
 url: /p/quality-vs-quantity/443
 aktt_notify_twitter:

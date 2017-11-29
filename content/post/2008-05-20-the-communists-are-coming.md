@@ -1,7 +1,7 @@
 ---
 title: The communists are coming
 author: koblas
-layout: post
+type: post
 date: 2008-05-20T16:18:09+00:00
 url: /p/the-communists-are-coming/150
 pvc_views:

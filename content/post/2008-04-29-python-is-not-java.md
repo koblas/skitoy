@@ -1,7 +1,7 @@
 ---
 title: Python is not Java
 author: koblas
-layout: post
+type: post
 date: 2008-04-29T20:01:20+00:00
 url: /p/python-is-not-java/145
 pvc_views:

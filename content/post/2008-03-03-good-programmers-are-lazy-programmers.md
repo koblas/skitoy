@@ -1,7 +1,7 @@
 ---
 title: Good programmers are lazy programmers
 author: koblas
-layout: post
+type: post
 date: 2008-03-03T18:28:31+00:00
 url: /p/good-programmers-are-lazy-programmers/135
 pvc_views:

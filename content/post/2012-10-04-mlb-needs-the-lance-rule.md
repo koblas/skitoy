@@ -1,7 +1,7 @@
 ---
 title: MLB Needs the Lance Rule
 author: koblas
-layout: post
+type: post
 date: 2012-10-04T15:33:04+00:00
 url: /p/mlb-needs-the-lance-rule/476
 aktt_notify_twitter:

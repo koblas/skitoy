@@ -1,7 +1,7 @@
 ---
 title: Feeling Old
 author: koblas
-layout: post
+type: post
 date: 2004-09-07T22:06:06+00:00
 url: /p/feeling-old/8
 pvc_views:

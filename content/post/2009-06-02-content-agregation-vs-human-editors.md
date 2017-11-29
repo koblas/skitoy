@@ -1,7 +1,7 @@
 ---
 title: Content agregation vs. Human Editors
 author: koblas
-layout: post
+type: post
 date: 2009-06-02T21:25:22+00:00
 url: /p/content-agregation-vs-human-editors/251
 aktt_tweeted:

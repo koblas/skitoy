@@ -1,7 +1,7 @@
 ---
 title: Forgotten demo from Microsoft Research Road Show
 author: koblas
-layout: post
+type: post
 date: 2008-05-30T15:54:12+00:00
 url: /p/forgotten-demo-from-microsoft-research-road-show/154
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: Competition for Customer Service
 author: koblas
-layout: post
+type: post
 date: 2011-11-18T18:30:05+00:00
 url: /p/competition-for-customer-service/408
 aktt_notify_twitter:

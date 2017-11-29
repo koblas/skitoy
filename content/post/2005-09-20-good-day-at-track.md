@@ -1,7 +1,7 @@
 ---
 title: Good day at track
 author: David Koblas
-layout: post
+type: post
 date: 2005-09-21T04:09:06+00:00
 url: /p/good-day-at-track/69
 pvc_views:

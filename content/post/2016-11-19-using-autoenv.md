@@ -1,7 +1,7 @@
 ---
 title: Autoenv for Greatness
 author: koblas
-layout: post
+type: post
 date: 2016-11-19T23:23:55+00:00
 url: /p/using-autoenv/631
 categories:

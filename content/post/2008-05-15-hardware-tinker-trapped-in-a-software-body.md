@@ -1,7 +1,7 @@
 ---
 title: Hardware tinker trapped in a software body
 author: koblas
-layout: post
+type: post
 date: 2008-05-15T18:09:40+00:00
 url: /p/hardware-tinker-trapped-in-a-software-body/148
 pvc_views:

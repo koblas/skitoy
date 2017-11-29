@@ -1,7 +1,7 @@
 ---
 title: Iterative programming … and clustering
 author: koblas
-layout: post
+type: post
 date: 2008-03-27T16:50:33+00:00
 url: /p/iterative-programming-and-clustering/138
 pvc_views:

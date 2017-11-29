@@ -1,7 +1,7 @@
 ---
 title: Problem with Tomcat + WAR + ClassPath (help please)?
 author: koblas
-layout: post
+type: post
 date: 2009-01-09T21:29:59+00:00
 url: /p/problem-with-tomcat-war-classpath-help-please/214
 aktt_tweeted:

@@ -1,7 +1,7 @@
 ---
 title: Python import improvements
 author: koblas
-layout: post
+type: post
 date: 2008-08-04T16:50:55+00:00
 url: /p/python-import-improvements/175
 pvc_views:

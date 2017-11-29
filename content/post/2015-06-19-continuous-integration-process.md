@@ -1,7 +1,7 @@
 ---
 title: Continuous Integration Process
 author: koblas
-layout: post
+type: post
 date: 2015-06-19T17:02:27+00:00
 url: /p/continuous-integration-process/582
 pvc_views:

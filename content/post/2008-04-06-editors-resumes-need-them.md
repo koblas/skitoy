@@ -1,7 +1,7 @@
 ---
 title: Editors – Resumes need them
 author: koblas
-layout: post
+type: post
 date: 2008-04-06T15:22:52+00:00
 url: /p/editors-resumes-need-them/140
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: XSide Thoughts...
 author: koblas
-layout: post
+type: post
 date: 2007-10-24T16:08:59+00:00
 url: /p/xside-thoughts/98
 pvc_views:

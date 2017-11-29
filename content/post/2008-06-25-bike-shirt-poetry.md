@@ -1,7 +1,7 @@
 ---
 title: Bike shirt poetry
 author: koblas
-layout: post
+type: post
 date: 2008-06-25T16:15:03+00:00
 url: /p/bike-shirt-poetry/165
 pvc_views:

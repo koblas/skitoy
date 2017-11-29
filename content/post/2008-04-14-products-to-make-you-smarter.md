@@ -1,7 +1,7 @@
 ---
 title: Products to make you "smarter"
 author: koblas
-layout: post
+type: post
 date: 2008-04-14T21:10:20+00:00
 url: /p/products-to-make-you-smarter/142
 pvc_views:

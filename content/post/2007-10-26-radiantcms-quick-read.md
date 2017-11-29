@@ -1,7 +1,7 @@
 ---
 title: RadiantCMS quick read
 author: koblas
-layout: post
+type: post
 date: 2007-10-26T19:17:08+00:00
 url: /p/radiantcms-quick-read/102
 pvc_views:

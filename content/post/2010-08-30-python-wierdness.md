@@ -1,7 +1,7 @@
 ---
 title: Python wierdness
 author: koblas
-layout: post
+type: post
 date: 2010-08-30T18:43:02+00:00
 url: /p/python-wierdness/301
 pvc_views:

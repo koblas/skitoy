@@ -1,7 +1,7 @@
 ---
 title: CMS Musings
 author: koblas
-layout: post
+type: post
 date: 2007-10-31T15:50:17+00:00
 url: /p/cms-musings/106
 pvc_views:

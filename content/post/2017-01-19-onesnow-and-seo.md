@@ -1,7 +1,7 @@
 ---
 title: OneSnow and SEO
 author: koblas
-layout: post
+type: post
 date: 2017-01-19T12:59:22+00:00
 url: /p/onesnow-and-seo/634
 categories:

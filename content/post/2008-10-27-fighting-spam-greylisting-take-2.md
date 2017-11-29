@@ -1,7 +1,7 @@
 ---
 title: Fighting spam – greylisting take 2
 author: koblas
-layout: post
+type: post
 date: 2008-10-27T20:17:32+00:00
 url: /p/fighting-spam-greylisting-take-2/193
 aktt_tweeted:

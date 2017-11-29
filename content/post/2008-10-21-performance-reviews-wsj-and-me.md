@@ -1,7 +1,7 @@
 ---
 title: Performance Reviews … WSJ and Me
 author: koblas
-layout: post
+type: post
 date: 2008-10-21T17:53:16+00:00
 url: /p/performance-reviews-wsj-and-me/191
 aktt_tweeted:

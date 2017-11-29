@@ -1,7 +1,7 @@
 ---
 title: Ski Instructor Clinics
 author: koblas
-layout: post
+type: post
 date: 2009-02-10T02:31:39+00:00
 url: /p/ski-instructor-clinics/218
 aktt_tweeted:

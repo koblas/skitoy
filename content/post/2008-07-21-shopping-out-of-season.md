@@ -1,7 +1,7 @@
 ---
 title: Shopping out of season
 author: koblas
-layout: post
+type: post
 date: 2008-07-21T16:53:19+00:00
 url: /p/shopping-out-of-season/168
 pvc_views:

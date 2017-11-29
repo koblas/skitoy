@@ -1,7 +1,7 @@
 ---
 title: Facebook vs. Google
 author: koblas
-layout: post
+type: post
 date: 2009-06-08T21:57:10+00:00
 url: /p/facebook-vs-google/253
 aktt_tweeted:

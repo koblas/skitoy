@@ -1,7 +1,7 @@
 ---
 title: When’s a string not a string
 author: koblas
-layout: post
+type: post
 date: 2008-06-13T18:23:26+00:00
 url: /p/whens-a-string-not-a-string/162
 pvc_views:

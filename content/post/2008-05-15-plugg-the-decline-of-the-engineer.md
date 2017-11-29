@@ -1,7 +1,7 @@
 ---
 title: Plugg … the decline of the engineer
 author: koblas
-layout: post
+type: post
 date: 2008-05-15T17:55:59+00:00
 url: /p/plugg-the-decline-of-the-engineer/147
 pvc_views:

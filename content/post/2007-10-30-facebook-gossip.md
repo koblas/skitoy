@@ -1,7 +1,7 @@
 ---
 title: Facebook Gossip
 author: koblas
-layout: post
+type: post
 date: 2007-10-30T18:20:03+00:00
 url: /p/facebook-gossip/104
 pvc_views:

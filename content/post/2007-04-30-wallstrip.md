@@ -1,7 +1,7 @@
 ---
 title: wallstrip quote
 author: site admin
-layout: post
+type: post
 date: 2007-04-30T21:13:51+00:00
 url: /p/wallstrip/83
 pvc_views:

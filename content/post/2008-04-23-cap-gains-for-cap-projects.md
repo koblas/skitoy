@@ -1,7 +1,7 @@
 ---
 title: Cap Gains for Cap Projects
 author: koblas
-layout: post
+type: post
 date: 2008-04-23T20:35:01+00:00
 url: /p/cap-gains-for-cap-projects/144
 pvc_views:

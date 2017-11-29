@@ -1,7 +1,7 @@
 ---
 title: Framinstein lives!
 author: koblas
-layout: post
+type: post
 date: 2008-06-09T21:18:50+00:00
 url: /p/framinstein-lives/158
 pvc_views:

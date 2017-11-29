@@ -1,7 +1,7 @@
 ---
 title: BackboneJS and RequireJS configuration
 author: koblas
-layout: post
+type: post
 date: 2012-06-18T23:05:51+00:00
 url: /p/backbonejs-and-requirejs-in-configuration/455
 aktt_notify_twitter:

@@ -1,7 +1,7 @@
 ---
 title: Skiing Tahoe
 author: koblas
-layout: post
+type: post
 date: 2016-01-22T18:17:38+00:00
 url: /p/skiing-tahoe/601
 pvc_views:

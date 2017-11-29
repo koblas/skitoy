@@ -1,7 +1,7 @@
 ---
 title: Web Crawler…
 author: koblas
-layout: post
+type: post
 date: 2007-12-05T17:33:21+00:00
 url: /p/web-crawler/123
 pvc_views:

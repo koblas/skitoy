@@ -1,7 +1,7 @@
 ---
 title: 'Day #1 of the Facebook Ad Run'
 author: koblas
-layout: post
+type: post
 date: 2007-11-20T18:48:52+00:00
 url: /p/day-1-of-the-facebook-ad-run/118
 pvc_views:

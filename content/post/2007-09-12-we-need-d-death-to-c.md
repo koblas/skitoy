@@ -1,7 +1,7 @@
 ---
 title: 'We need ‘D’ {death to C++}'
 author: koblas
-layout: post
+type: post
 date: 2007-09-12T15:31:43+00:00
 url: /p/we-need-d-death-to-c/89
 pvc_views:

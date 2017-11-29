@@ -1,7 +1,7 @@
 ---
 title: ES6 and Angular + a little GoLang
 author: koblas
-layout: post
+type: post
 date: 2015-07-08T19:00:44+00:00
 url: /p/es6-and-angular-a-little-golang/588
 pvc_views:

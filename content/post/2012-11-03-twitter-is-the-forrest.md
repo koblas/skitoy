@@ -1,7 +1,7 @@
 ---
 title: Twitter is the Forrest
 author: koblas
-layout: post
+type: post
 date: 2012-11-03T14:26:57+00:00
 url: /p/twitter-is-the-forrest/487
 aktt_notify_twitter:

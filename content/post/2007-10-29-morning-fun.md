@@ -1,7 +1,7 @@
 ---
 title: Morning Fun…
 author: koblas
-layout: post
+type: post
 date: 2007-10-29T20:31:06+00:00
 url: /p/morning-fun/103
 pvc_views:

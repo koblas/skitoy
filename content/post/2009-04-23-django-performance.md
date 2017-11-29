@@ -1,7 +1,7 @@
 ---
 title: Django performance
 author: koblas
-layout: post
+type: post
 date: 2009-04-23T18:15:28+00:00
 url: /p/django-performance/228
 aktt_tweeted:

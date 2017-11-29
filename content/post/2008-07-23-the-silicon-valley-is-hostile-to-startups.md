@@ -1,7 +1,7 @@
 ---
 title: The Silicon Valley is hostile to startups
 author: koblas
-layout: post
+type: post
 date: 2008-07-23T16:41:04+00:00
 url: /p/the-silicon-valley-is-hostile-to-startups/170
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: Interview Puzzle System
 author: koblas
-layout: post
+type: post
 date: 2010-10-08T21:19:32+00:00
 url: /p/interview-puzzle-system/321
 aktt_notify_twitter:

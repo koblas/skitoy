@@ -1,7 +1,7 @@
 ---
 title: Frameworks and sessions
 author: koblas
-layout: post
+type: post
 date: 2009-02-24T01:32:53+00:00
 url: /p/frameworks-and-sessions/220
 aktt_tweeted:

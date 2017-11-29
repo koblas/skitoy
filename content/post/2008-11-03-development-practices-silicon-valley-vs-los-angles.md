@@ -1,7 +1,7 @@
 ---
 title: Development practices, Silicon Valley vs. Los Angeles
 author: koblas
-layout: post
+type: post
 date: 2008-11-03T17:10:00+00:00
 url: /p/development-practices-silicon-valley-vs-los-angles/199
 aktt_tweeted:

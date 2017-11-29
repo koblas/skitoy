@@ -1,7 +1,7 @@
 ---
 title: Grumping at people who don’t use OpenSource
 author: koblas
-layout: post
+type: post
 date: 2007-11-14T18:43:02+00:00
 url: /p/grumping-at-people-who-dont-use-opensource/116
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: SMTP Client for Tornado
 author: koblas
-layout: post
+type: post
 date: 2011-11-11T15:26:42+00:00
 url: /p/smtp-client-for-tornado/403
 aktt_notify_twitter:

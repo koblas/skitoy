@@ -1,7 +1,7 @@
 ---
 title: Silos make for disfunction
 author: koblas
-layout: post
+type: post
 date: 2008-11-05T21:10:23+00:00
 url: /p/silos-make-for-disfunction/202
 aktt_tweeted:

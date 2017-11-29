@@ -1,7 +1,7 @@
 ---
 title: ioloop as a core concept
 author: koblas
-layout: post
+type: post
 date: 2013-02-10T04:58:02+00:00
 url: /p/ioloop-as-a-core-concept/505
 pvc_views:

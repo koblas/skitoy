@@ -1,7 +1,7 @@
 ---
 title: Delivering Delight Requires Execution
 author: koblas
-layout: post
+type: post
 date: 2015-11-03T17:55:57+00:00
 url: /p/delivering-delight-requires-execution/595
 pvc_views:

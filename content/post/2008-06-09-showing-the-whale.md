@@ -1,7 +1,7 @@
 ---
 title: Showing the whale…
 author: koblas
-layout: post
+type: post
 date: 2008-06-09T22:35:50+00:00
 url: /p/showing-the-whale/159
 pvc_views:

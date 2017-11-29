@@ -1,7 +1,7 @@
 ---
 title: Now a superpower — I’ve got my own ICBM.NET
 author: koblas
-layout: post
+type: post
 date: 2008-01-15T17:26:55+00:00
 url: /p/now-a-superpower-ive-got-my-own-icbmnet/130
 pvc_views:

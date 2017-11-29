@@ -1,7 +1,7 @@
 ---
 title: Spark and Avro – in a Docker
 author: koblas
-layout: post
+type: post
 date: 2016-09-14T00:28:07+00:00
 url: /p/spark-avro-docker/634
 pvc_views:

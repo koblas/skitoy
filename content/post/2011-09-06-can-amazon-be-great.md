@@ -1,7 +1,7 @@
 ---
 title: Can Amazon be great!
 author: koblas
-layout: post
+type: post
 date: 2011-09-06T18:38:42+00:00
 url: /p/can-amazon-be-great/391
 aktt_notify_twitter:

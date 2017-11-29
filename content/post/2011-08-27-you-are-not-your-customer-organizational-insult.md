@@ -1,7 +1,7 @@
 ---
 title: “You are not your customer” – organizational insult
 author: koblas
-layout: post
+type: post
 date: 2011-08-27T14:13:21+00:00
 url: /p/you-are-not-your-customer-organizational-insult/388
 aktt_notify_twitter:

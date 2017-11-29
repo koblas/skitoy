@@ -1,7 +1,7 @@
 ---
 title: Signal vs. Noise — How to make decissions
 author: koblas
-layout: post
+type: post
 date: 2008-11-18T14:35:53+00:00
 url: /p/signal-vs-noise-how-to-make-decissions/208
 aktt_tweeted:

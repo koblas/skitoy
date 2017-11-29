@@ -1,7 +1,7 @@
 ---
 title: Template Languages
 author: koblas
-layout: post
+type: post
 date: 2012-05-19T17:57:06+00:00
 url: /p/template-languages/450
 aktt_notify_twitter:

@@ -1,7 +1,7 @@
 ---
 title: release stress…
 author: site admin
-layout: post
+type: post
 date: 2007-04-07T00:24:46+00:00
 url: /p/release-stress/78
 pvc_views:

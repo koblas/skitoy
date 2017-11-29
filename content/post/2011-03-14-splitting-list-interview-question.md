@@ -1,7 +1,7 @@
 ---
 title: Splitting list interview question
 author: koblas
-layout: post
+type: post
 date: 2011-03-14T20:41:40+00:00
 url: /p/splitting-list-interview-question/350
 aktt_notify_twitter:

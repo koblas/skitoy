@@ -1,7 +1,7 @@
 ---
 title: Warren Miller vs. MSP
 author: koblas
-layout: post
+type: post
 date: 2004-11-15T01:29:06+00:00
 excerpt: Warren Miller is an Icon, but MSP is trendy
 url: /p/warren-miller-vs-msp/12

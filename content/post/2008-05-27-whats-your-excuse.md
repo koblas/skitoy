@@ -1,7 +1,7 @@
 ---
 title: What’s your excuse?
 author: koblas
-layout: post
+type: post
 date: 2008-05-27T19:48:50+00:00
 url: /p/whats-your-excuse/152
 pvc_views:

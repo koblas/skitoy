@@ -1,7 +1,7 @@
 ---
 title: Don’t let PR drive a release
 author: koblas
-layout: post
+type: post
 date: 2007-11-08T19:02:18+00:00
 url: /p/dont-let-pr-drive-a-release/113
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: Twisted code review…
 author: koblas
-layout: post
+type: post
 date: 2009-11-12T17:04:11+00:00
 url: /p/twisted-code-review/261
 aktt_tweeted:

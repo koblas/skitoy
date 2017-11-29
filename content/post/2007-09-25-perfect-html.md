@@ -1,7 +1,7 @@
 ---
 title: Perfect HTML ?
 author: koblas
-layout: post
+type: post
 date: 2007-09-25T18:16:16+00:00
 url: /p/perfect-html/91
 pvc_views:

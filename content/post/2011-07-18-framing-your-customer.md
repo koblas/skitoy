@@ -1,7 +1,7 @@
 ---
 title: Framing your Customer
 author: koblas
-layout: post
+type: post
 date: 2011-07-18T14:17:28+00:00
 url: /p/framing-your-customer/386
 aktt_notify_twitter:

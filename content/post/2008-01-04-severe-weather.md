@@ -1,7 +1,7 @@
 ---
 title: Severe Weather
 author: koblas
-layout: post
+type: post
 date: 2008-01-04T18:42:30+00:00
 url: /p/severe-weather/128
 pvc_views:

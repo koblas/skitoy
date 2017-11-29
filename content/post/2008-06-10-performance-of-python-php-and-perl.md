@@ -1,7 +1,7 @@
 ---
 title: Performance of Python, PHP and Perl
 author: koblas
-layout: post
+type: post
 date: 2008-06-10T17:54:25+00:00
 url: /p/performance-of-python-php-and-perl/160
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: Does it all devolve?
 author: koblas
-layout: post
+type: post
 date: 2010-10-22T06:06:33+00:00
 url: /p/does-it-all-devolve/330
 aktt_notify_twitter:

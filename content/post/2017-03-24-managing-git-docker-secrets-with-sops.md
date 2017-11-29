@@ -1,7 +1,7 @@
 ---
 title: Managing Git Docker secrets with SOPS
 author: koblas
-layout: post
+type: post
 date: 2017-03-24T18:50:19+00:00
 url: /p/managing-git-docker-secrets-with-sops/639
 categories:

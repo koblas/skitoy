@@ -1,7 +1,7 @@
 ---
 title: CMS Defined
 author: koblas
-layout: post
+type: post
 date: 2007-11-06T05:13:49+00:00
 url: /p/cms-defined/112
 pvc_views:

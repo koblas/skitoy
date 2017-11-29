@@ -1,7 +1,7 @@
 ---
 title: death ride
 author: koblas
-layout: post
+type: post
 date: 2007-07-13T20:36:39+00:00
 url: /p/death-ride/86
 pvc_views:

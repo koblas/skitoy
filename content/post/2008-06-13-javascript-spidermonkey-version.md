@@ -1,7 +1,7 @@
 ---
 title: JavaScript (spidermonkey) version
 author: koblas
-layout: post
+type: post
 date: 2008-06-13T21:08:59+00:00
 url: /p/javascript-spidermonkey-version/164
 pvc_views:

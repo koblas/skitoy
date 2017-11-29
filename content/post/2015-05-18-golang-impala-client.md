@@ -1,7 +1,7 @@
 ---
 title: Golang Impala Client
 author: koblas
-layout: post
+type: post
 date: 2015-05-18T21:31:50+00:00
 url: /p/golang-impala-client/574
 pvc_views:

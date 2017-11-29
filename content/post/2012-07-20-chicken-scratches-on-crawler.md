@@ -1,7 +1,7 @@
 ---
 title: Chicken Scratches on Crawler
 author: koblas
-layout: post
+type: post
 date: 2012-07-20T16:09:36+00:00
 url: /p/chicken-scratches-on-crawler/466
 aktt_notify_twitter:

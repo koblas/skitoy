@@ -1,7 +1,7 @@
 ---
 title: Dunbar Number
 author: koblas
-layout: post
+type: post
 date: 2008-01-01T15:58:00+00:00
 url: /p/dunbar-number/127
 pvc_views:

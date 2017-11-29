@@ -1,7 +1,7 @@
 ---
 title: moore’s law and silicon valley
 author: koblas
-layout: post
+type: post
 date: 2009-01-07T17:32:30+00:00
 url: /p/moores-law-and-silicon-valley/213
 aktt_tweeted:

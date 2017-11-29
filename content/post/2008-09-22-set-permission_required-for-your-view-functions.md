@@ -1,7 +1,7 @@
 ---
 title: Set permission_required for your view functions
 author: koblas
-layout: post
+type: post
 date: 2008-09-22T19:05:25+00:00
 url: /p/set-permission_required-for-your-view-functions/187
 aktt_tweeted:

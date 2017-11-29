@@ -1,7 +1,7 @@
 ---
 title: Ski Instructor Orientation
 author: koblas
-layout: post
+type: post
 date: 2007-12-04T11:18:33+00:00
 url: /p/ski-instructor-orientation/122
 pvc_views:

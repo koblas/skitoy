@@ -1,7 +1,7 @@
 ---
 title: Python Lazy Object Reloader
 author: koblas
-layout: post
+type: post
 date: 2011-10-18T21:03:46+00:00
 url: /p/python-lazy-object-reloader/394
 aktt_notify_twitter:

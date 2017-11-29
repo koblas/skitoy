@@ -1,7 +1,7 @@
 ---
 title: Elements of Simplicity
 author: koblas
-layout: post
+type: post
 date: 2007-11-05T22:42:06+00:00
 url: /p/elements-of-simplicity/111
 pvc_views:

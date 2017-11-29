@@ -1,7 +1,7 @@
 ---
 title: Language Design Choices
 author: koblas
-layout: post
+type: post
 date: 2011-07-12T12:45:00+00:00
 url: /p/language-design-choices/383
 aktt_notify_twitter:

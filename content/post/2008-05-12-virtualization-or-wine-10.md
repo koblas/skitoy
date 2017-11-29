@@ -1,7 +1,7 @@
 ---
 title: Virtualization … or Wine 1.0
 author: koblas
-layout: post
+type: post
 date: 2008-05-12T18:39:51+00:00
 url: /p/virtualization-or-wine-10/146
 pvc_views:

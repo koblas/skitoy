@@ -1,7 +1,7 @@
 ---
 title: Decisions…
 author: site admin
-layout: post
+type: post
 date: 2007-05-09T16:01:55+00:00
 url: /p/decisions/85
 pvc_views:

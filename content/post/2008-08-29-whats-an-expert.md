@@ -1,7 +1,7 @@
 ---
 title: What’s an expert?
 author: koblas
-layout: post
+type: post
 date: 2008-08-29T21:31:08+00:00
 url: /p/whats-an-expert/181
 pvc_views:

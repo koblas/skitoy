@@ -1,7 +1,7 @@
 ---
 title: Using OpenCV and Jupyter Docker
 author: koblas
-layout: post
+type: post
 date: 2017-01-02T13:16:37+00:00
 url: /p/opencv-and-juypter-docker/633
 categories:

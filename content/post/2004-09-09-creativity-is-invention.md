@@ -1,7 +1,7 @@
 ---
 title: Creativity is Invention
 author: koblas
-layout: post
+type: post
 date: 2004-09-09T16:37:57+00:00
 url: /p/creativity-is-invention/9
 pvc_views:

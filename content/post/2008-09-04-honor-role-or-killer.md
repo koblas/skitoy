@@ -1,7 +1,7 @@
 ---
 title: Honor Role … or Killer …
 author: koblas
-layout: post
+type: post
 date: 2008-09-04T18:27:20+00:00
 url: /p/honor-role-or-killer/184
 aktt_tweeted:

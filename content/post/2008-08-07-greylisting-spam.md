@@ -1,7 +1,7 @@
 ---
 title: Greylisting spam…
 author: koblas
-layout: post
+type: post
 date: 2008-08-07T18:06:51+00:00
 url: /p/greylisting-spam/179
 pvc_views:

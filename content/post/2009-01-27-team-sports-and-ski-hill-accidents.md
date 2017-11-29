@@ -1,7 +1,7 @@
 ---
 title: Team sports and Ski hill accidents
 author: koblas
-layout: post
+type: post
 date: 2009-01-27T17:05:29+00:00
 url: /p/team-sports-and-ski-hill-accidents/215
 aktt_tweeted:

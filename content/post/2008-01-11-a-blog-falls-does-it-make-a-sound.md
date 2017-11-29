@@ -1,7 +1,7 @@
 ---
 title: A blog falls, does it make a sound?
 author: koblas
-layout: post
+type: post
 date: 2008-01-11T18:56:28+00:00
 url: /p/a-blog-falls-does-it-make-a-sound/129
 pvc_views:

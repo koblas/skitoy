@@ -1,7 +1,7 @@
 ---
 title: The next music service
 author: koblas
-layout: post
+type: post
 date: 2008-01-28T14:54:49+00:00
 url: /p/the-next-music-service/131
 pvc_views:

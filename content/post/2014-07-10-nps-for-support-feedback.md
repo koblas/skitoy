@@ -1,7 +1,7 @@
 ---
 title: NPS for Support Feedback
 author: koblas
-layout: post
+type: post
 date: 2014-07-10T15:22:36+00:00
 url: /p/nps-for-support-feedback/514
 pvc_views:

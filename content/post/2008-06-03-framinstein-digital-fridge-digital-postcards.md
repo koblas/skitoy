@@ -1,7 +1,7 @@
 ---
 title: Framinstein — Digital Fridge — Digital Postcards
 author: koblas
-layout: post
+type: post
 date: 2008-06-03T16:19:11+00:00
 url: /p/framinstein-digital-fridge-digital-postcards/156
 pvc_views:

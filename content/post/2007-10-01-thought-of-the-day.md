@@ -1,7 +1,7 @@
 ---
 title: thought of the day
 author: koblas
-layout: post
+type: post
 date: 2007-10-01T18:56:16+00:00
 url: /p/thought-of-the-day/92
 pvc_views:

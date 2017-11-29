@@ -1,7 +1,7 @@
 ---
 title: Looking at spam with google maps
 author: koblas
-layout: post
+type: post
 date: 2008-11-17T17:10:29+00:00
 url: /p/looking-at-spam-with-google-maps/206
 aktt_tweeted:

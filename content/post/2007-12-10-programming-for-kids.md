@@ -1,7 +1,7 @@
 ---
 title: Programming for kids?
 author: koblas
-layout: post
+type: post
 date: 2007-12-10T17:42:29+00:00
 url: /p/programming-for-kids/125
 pvc_views:

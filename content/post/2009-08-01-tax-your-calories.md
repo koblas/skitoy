@@ -1,7 +1,7 @@
 ---
 title: Tax Your Calories
 author: koblas
-layout: post
+type: post
 date: 2009-08-01T19:06:07+00:00
 url: /p/tax-your-calories/256
 aktt_tweeted:

@@ -1,7 +1,7 @@
 ---
 title: Cloud Databases are the Future
 author: koblas
-layout: post
+type: post
 date: 2009-03-31T23:02:03+00:00
 url: /p/cloud-databases-are-the-future/223
 aktt_tweeted:

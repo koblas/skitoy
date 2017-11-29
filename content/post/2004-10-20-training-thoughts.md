@@ -1,7 +1,7 @@
 ---
 title: Training thoughts
 author: koblas
-layout: post
+type: post
 date: 2004-10-20T17:17:32+00:00
 url: /p/training-thoughts/11
 pvc_views:

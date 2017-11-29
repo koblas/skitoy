@@ -1,7 +1,7 @@
 ---
 title: Skiing With Kids
 author: koblas
-layout: post
+type: post
 date: 2004-11-19T03:25:33+00:00
 url: /p/skiing-with-kids/15
 pvc_views:

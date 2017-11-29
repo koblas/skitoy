@@ -1,7 +1,7 @@
 ---
 title: Bad Metrics for Trends in Programming Languages
 author: koblas
-layout: post
+type: post
 date: 2007-12-06T17:49:03+00:00
 url: /p/bad-metrics-for-trends-in-programming-languages/124
 pvc_views:

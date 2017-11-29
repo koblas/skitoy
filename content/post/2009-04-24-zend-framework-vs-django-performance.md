@@ -1,7 +1,7 @@
 ---
 title: Zend Framework vs. Django Performance
 author: koblas
-layout: post
+type: post
 date: 2009-04-24T16:04:55+00:00
 url: /p/zend-framework-vs-django-performance/230
 aktt_tweeted:

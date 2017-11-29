@@ -1,7 +1,7 @@
 ---
 title: Getting attention via Facebook
 author: koblas
-layout: post
+type: post
 date: 2007-11-19T19:58:16+00:00
 url: /p/getting-attention-via-facebook/117
 pvc_views:

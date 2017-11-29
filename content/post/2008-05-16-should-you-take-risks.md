@@ -1,7 +1,7 @@
 ---
 title: Should you take risks?
 author: koblas
-layout: post
+type: post
 date: 2008-05-16T15:41:36+00:00
 url: /p/should-you-take-risks/149
 pvc_views:

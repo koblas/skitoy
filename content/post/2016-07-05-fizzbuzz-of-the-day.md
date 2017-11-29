@@ -1,7 +1,7 @@
 ---
 title: FizzBuzz of the day
 author: koblas
-layout: post
+type: post
 date: 2016-07-05T20:29:07+00:00
 url: /p/fizzbuzz-of-the-day/618
 pvc_views:

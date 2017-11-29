@@ -1,7 +1,7 @@
 ---
 title: From Angular to React
 author: koblas
-layout: post
+type: post
 date: 2016-08-31T19:53:24+00:00
 url: /p/from-angular-to-react/628
 pvc_views:

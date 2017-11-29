@@ -1,7 +1,7 @@
 ---
 title: How to launch an open source project…help…
 author: koblas
-layout: post
+type: post
 date: 2008-10-31T16:20:43+00:00
 url: /p/how-to-launch-an-open-source-projecthelp/197
 aktt_tweeted:

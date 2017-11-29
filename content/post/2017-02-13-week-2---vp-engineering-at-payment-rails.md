@@ -1,7 +1,7 @@
 ---
 title: Week 2 - VP Engineering at Payment Rails
 author: koblas
-layout: post
+type: post
 date: 2017-02-10T13:15:07+00:00
 url: /p/week-2---vp-engineering-at-payment-rails/636
 categories:

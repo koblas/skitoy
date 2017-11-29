@@ -1,7 +1,7 @@
 ---
 title: Expectations…
 author: koblas
-layout: post
+type: post
 date: 2004-10-08T04:48:30+00:00
 url: /p/expectations/10
 pvc_views:

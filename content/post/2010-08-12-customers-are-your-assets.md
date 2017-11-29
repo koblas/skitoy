@@ -1,7 +1,7 @@
 ---
 title: Customers are your assets
 author: koblas
-layout: post
+type: post
 date: 2010-08-12T16:13:25+00:00
 url: /p/customers-are-your-assets/299
 aktt_tweeted:

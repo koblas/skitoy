@@ -1,7 +1,7 @@
 ---
 title: yoga is good
 author: koblas
-layout: post
+type: post
 date: 2007-04-27T18:47:00+00:00
 url: /p/yoga-is-good/81
 pvc_views:

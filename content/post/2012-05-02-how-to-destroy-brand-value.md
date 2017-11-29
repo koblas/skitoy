@@ -1,7 +1,7 @@
 ---
 title: How to destroy brand value
 author: koblas
-layout: post
+type: post
 date: 2012-05-02T20:02:39+00:00
 url: /p/how-to-destroy-brand-value/448
 aktt_notify_twitter:

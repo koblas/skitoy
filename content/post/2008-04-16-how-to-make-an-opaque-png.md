@@ -1,7 +1,7 @@
 ---
 title: How to make an opaque PNG
 author: koblas
-layout: post
+type: post
 date: 2008-04-16T22:04:31+00:00
 url: /p/how-to-make-an-opaque-png/143
 pvc_views:

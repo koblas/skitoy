@@ -1,7 +1,7 @@
 ---
 title: Writing an echo server in libev and c++
 author: koblas
-layout: post
+type: post
 date: 2011-06-28T00:33:13+00:00
 url: /p/writing-an-echo-server-in-libev-and-c/375
 aktt_notify_twitter:

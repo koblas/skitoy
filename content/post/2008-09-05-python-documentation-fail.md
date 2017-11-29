@@ -1,7 +1,7 @@
 ---
 title: Python Documentation — Fail!
 author: koblas
-layout: post
+type: post
 date: 2008-09-05T18:35:43+00:00
 url: /p/python-documentation-fail/185
 aktt_tweeted:

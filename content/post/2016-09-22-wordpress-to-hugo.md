@@ -1,7 +1,7 @@
 ---
 title: Wordpress to Hugo
 author: koblas
-layout: post
+type: post
 date: 2016-09-22T13:28:07+00:00
 url: /p/wordpress-to-hugo/635
 categories:

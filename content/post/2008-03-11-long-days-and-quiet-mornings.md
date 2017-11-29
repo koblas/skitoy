@@ -1,7 +1,7 @@
 ---
 title: Long days and quiet mornings
 author: koblas
-layout: post
+type: post
 date: 2008-03-11T14:48:52+00:00
 url: /p/long-days-and-quiet-mornings/136
 pvc_views:

@@ -1,7 +1,7 @@
 ---
 title: Grow the Pie – don’t slice it smaller
 author: koblas
-layout: post
+type: post
 date: 2010-09-24T23:47:04+00:00
 url: /p/grow-the-pie-dont-slice-it-smaller/317
 aktt_notify_twitter:

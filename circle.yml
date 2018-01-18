@@ -10,6 +10,7 @@ jobs:
       - run:
           name: "Get Hugo"
           command: |
+            apt-get install software-properties-common python-software-properties
             add-apt-repository ppa:gophers/archive
             apt update
             apt-get install golang-1.9-go

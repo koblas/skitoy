@@ -4,7 +4,7 @@ title = "David Koblas' Writings"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "shortname"
+disqusShortname = "skitoysfun"
 googleAnalytics = "UA-1607138-1"
 pluralizeListTitles = false
 

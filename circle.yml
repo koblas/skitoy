@@ -10,7 +10,9 @@ jobs:
       - run:
           name: "Get Hugo"
           command: |
-            apt-get install golang
+            add-apt-repository ppa:gophers/archive
+            apt update
+            apt-get install golang-1.9-go
             go get -v github.com/spf13/hugo
 
       - checkout

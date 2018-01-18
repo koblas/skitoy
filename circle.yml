@@ -9,21 +9,21 @@ jobs:
       - checkout
 
       - run:
-        name: "Get Submodules"
-        command: |
-          git submodule sync --recursive
-          git submodule update --init --recursive
+          name: "Get Submodules"
+          command: |
+            git submodule sync --recursive
+            git submodule update --init --recursive
 
       - run:
-        name: "Get Hugo"
-        command: go get -v github.com/spf13/hugo
+          name: "Get Hugo"
+          command: go get -v github.com/spf13/hugo
 
       - run:
-        name: "Build Site"
-        command: hugo
+          name: "Build Site"
+          command: hugo
 
-     - run:
-        name: "Push to firebase"
-        command: |
-          apk add --update nodejs
-          npm install -g firebase
+      - run:
+          name: "Push to firebase"
+          command: |
+            apk add --update nodejs
+            npm install -g firebase

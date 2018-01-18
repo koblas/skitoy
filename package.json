@@ -1,0 +1,22 @@
+{
+  "name": "skitoy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "firebase help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koblas/skitoy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koblas/skitoy/issues"
+  },
+  "homepage": "https://github.com/koblas/skitoy#readme",
+  "devDependencies": {
+    "firebase-tools": "^3.16.0"
+  }
+}

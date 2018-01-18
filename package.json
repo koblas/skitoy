@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "firebase help"
+    "deploy": "firebase deploy --token=${FIREBASE_TOKEN} --non-interactive"
   },
   "repository": {
     "type": "git",

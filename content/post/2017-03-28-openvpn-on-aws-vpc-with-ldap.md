@@ -7,6 +7,7 @@ url: /p/openvpn-on-aws-vpc-with-ldap/640
 categories:
   - devops
   - development
+  - aws
 
 ---
 

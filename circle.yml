@@ -4,8 +4,13 @@ jobs:
   build:
     docker:
       - image: circleci/golang
+      - user: root
 
     steps:
+      - run:
+          name: "Get Hugo"
+          command: go get -v github.com/spf13/hugo
+
       - checkout
 
       - run:
@@ -15,15 +20,12 @@ jobs:
             git submodule update --init --recursive
 
       - run:
-          name: "Get Hugo"
-          command: go get -v github.com/spf13/hugo
-
-      - run:
           name: "Build Site"
           command: hugo
 
       - run:
           name: "Push to firebase"
           command: |
-            apk add --update nodejs
+            curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+            apt-get install -y nodejs
             npm install -g firebase

@@ -3,13 +3,15 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/golang
+      - image: circleci/node
         user: root
 
     steps:
       - run:
           name: "Get Hugo"
-          command: go get -v github.com/spf13/hugo
+          command: |
+            apt-get install golang
+            go get -v github.com/spf13/hugo
 
       - checkout
 
@@ -26,6 +28,4 @@ jobs:
       - run:
           name: "Push to firebase"
           command: |
-            curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
-            apt-get install -y nodejs
-            npm install -g firebase
+            npm install --save-dev firebase-tools

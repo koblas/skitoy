@@ -15,7 +15,8 @@ Short post -- ended up switching from [sqlx](https://github.com/jmoiron/sqlx) to
 
 ### db.v3 example
 
-```
+
+{{< highlight go>}}
 func (u *UserService) UpdateUser(user *model.User, args struct {
 	Name     *string
 	Email    *string
@@ -48,11 +49,11 @@ func (u *UserService) UpdateUser(user *model.User, args struct {
 
 	return user, nil
 }
-```
+{{< / highlight >}}
 
 ### sqlx example
 
-```
+{{< highlight go>}}
 func (u *UserService) UpdateUser(user *model.User, args struct {
 	Name     *string
 	Email    *string
@@ -85,4 +86,4 @@ func (u *UserService) UpdateUser(user *model.User, args struct {
 
 	return user, nil
 }
-```
+{{< / highlight >}}

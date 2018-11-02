@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/koblas/skitoy#readme",
   "devDependencies": {
-    "firebase-tools": "^3.16.0"
+    "firebase-tools": "^6.0.1"
   }
 }

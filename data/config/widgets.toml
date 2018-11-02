@@ -1,0 +1,12 @@
+[about]
+logo = "img/koblas.jpg"
+
+[recent_posts]
+title = ""
+length = 10
+excludeTypes = ["page"]
+
+[taxonomy_cloud]
+title = "Tags"
+taxonomy = "categories"
+suffle = false

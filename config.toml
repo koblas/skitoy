@@ -1,165 +1,134 @@
-baseurl = "https://www.skitoy.com/"
-languageCode = "en-us"
-title = "David Koblas' Writings"
-theme = "hugo-future-imperfect"
-preserveTaxonomyNames = true
-paginate = 3
+baseURL = "http://www.example.com"
+title = "David's Writings"
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = "2004-2018 David Koblas"
+
+
+theme = "engimo"
+
 disqusShortname = "skitoysfun"
 googleAnalytics = "UA-1607138-1"
-pluralizeListTitles = false
 
-[params]
-  # Sets the meta tag description
-  description          = "Appeal to Greatness not Guilt"
-  # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "David Koblas' Writings"
-  # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
+Paginate = 5
+preserveTaxonomyNames = true
 
-# Optional Params
-  # Sets navbarTitle to match the section of the website
-  dynamicTitles        = true
-  # Sets RSS icons to appear on the sidebar with the social media buttons
-  rssAppearAtTop       = false
-  rssAppearAtBottom    = true
-  # Sets Social Media icons to appear on the sidebar
-  socialAppearAtTop    = true
-  socialAppearAtBottom = true
-  # Sets Categories to sort by number of posts instead of alphabetical
-  categoriesByCount    = true
-  # Sets Estimated Reading Time to appear in post headers
-  includeReadingTime   = true
-  # Sets the Favicon and Version for the site. Default support is for
-  # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
-  # These are stored in the favicon folder. See the following for more information:
-  # https://github.com/audreyr/favicon-cheat-sheet
-  loadFavicon          = false
-  faviconVersion       = ""
-  # Sets Social Share links to appear on posts
-  socialShare          = true
-  # Load custom CSS or JavaScript files. The variable is an array so that you
-  # can load multiple files if necessary. You can also load the standard theme
-  # files by adding the value, "default".
-  # customCSS            = ["default", "/path/to/file"]
-  # customJS             = ["default", "/path/to/file"]
-  customCSS            = ["default"]
-  customJS             = ["default"]
+enableRobotsTXT = true # generate robots.txt
 
-# Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
-# due to its ease of use. Feel free to check out both and decide what you would
-# prefer to use. See Staticman.yml for additional settings.
-[params.staticman]
-  # Sets Statiman to be active
-  staticman = false
-  # Sets the location for Staticman to connect to
-  username  = ""
-  repo      = ""
-  branch    = ""
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
 
-  # These are optional params related to the sidebar. They are recommended, but not
-  # required for proper functionality. HTML is supported within the params.
-[params.intro]
-  header    = "Appeal to Greatness not Guilt"
+enableEmoji = true
 
-  paragraph = ""
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
 
-  about     = "Over 20 years of Silicon Valley experience as a software engineer and executive manager. I’ve also spent time as a ski instructor, soccer coach and the other responsiblities of life."
+[params.info]
+description = "Appeal to greatness not guilt"
+title404 = "Nothing's here!"
 
-  # This appears at the top of the sidebar above params.intro.header.
-  # A width of less than 100px is recommended from a design perspective.
-  [params.intro.pic]
-    src       = "/img/koblas.jpg"
-    # Sets Image to be a cirlce
-    circle    = true
-    # Sets Image to be Future Imperfect's hexagon
-    imperfect = true
-    width     = ""
-    alt       = "Hugo Future Imperfect"
+[params.assets]
 
-[params.postAmount]
-# Sets the number of recent posts to show in the sidebar. The default value is 5.
-    sidebar = 5
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
-# Sets the menu items in the navigation bar
-# Identifier prepends a Font Awesome icon to the menu item
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  identifier = "fa fa-home"
-  weight = 1
+[params.copyright]
+prefix = ""
+holder = "achary"
+startYear = "2017"
+suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+archiveDateFormat = "Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+showReadingTime = true
+taxonomyCloudShuffle = false
+accentColor = "#44ccff"
+hideMainMenu = false
+
+[params.sidebar]
+enable = true
+
+[params.widgets]
+homepage = ["recent_posts"]
+#sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
+sidebar = ["about","sidebar_menu","taxonomy_cloud"]
+footer = ["social_menu"]
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "koblas" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+#email = "contact@example.com"
+github = "koblas"
+twitter = "koblas"
+linkedin = "koblas"
+stackoverflow = "191450/koblas"
+
+[params.comments]
+enable = false
+
+#[params.comments.staticman]
+#enable = true
+#apiEndpoint = "https://api.staticman.net/v2/entry"
+#maxDepth = 2
+
+#[params.comments.staticman.github]
+#username = "achary"
+#repository = "engimo"
+#branch = "master"
+
+## Utterances: https://utteranc.es
+#[params.comments.utterances]
+#enable = false
+#issueTerm = "pathname" # pathname / url / title
+
+#[params.comments.utterances.github]
+#username = "achary"
+#repository = "engimo"
+
+[params.search]
+client = "fuse" # algolia / fuse / lunr
+
+[params.search.algolia]
+appId = ""
+indexName = ""
+searchApiKey = ""
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+
+#[permalinks]
+#page = "/:slug/"
 
 #[[menu.main]]
-#  name = "About"
-#  url = "/about/"
-#  identifier = "fa fa-id-card-o"
-#  weight = 2
+#name = "Repo"
+#weight = -10
+#identifier = "repository"
+#url = "https://github.com/achary/engimo"
 
-#[[menu.main]]
-#  name = "Blog"
-#  url = "/blog/"
-#  identifier = "fa fa-newspaper-o"
-#  weight = 3
+[blackfriday]
+hrefTargetBlank = true
 
-#[[menu.main]]
-#  name = "Itemized"
-#  url = "/itemized/"
-#  identifier = "fa fa-list"
-#  weight = 4
-
-#[[menu.main]]
-#  name = "Categories"
-#  url = "/categories/"
-#  identifier = "fa fa-sitemap"
-#  weight = 5
-
-#[[menu.main]]
-#  name = "Contact"
-#  url = "/contact/"
-#  identifier = "fa fa-envelope-o"
-#  weight = 6
-
-# Sets Social Media icons to appear and link to your account. Value should be your
-# username unless otherwise noted. These are the icons affected by socialAppearAtTop
-# and socialAppearAtBottom.
-[social]
-  # Coding Communities
-  github          = "koblas"
-  gitlab          = ""
-  stackoverflow   = "191450" # User Number
-  bitbucket       = ""
-  jsfiddle        = ""
-  codepen         = ""
-  # Visual Art Communities
-  deviantart      = ""
-  flickr          = ""
-  behance         = ""
-  dribbble        = ""
-  # Publishing Communities
-  wordpress       = ""
-  medium          = ""
-  # Professional/Business Oriented Communities
-  linkedin        = "koblas"
-  foursquare      = ""
-  xing            = ""
-  slideshare      = ""
-  # Social Networks
-  facebook        = ""
-  googleplus      = ""
-  reddit          = ""
-  quora           = "David-Koblas"
-  youtube         = ""
-  vimeo           = ""
-  whatsapp        = "" # WhatsApp Number
-    # WeChat and QQ need testing.
-    wechat          = ""
-    qq              = "" # User ID Number
-  instagram       = ""
-  tumblr          = ""
-  twitter         = "koblas"
-  skype           = ""
-  snapchat        = ""
-  pinterest       = ""
-  telegram        = ""
-  vine            = ""
-  # Email
-  email           = ""
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1

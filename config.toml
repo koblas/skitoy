@@ -26,6 +26,7 @@ defaultContentLanguage = "en"
 description = "Appeal to greatness not guilt"
 title404 = "Nothing's here!"
 
+
 [params.assets]
 
 favicon = "favicon.ico"

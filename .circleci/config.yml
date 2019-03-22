@@ -1,12 +1,16 @@
 version: 2
 
+defaults: &defaults
+  working_directory: ~/hugo
+  environment:
+    HUGO_BUILD_DIR: ~/hugo/public
+
 jobs:
   build:
+    <<: *defaults
+
     docker:
       - image: cibuilds/hugo:latest
-    working_directory: ~/hugo
-    environment:
-      HUGO_BUILD_DIR: ~/hugo/public
 
     steps:
       - checkout
@@ -20,7 +24,7 @@ jobs:
       - run:
           name: "Build Site"
           command: |
-            HUGO_ENV=production hugo -v -d public
+            HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
 
       - persist_to_workspace:
           root: .
@@ -28,6 +32,8 @@ jobs:
             - public
 
   deploy:
+    <<: *defaults
+
     docker:
       - image: circleci/node:10.13.0
 

@@ -24,14 +24,41 @@ jobs:
           name: "Build Site"
           command: hugo
 
+      - persist_to_workspace:
+          root: .
+          paths:
+            - public/*
+
+  deploy:
+    docker:
+      - image: circleci/node:10.13.0
+
+      - checkout
+
+      - attach_workspace:
+          at: public
+
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+
       - run:
-          name: "Install NodeJS"
+          name: "Install packages"
           command: |
-            curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
-            apt-get install -y nodejs
             npm install
+
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
 
       - deploy:
           name: "Deploy"
           command: |
             npm run deploy
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
+      - deploy

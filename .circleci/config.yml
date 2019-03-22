@@ -43,6 +43,16 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
 
       - run:
+          name: "Check root"
+          command: |
+            ls
+      
+      - run:
+          name: "Check public"
+          command: |
+            ls public
+
+      - run:
           name: "Install packages"
           command: |
             npm install

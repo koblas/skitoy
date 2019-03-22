@@ -3,15 +3,12 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/golang
-        user: root
+      - image: circleci/hugo:latest
+    working_directory: ~/hugo
+    environment:
+      HUGO_BUILD_DIR: ~/hugo/public
 
     steps:
-      - run:
-          name: "Get Hugo"
-          command: |
-            go get -v github.com/spf13/hugo
-
       - checkout
 
       - run:
@@ -22,12 +19,13 @@ jobs:
 
       - run:
           name: "Build Site"
-          command: hugo
+          command: |
+            HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
 
       - persist_to_workspace:
-          root: .
+          root: ~/hugo
           paths:
-            - public/*
+            - public
 
   deploy:
     docker:

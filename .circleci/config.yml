@@ -26,6 +26,11 @@ jobs:
           command: |
             HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
 
+      - run:
+          name: "LS DIR"
+          command: |
+            ls
+
       - persist_to_workspace:
           root: ~/hugo
           paths:

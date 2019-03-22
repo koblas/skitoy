@@ -35,16 +35,11 @@ jobs:
       - checkout
 
       - attach_workspace:
-          at: public
+          at: ~/hugo
 
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
 
-      - run:
-          name: "Check root"
-          command: |
-            ls
-      
       - run:
           name: "Check public"
           command: |

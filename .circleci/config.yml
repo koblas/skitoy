@@ -2,8 +2,8 @@ version: 2
 
 defaults: &defaults
   working_directory: ~/hugo
-  environment:
-    HUGO_BUILD_DIR: "~/hugo/public"
+#  environment:
+#    HUGO_BUILD_DIR: "~/hugo/public"
 
 jobs:
   build:
@@ -16,11 +16,6 @@ jobs:
       - checkout
 
       - run:
-          name: "LS DIR"
-          command: |
-            ls
-
-      - run:
           name: "Get Submodules"
           command: |
             git submodule sync --recursive
@@ -29,13 +24,7 @@ jobs:
       - run:
           name: "Build Site"
           command: |
-            #HUGO_ENV=production hugo -v -d "$HUGO_BUILD_DIR"
             HUGO_ENV=production hugo -v
-
-      - run:
-          name: "LS DIR"
-          command: |
-            ls
 
       - persist_to_workspace:
           root: ~/hugo
@@ -56,13 +45,6 @@ jobs:
 
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
-
-      - run:
-          name: "Check public"
-          command: |
-            ls
-            ls ~/hugo
-            ls public
 
       - run:
           name: "Install packages"

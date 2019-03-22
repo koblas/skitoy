@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/hugo:latest
+      - image: cibuilds/hugo:latest
     working_directory: ~/hugo
     environment:
       HUGO_BUILD_DIR: ~/hugo/public

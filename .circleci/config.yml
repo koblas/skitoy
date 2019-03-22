@@ -24,7 +24,7 @@ jobs:
       - run:
           name: "Build Site"
           command: |
-            HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+            HUGO_ENV=production hugo -v -d "$HUGO_BUILD_DIR"
 
       - run:
           name: "LS DIR"

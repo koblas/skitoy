@@ -27,7 +27,7 @@ jobs:
             HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
 
       - persist_to_workspace:
-          root: .
+          root: ~/hugo
           paths:
             - public
 

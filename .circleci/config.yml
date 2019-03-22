@@ -43,6 +43,8 @@ jobs:
       - run:
           name: "Check public"
           command: |
+            ls
+            ls ~/hugo
             ls public
 
       - run:

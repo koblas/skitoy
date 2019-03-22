@@ -6,6 +6,7 @@ date: 2019-03-22T13:53:52+00:00
 url: /p/aws-lambda-database-migrations/644
 categories:
   - technical
+  - golang
 
 ---
 
